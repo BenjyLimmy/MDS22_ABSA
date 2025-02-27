@@ -12,7 +12,7 @@ class AmazonReviewProcessor:
         self.api_key = api_key
         self.product_id = product_id
         self.pages = pages
-        self.output_dir = "amazon_reviews"
+        self.output_dir = "sample_data"
         self.ensure_output_dir()
         
         # Track for summary
@@ -97,7 +97,7 @@ class AmazonReviewProcessor:
         print("\nStep 2: Parsing reviews from HTML...")
 
             # Read HTML from a file (e.g., "source.html")
-        with open("amazon_reviews/all_reviews.html", "r", encoding="utf-8") as file:
+        with open(html_path, "r", encoding="utf-8") as file:
             html = file.read()
 
         # Create a Selector instance using the HTML text
