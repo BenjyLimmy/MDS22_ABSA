@@ -3,6 +3,10 @@
 This document provides detailed prompt templates designed to extract ACOS quadruples -- comprising **Aspect**, **Category**, **Opinion**, and **Sentiment** -- from laptop review texts. The prompts are organized into one-shot, few-shot, and chain-of-thought styles. In every case, the final output must be a valid JSON object (or JSON array) with the specified keys.
 
 ---
+## SAMPLE REVIEW
+```
+"I'm not sure if this issue is unique to my lemon of a laptop, because I've had multiple $300 computers that were better than this one. The light is SO DULL, it looks like it's on battery saving mode when at full brightness. The battery lasts a while but takes forever to charge. The worst thing about the computer: it won't stay connected to the internet. The only reason I have a laptop is to stream shows. Not only is it constantly disconnecting from the internet, it will simply stop showing available networks and I'm forced to restart it so it will show available wifi networks. I got the "bigger/better" storage version since my last 11" laptop is now the same price as this one. I wish I would have just got the same HP I did last time. I am not enjoying this product."
+```
 
 ## 1. One-Shot Prompt
 
