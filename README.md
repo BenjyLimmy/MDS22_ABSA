@@ -1,16 +1,16 @@
 # MDS22_ABSA
 
-### Create a Python virtualenv:
+### Create a Python `virtualenv`:
 ```
 py -m venv venv
 ```
 
-### Activate your venv:
+### Activate your `venv`:
 ```
 .\venv\Scripts\activate
 ```
 
-### Install from requirements.txt:
+### Install from `requirements.txt`:
 ```
 pip install -r requirements.txt
 ```
