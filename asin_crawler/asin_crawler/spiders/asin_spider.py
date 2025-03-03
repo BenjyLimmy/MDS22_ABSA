@@ -5,7 +5,9 @@ class AsinSpiderSpider(scrapy.Spider):
     name = "asin_spider"
     allowed_domains = ["amazon.com"]
     # Starting with the search query for "hp laptop"
-    start_urls = ["https://www.amazon.com/s?k=hp+laptop"]
+    # replace filter_id with your own
+    filter_id = "&rh=n%3A21512780011%2Cp_123%3A46658"
+    start_urls = [f"https://www.amazon.com/s?k=hp+laptop{filter_id}"]
 
     def parse(self, response):
         # Loop over product containers; Amazon often uses divs with class "s-result-item" and a data-asin attribute.
