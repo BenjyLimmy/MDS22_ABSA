@@ -1,5 +1,20 @@
 # MDS22_ABSA
 
+### Create a Python virtualenv:
+```
+py -m venv venv
+```
+
+### Activate your venv:
+```
+.\venv\Scripts\activate
+```
+
+### Install from requirements.txt:
+```
+pip install -r requirements.txt
+```
+
 ### In your `.env` file, define the following:
   - `SCRAPINGBEE_API_KEY`
   - `AMAZON_COOKIES`
