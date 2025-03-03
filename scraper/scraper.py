@@ -17,7 +17,6 @@ class AmazonReviewProcessor:
         
         # Track for summary
         self.total_reviews_scraped = 0
-        self.total_duplicates_removed = 0
         self.scraping_success = 0
         self.scraping_failed = 0
 
@@ -163,52 +162,6 @@ class AmazonReviewProcessor:
         print(f"Parsed {len(reviews)} reviews and saved to {json_path}")
         return json_path
 
-    def remove_duplicates(self, json_path):
-        """Remove duplicate reviews from JSON file"""
-        print("\nStep 3: Removing duplicate reviews...")
-        
-        # Read the product data from the JSON file
-        with open(json_path, 'r', encoding='utf-8') as file:
-            product_data = json.load(file)
-        
-        # Extract the reviews
-        reviews = product_data.get('review', [])
-        
-        # Track unique reviews
-        unique_reviews = []
-        seen_reviews = set()
-        duplicate_count = 0
-        
-        for review in reviews:
-            # Create a tuple of identifying fields that should be unique
-            review_key = (
-                review.get('reviewer', ''),
-                review.get('review_text', '')[:50]  # First 50 chars
-            )
-            
-            if review_key in seen_reviews:
-                duplicate_count += 1
-                continue
-            
-            seen_reviews.add(review_key)
-            unique_reviews.append(review)
-        
-        self.total_duplicates_removed = duplicate_count
-        
-        # Update the product data with deduplicated reviews
-        product_data['review'] = unique_reviews
-        
-        # Create a clean version of the file
-        clean_path = os.path.join(self.output_dir, "product_clean.json")
-        with open(clean_path, 'w', encoding='utf-8') as file:
-            json.dump(product_data, file, ensure_ascii=False, indent=4)
-
-        
-        print(f"After deduplication: {len(unique_reviews)}")
-        print(f"Cleaned data saved to: {clean_path}")
-        
-        return clean_path
-    
     def process(self):
         """Main method to run the complete workflow"""
         start_time = time.time()
@@ -219,17 +172,12 @@ class AmazonReviewProcessor:
         # Step 2: Parse reviews from HTML
         json_path = self.parse_reviews(html_path)
         
-        # Step 3: Remove duplicate reviews
-        clean_path = self.remove_duplicates(json_path)
-        
         # Print summary
         print("\n" + "="*50)
         print("PROCESS COMPLETE - SUMMARY")
         print("="*50)
         print(f"Pages processed: {self.scraping_success} successful, {self.scraping_failed} failed")
         print(f"Total reviews scraped: {self.total_reviews_scraped}")
-        print(f"Duplicates removed: {self.total_duplicates_removed}")
-        print(f"Final unique reviews: {self.total_reviews_scraped - self.total_duplicates_removed}")
         print(f"Total processing time: {time.time() - start_time:.2f} seconds")
         print(f"Results saved to: {self.output_dir}")
         print("="*50)
