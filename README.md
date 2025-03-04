@@ -13,7 +13,7 @@ py -m venv venv
 .\venv\Scripts\activate
 ```
 
-### Install from `requirements.txt`:
+### Install packages from `requirements.txt`:
 ```
 pip install -r requirements.txt
 ```
