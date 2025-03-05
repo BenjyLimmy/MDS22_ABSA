@@ -1,0 +1,61 @@
+{
+  "text": "the unit cost $ 275 to start with , so it is not worth repairing .",
+  "labels": [
+    {
+      "aspect": "SUPPORT",
+      "opinion": "not worth repairing",
+      "polarity": "negative",
+      "category": "SUPPORT#PRICE"
+    }
+  ]
+}
+{
+  "text": "going from acer 15 to acer 11 was difficult , 11 inches seems too small for me .",
+  "labels": [
+    {
+      "aspect": "acer 11",
+      "opinion": "difficult",
+      "polarity": "negative",
+      "category": "LAPTOP#DESIGN_FEATURES"
+    },
+    {
+      "aspect": "acer 11",
+      "opinion": "small",
+      "polarity": "negative",
+      "category": "LAPTOP#DESIGN_FEATURES"
+    }
+  ]
+}
+{
+  "text": "also it ' s not a true ssd drive in there but emmc , which makes a difference .",
+  "labels": [
+    {
+      "aspect": "HARD_DISC",
+      "opinion": "not a true ssd drive",
+      "polarity": "negative",
+      "category": "HARD_DISC#QUALITY"
+    }
+  ]
+}
+{
+  "text": "the computer has difficulty switching between tablet and computer .",
+  "labels": [
+    {
+      "aspect": "switching between tablet and computer",
+      "opinion": "difficulty",
+      "polarity": "negative",
+      "category": "HARDWARE#OPERATION_PERFORMANCE"
+    }
+  ]
+}
+{
+  "text": "2 / 28 / 18 - a couple days ago i updated the chrome os .",
+  "labels": [
+    {
+      "aspect": "chrome os",
+      "opinion": "NULL",
+      "polarity": "neutral",
+      "category": "OS#OPERATION_PERFORMANCE"
+    }
+  ]
+}

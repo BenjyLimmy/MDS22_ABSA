@@ -1,0 +1,55 @@
+{
+    "text": "the unit cost $ 275 to start with , so it is not worth repairing.",
+    "labels": [
+        {
+            "aspect": "unit",
+            "opinion": "not worth repairing",
+            "polarity": "negative",
+            "category": "PRICE#GENERAL"
+        }
+    ]
+}
+{
+  "text": "going from acer 15 to acer 11 was difficult, 11 inches seems too small for me.",
+  "labels": [
+    {
+      "aspect": "acer 11",
+      "opinion": "too small for me",
+      "polarity": "negative",
+      "category": "LAPTOP#PORTABILITY"
+    }
+  ]
+}
+{
+    "text": "also it ' s not a true ssd drive in there but emmc , which makes a difference .",
+    "labels": [
+        {
+            "aspect": "ssd drive",
+            "opinion": "not a true ssd drive",
+            "polarity": "negative",
+            "category": "HARD_DISK#OPERATION_PERFORMANCE"
+        }
+    ]
+}
+{
+    "text": "the computer has difficulty switching between tablet and computer.",
+    "labels": [
+        {
+            "aspect": "computer",
+            "opinion": "difficulty switching between tablet and computer",
+            "polarity": "negative",
+            "category": "LAPTOP#USABILITY"
+        }
+    ]
+}
+{
+    "text": "a couple days ago i updated the chrome os.",
+    "labels": [
+        {
+            "aspect": "chrome os",
+            "opinion": "updated",
+            "polarity": "neutral",
+            "category": "OS#MISCELLANEOUS"
+        }
+    ]
+}
