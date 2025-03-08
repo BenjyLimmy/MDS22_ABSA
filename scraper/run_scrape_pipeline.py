@@ -13,10 +13,13 @@ if not SCRAPINGBEE_API_KEY:
     print("Error: SCRAPINGBEE_API_KEY not found in .env file")
     exit(1)
 
-def run_spider(brand="hp", max_asins=None):
+def run_spider(brand, max_asins=None):
     """
     Starts the Scrapy spider to crawl HP laptop ASINs from Amazon.
     """
+    if not brand:
+        raise ValueError("No laptop brand specified.")
+
     process = CrawlerProcess(settings={
         "FEEDS": {
             "asins.json": {
@@ -64,14 +67,22 @@ def process_asins(review_pages_per_asin=3):
 if __name__ == "__main__":
     print("=== Running ASIN spider ===")
 
-    # scrape ASINs, define the brand (hp and lg for now) and number of ASINs to scrape 
+    # scrape ASINs, define the brand and number of ASINs to scrape 
+    # refer to brand_filter_map in asin_spider.py for available brands, or below:
+    # brand_filter_map = {
+    #     "hp": ("hp", "&rh=n%3A21512780011%2Cp_123%3A308445"),
+    #     "dell": ("dell", "&rh=n%3A21512780011%2Cp_123%3A241862"),
+    #     "lenovo": ("lenovo", "&rh=n%3A21512780011%2Cp_123%3A391242"),
+    #     "apple": ("apple", "&rh=n%3A21512780011%2Cp_123%3A110955"),
+    #     "lg": ("lg", "&rh=n%3A21512780011%2Cp_123%3A46658"),
+    # }
     run_spider(brand="hp", max_asins=3)
 
     print("=== Processing ASINs ===")
 
     # scrape reviews for each ASIN, define the number of review pages to scrape
     process_asins(review_pages_per_asin=2)
-    
+
     print("=== Workflow complete ===")
 
     

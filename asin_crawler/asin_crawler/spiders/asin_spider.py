@@ -8,6 +8,9 @@ class AsinSpiderSpider(scrapy.Spider):
     # Map of brands to their search keyword and filter_id
     brand_filter_map = {
         "hp": ("hp", "&rh=n%3A21512780011%2Cp_123%3A308445"),
+        "dell": ("dell", "&rh=n%3A21512780011%2Cp_123%3A241862"),
+        "lenovo": ("lenovo", "&rh=n%3A21512780011%2Cp_123%3A391242"),
+        "apple": ("apple", "&rh=n%3A21512780011%2Cp_123%3A110955"),
         "lg": ("lg", "&rh=n%3A21512780011%2Cp_123%3A46658"),
     }
 
