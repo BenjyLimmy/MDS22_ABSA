@@ -39,7 +39,7 @@ pip install -r requirements.txt
   - ASIN Crawler
   - Review Scraper for each ASIN ID
 
-## Running the Crawler
+## Running the Crawler (Deprecated)
 
 ### To run the scrapy crawler to get asin IDs:
 
