@@ -177,3 +177,41 @@ pyabsa/checkpoints.json
 pyabsa/checkpoints/
 
 .DS_Store
+
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+
+### Maven ###
+/.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+**/mvnw
+**/mvnw.cmd
+
+### Gradle ###
+/.gradle/
+build/
+.gradle/
+/!gradle/wrapper/gradle-wrapper.jar
+
+### Spring Boot ###
+/.env
+*.env
+*.DS_Store
+
+### Database ###
+*.h2.db
+*.mv.db
+*.db
+
+### Temporary files ###
+*.swp
+*.swo
+*~
+*.tmp
+*.bak
+
+
