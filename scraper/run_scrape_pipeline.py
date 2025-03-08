@@ -76,12 +76,13 @@ if __name__ == "__main__":
     #     "apple": ("apple", "&rh=n%3A21512780011%2Cp_123%3A110955"),
     #     "lg": ("lg", "&rh=n%3A21512780011%2Cp_123%3A46658"),
     # }
-    run_spider(brand="hp", max_asins=3)
+    run_spider(brand="hp", max_asins=6)
 
     print("=== Processing ASINs ===")
 
     # scrape reviews for each ASIN, define the number of review pages to scrape
-    process_asins(review_pages_per_asin=2)
+    # 1 page = 10 reviews
+    process_asins(review_pages_per_asin=4)
 
     print("=== Workflow complete ===")
 
