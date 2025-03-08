@@ -175,3 +175,5 @@ cython_debug/
 
 pyabsa/checkpoints.json
 pyabsa/checkpoints/
+
+.DS_Store
