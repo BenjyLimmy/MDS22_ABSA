@@ -8,10 +8,10 @@ from scrapy import Selector
 from dotenv import load_dotenv
 
 class AmazonReviewProcessor:
-    def __init__(self, api_key, product_id, pages=5):
+    def __init__(self, api_key, product_id, review_pages=5):
         self.api_key = api_key
         self.product_id = product_id
-        self.pages = pages
+        self.pages = review_pages
         self.output_dir = "sample_data"
         self.ensure_output_dir()
         
@@ -147,6 +147,7 @@ class AmazonReviewProcessor:
         # --- Combine product details and reviews ---
         product_data = {
             "title": title,
+            "product_id": self.product_id,
             "average_rating": average_rating,
             "review_count": review_count,
             "histogram": histogram,
@@ -154,12 +155,25 @@ class AmazonReviewProcessor:
             "review": reviews
         }
 
-        # Write the product data to a JSON file
+        # Append the product_data to product.json instead of overwriting it
         json_path = os.path.join(self.output_dir, "product.json")
-        with open(json_path, "w", encoding="utf-8") as outfile:
-            json.dump(product_data, outfile, ensure_ascii=False, indent=4)
+        if os.path.exists(json_path):
+            with open(json_path, "r", encoding="utf-8") as infile:
+                try:
+                    existing_data = json.load(infile)
+                    # Ensure the existing data is a list
+                    if not isinstance(existing_data, list):
+                        existing_data = [existing_data]
+                except json.JSONDecodeError:
+                    existing_data = []
+        else:
+            existing_data = []
 
-        print(f"Parsed {len(reviews)} reviews and saved to {json_path}")
+        existing_data.append(product_data)
+        with open(json_path, "w", encoding="utf-8") as outfile:
+            json.dump(existing_data, outfile, ensure_ascii=False, indent=4)
+
+        print(f"Parsed {len(reviews)} reviews and appended to {json_path}")
         return json_path
 
     def process(self):
