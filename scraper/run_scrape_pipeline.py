@@ -63,9 +63,15 @@ def process_asins(review_pages_per_asin=3):
 
 if __name__ == "__main__":
     print("=== Running ASIN spider ===")
+
+    # scrape ASINs, define the brand (hp and lg for now) and number of ASINs to scrape 
     run_spider(brand="hp", max_asins=3)
+
     print("=== Processing ASINs ===")
+
+    # scrape reviews for each ASIN, define the number of review pages to scrape
     process_asins(review_pages_per_asin=2)
+    
     print("=== Workflow complete ===")
 
     
