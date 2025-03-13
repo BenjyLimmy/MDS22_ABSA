@@ -1,0 +1,816 @@
+{"labels": [{"aspect": "unit cost", "opinion": "cost $275", "polarity": "negative", "category": "PRODUCT#PRICING"}, {"aspect": "repairing", "opinion": "not worth", "polarity": "negative", "category": "PRODUCT#SERVICE"}]}
+{"labels": [{"aspect": "acer 15", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#MODEL"}, {"aspect": "acer 11", "opinion": "difficult", "polarity": "negative", "category": "LAPTOP#MODEL"}, {"aspect": "11 inches", "opinion": "too small", "polarity": "negative", "category": "LAPTOP#SCREEN"}]}
+{"labels": [{"aspect": "ssd drive", "opinion": "not a true", "polarity": "negative", "category": "LAPTOP#STORAGE"}, {"aspect": "emmc", "opinion": "NULL", "polarity": "negative", "category": "LAPTOP#STORAGE"}]}
+{"labels": [{"aspect": "difficulty switching between tablet and computer", "opinion": "difficulty", "polarity": "negative", "category": "LAPTOP#OPERATION"}]}
+{"labels": [{"aspect": "chrome os", "opinion": "NULL", "polarity": "neutral", "category": "SOFTWARE#OPERATION"}]}
+{"labels": [{"aspect": "chrome", "opinion": "doesn ' t work the same", "polarity": "negative", "category": "SOFTWARE#OPERATION"}, {"aspect": "chromebook", "opinion": "doesn ' t work the same", "polarity": "negative", "category": "LAPTOP#GENERAL"}]}
+{"labels": [{"aspect": "NULL", "opinion": "NULL", "polarity": "negative", "category": "NULL"}]}
+{"labels": [{"aspect": "NULL", "opinion": "NULL", "polarity": "neutral", "category": "NULL#NULL"}]}
+{"labels": [{"aspect": "keyboard", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#USABILITY"}]}
+{"labels": [{"aspect": "price", "opinion": "great", "polarity": "positive", "category": "LAPTOP#PRICE"}, {"aspect": "touchscreen", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "NULL", "opinion": "glitchy", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "NULL", "opinion": "barely usable", "polarity": "negative", "category": "LAPTOP#USABILITY"}]}
+{"labels": [{"aspect": "touch pad", "opinion": "failed to work consistently", "polarity": "negative", "category": "LAPTOP#INPUT_DEVICES"}]}
+{"labels": [{"aspect": "keyboard", "opinion": "very unproductive", "polarity": "negative", "category": "LAPTOP#USABILITY"}]}
+{"labels": [{"aspect": "device", "opinion": "should not be doing this", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "trackpad", "opinion": "very hard", "polarity": "negative", "category": "LAPTOP#PERIPHERALS"}, {"aspect": "right click functionality", "opinion": "lost", "polarity": "negative", "category": "LAPTOP#PERIPHERALS"}]}
+{"labels": [{"aspect": "os", "opinion": "drained", "polarity": "negative", "category": "SOFTWARE#OPERATION"}]}
+{"labels": [{"aspect": "hdmi out", "opinion": "doesn't work right", "polarity": "negative", "category": "LAPTOP#PORTS"}]}
+{"labels": [{"aspect": "NULL", "opinion": "NULL", "polarity": "neutral", "category": "NULL"}]}
+{"labels": [{"aspect": "touchscreen", "opinion": "didn't work at all", "polarity": "negative", "category": "HARDWARE#INPUT_DEVICES"}, {"aspect": "tablet mode", "opinion": "excitement dissipate", "polarity": "negative", "category": "HARDWARE#FUNCTIONALITY"}]}
+{"labels": [{"aspect": "defect", "opinion": "major defect", "polarity": "negative", "category": "LAPTOP#QUALITY"}, {"aspect": "Acer", "opinion": "resolved", "polarity": "negative", "category": "COMPANY#SERVICE"}]}
+{"labels": [{"aspect": "NULL", "opinion": "NULL", "polarity": "neutral", "category": "NULL"}]}
+{"labels": [{"aspect": "sound quality", "opinion": "decent", "polarity": "positive", "category": "AUDIO#SOUND_QUALITY"}]}
+{"labels": [{"aspect": "power adapter", "opinion": "flimsy", "polarity": "negative", "category": "HARDWARE#ACCESSORIES"}]}
+{"labels": [{"aspect": "wi - fi", "opinion": "slows down to crowl", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "NULL", "opinion": "NULL", "polarity": "negative", "category": "NULL"}]}
+{"labels": [{"aspect": "laptop", "opinion": "turned off and will not turn back on", "polarity": "negative", "category": "LAPTOP#POWER"}]}
+{"labels": [{"aspect": "product", "opinion": "great", "polarity": "positive", "category": "LAPTOP#OVERALL"}, {"aspect": "customer support", "opinion": "horrible", "polarity": "negative", "category": "SERVICE#CUSTOMER_SUPPORT"}]}
+{"labels": [{"aspect": "support", "opinion": "called support a second time", "polarity": "negative", "category": "CUSTOMER_SERVICE#SUPPORT"}, {"aspect": "help", "opinion": "without even trying to help", "polarity": "negative", "category": "CUSTOMER_SERVICE#SUPPORT"}]}
+{"labels": [{"aspect": "loading", "opinion": "terrible", "polarity": "negative", "category": "LAPTOP#PHOTOGRAPHY"}, {"aspect": "storing", "opinion": "terrible", "polarity": "negative", "category": "LAPTOP#PHOTOGRAPHY"}, {"aspect": "editing pictures", "opinion": "terrible", "polarity": "negative", "category": "LAPTOP#PHOTOGRAPHY"}]}
+{"labels": [{"aspect": "NULL", "opinion": "NULL", "polarity": "neutral", "category": "NULL"}]}
+{"labels": [{"aspect": "screen", "opinion": "great", "polarity": "positive", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "charging adapter", "opinion": "NULL", "polarity": "negative", "category": "HARDWARE#CHARGING"}, {"aspect": "message", "opinion": "NULL", "polarity": "negative", "category": "SYSTEM#ERROR_MESSAGE"}]}
+{"labels": [{"aspect": "computer", "opinion": "NULL", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "turning it on", "opinion": "hiccup", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "screen", "opinion": "flashes", "polarity": "negative", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "battery", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "fan", "opinion": "kicks in pretty often", "polarity": "negative", "category": "LAPTOP#COOLING"}, {"aspect": "sound", "opinion": "annoying", "polarity": "negative", "category": "LAPTOP#OPERATION"}]}
+{"labels": [{"aspect": "nano edge display", "opinion": "nice", "polarity": "positive", "category": "LAPTOP#DISPLAY"}]}
+{"labels": []}
+{"labels": [{"aspect": "audio", "opinion": "almost impossible to hear", "polarity": "negative", "category": "LAPTOP#SOUND_QUALITY"}]}
+{"labels": [{"aspect": "everything", "opinion": "slow", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "dragon age", "opinion": "terrible job", "polarity": "negative", "category": "GAME#PERFORMANCE"}]}
+{"labels": [{"aspect": "backlit keyboard", "opinion": "such a pain", "polarity": "negative", "category": "LAPTOP#PHYSICAL_FEATURES"}]}
+{"labels": [{"aspect": "slow", "opinion": "disappointed", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "keyboard", "opinion": "fine", "polarity": "positive", "category": "LAPTOP#PERIPHERALS"}, {"aspect": "mouse pad", "opinion": "fine", "polarity": "positive", "category": "LAPTOP#PERIPHERALS"}, {"aspect": "overall", "opinion": "strangely slow", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "NULL", "opinion": "NULL", "polarity": "neutral", "category": "NULL"}]}
+{"labels": [{"aspect": "keypad", "opinion": "crazy", "polarity": "negative", "category": "HARDWARE#PERFORMANCE"}, {"aspect": "keypad", "opinion": "worse", "polarity": "negative", "category": "HARDWARE#PERFORMANCE"}]}
+{"labels": [{"aspect": "laptop", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#BUILD_QUALITY"}, {"aspect": "feel", "opinion": "solid", "polarity": "positive", "category": "LAPTOP#BUILD_QUALITY"}]}
+{"labels": [{"aspect": "new product", "opinion": "NULL", "polarity": "negative", "category": "PRODUCT#QUALITY"}, {"aspect": "refurbished one", "opinion": "NULL", "polarity": "negative", "category": "PRODUCT#QUALITY"}]}
+{"labels": [{"aspect": "laptop", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#PRODUCT"}]}
+{"labels": [{"aspect": "speed", "opinion": "like", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "processor", "opinion": "like", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "hybrid storage units", "opinion": "like", "polarity": "positive", "category": "LAPTOP#STORAGE"}, {"aspect": "web cam", "opinion": "sucks", "polarity": "negative", "category": "LAPTOP#CAMERA"}, {"aspect": "keyboard", "opinion": "doesn't have the numerical part", "polarity": "negative", "category": "LAPTOP#KEYBOARD"}, {"aspect": "caps lock or num lock", "opinion": "don't have any light or guide", "polarity": "negative", "category": "LAPTOP#KEYBOARD"}]}
+{"labels": [{"aspect": "lightweight", "opinion": "lightweight", "polarity": "positive", "category": "LAPTOP#DESIGN"}]}
+{"labels": [{"aspect": "backlight", "opinion": "went out", "polarity": "negative", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "laptop", "opinion": "brand new", "polarity": "positive", "category": "LAPTOP#CONDITION"}, {"aspect": "laptop", "opinion": "never dropped", "polarity": "positive", "category": "LAPTOP#DURABILITY"}]}
+{"labels": [{"aspect": "warranty stuff", "opinion": "NULL", "polarity": "neutral", "category": "CUSTOMER_SERVICE#WARRANTY"}, {"aspect": "sending it back", "opinion": "NULL", "polarity": "neutral", "category": "CUSTOMER_SERVICE#RETURN_POLICY"}]}
+{"labels": [{"aspect": "ram", "opinion": "NULL", "polarity": "neutral", "category": "HARDWARE#MEMORY"}]}
+{"labels": [{"aspect": "hard drive", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#STORAGE"}]}
+{"labels": [{"aspect": "touchpad", "opinion": "issues", "polarity": "negative", "category": "LAPTOP#USER_EXPERIENCE"}]}
+{"labels": [{"aspect": "using it", "opinion": "not the greatest", "polarity": "negative", "category": "LAPTOP#USER_EXPERIENCE"}]}
+{"labels": [{"aspect": "NULL", "opinion": "NULL", "polarity": "neutral", "category": "NULL"}]}
+{"labels": [{"aspect": "ASUS", "opinion": "no problem was found", "polarity": "negative", "category": "COMPANY#SERVICE"}]}
+{"labels": [{"aspect": "display", "opinion": "stop working", "polarity": "negative", "category": "LAPTOP#HARDWARE"}]}
+{"labels": [{"aspect": "user manual", "opinion": "no", "polarity": "negative", "category": "LAPTOP#ACCESSORIES"}, {"aspect": "asus customer support", "opinion": "nothing", "polarity": "negative", "category": "SERVICE#CUSTOMER_SUPPORT"}, {"aspect": "windows 10 software", "opinion": "NULL", "polarity": "neutral", "category": "SOFTWARE#OPERATION"}, {"aspect": "asus notebook", "opinion": "nothing", "polarity": "negative", "category": "LAPTOP#PRODUCT"}]}
+{"labels": [{"aspect": "NULL", "opinion": "bad", "polarity": "negative", "category": "NULL"}]}
+{"labels": [{"aspect": "asus laptop", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#GENERAL"}, {"aspect": "touchpad", "opinion": "non-functioning", "polarity": "negative", "category": "LAPTOP#INPUT_DEVICES"}]}
+{"labels": [{"aspect": "screen", "opinion": "broke", "polarity": "negative", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "customer support", "opinion": "do you no good", "polarity": "negative", "category": "SERVICE#SUPPORT"}]}
+{"labels": [{"aspect": "keyboard", "opinion": "needs to be redesigned entirely", "polarity": "negative", "category": "LAPTOP#DESIGN"}]}
+{"labels": [{"aspect": "screen", "opinion": "big enough to read with ease", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "item", "opinion": "light enough to tote to meetings", "polarity": "positive", "category": "LAPTOP#GENERAL"}]}
+{"labels": [{"aspect": "work machine", "opinion": "meets my needs", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": []}
+{"labels": []}
+{"labels": [{"aspect": "keyboard", "opinion": "like", "polarity": "positive", "category": "LAPTOP#KEYBOARD"}, {"aspect": "time out feature", "opinion": "like", "polarity": "positive", "category": "LAPTOP#POWER_MANAGEMENT"}]}
+{"labels": [{"aspect": "put together", "opinion": "well", "polarity": "positive", "category": "LAPTOP#BUILD_QUALITY"}]}
+{"labels": [{"aspect": "raw speed", "opinion": "NULL", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "durability", "opinion": "NULL", "polarity": "positive", "category": "LAPTOP#DURABILITY"}, {"aspect": "energy efficiency", "opinion": "NULL", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "available ports", "opinion": "decent quantity", "polarity": "positive", "category": "LAPTOP#PHYSICAL_FEATURES"}]}
+{"labels": [{"aspect": "dvd drive", "opinion": "NULL", "polarity": "positive", "category": "LAPTOP#STORAGE"}]}
+{"labels": [{"aspect": "runs hot", "opinion": "hot", "polarity": "negative", "category": "LAPTOP#OPERATION"}]}
+{"labels": []}
+{"labels": [{"aspect": "i5 mobile processor", "opinion": "new", "polarity": "neutral", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "ddr4 ram", "opinion": "upgradable", "polarity": "positive", "category": "HARDWARE#MEMORY"}]}
+{"labels": [{"aspect": "battery life", "opinion": "very decent", "polarity": "positive", "category": "LAPTOP#BATTERY"}]}
+{"labels": [{"aspect": "unit", "opinion": "pleasantly impressed", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "laptop", "opinion": "best", "polarity": "positive", "category": "LAPTOP#GENERAL"}]}
+{"labels": [{"aspect": "battery", "opinion": "NULL", "polarity": "neutral", "category": "HARDWARE#BATTERY"}]}
+{"labels": [{"aspect": "keyboard backlight", "opinion": "annoying", "polarity": "negative", "category": "LAPTOP#USABILITY"}]}
+{"labels": [{"aspect": "ram", "opinion": "easily upgradeable", "polarity": "positive", "category": "HARDWARE#MEMORY"}]}
+{"labels": [{"aspect": "touchpad", "opinion": "love", "polarity": "positive", "category": "LAPTOP#INPUT_DEVICES"}, {"aspect": "keyboard", "opinion": "love", "polarity": "positive", "category": "LAPTOP#INPUT_DEVICES"}]}
+{"labels": [{"aspect": "value", "opinion": "good", "polarity": "positive", "category": "LAPTOP#VALUE"}, {"aspect": "fast", "opinion": "fast", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "trouble-free", "opinion": "trouble-free", "polarity": "positive", "category": "LAPTOP#RELIABILITY"}]}
+{"labels": [{"aspect": "feature", "opinion": "useful", "polarity": "positive", "category": "SOFTWARE#FEATURES"}]}
+{"labels": [{"aspect": "storage", "opinion": "easily", "polarity": "positive", "category": "HARDWARE#STORAGE"}, {"aspect": "ram", "opinion": "easily", "polarity": "positive", "category": "HARDWARE#RAM"}]}
+{"labels": [{"aspect": "mx150", "opinion": "enough", "polarity": "positive", "category": "HARDWARE#GRAPHICS"}]}
+{"labels": [{"aspect": "solid state drive", "opinion": "love", "polarity": "positive", "category": "HARDWARE#STORAGE"}]}
+{"labels": [{"aspect": "gaming laptop", "opinion": "not a", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "casual gaming", "opinion": "can do some more", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": []}
+{"labels": [{"aspect": "system", "opinion": "very impressed", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "mastercam", "opinion": "good", "polarity": "positive", "category": "SOFTWARE#OPERATION"}]}
+{"labels": [{"aspect": "amazon", "opinion": "great", "polarity": "positive", "category": "COMPANY#NULL"}]}
+{"labels": [{"aspect": "screen", "opinion": "decent", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "screen", "opinion": "not great", "polarity": "negative", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "back lit keyboard", "opinion": "like", "polarity": "positive", "category": "LAPTOP#DEVICES"}]}
+{"labels": [{"aspect": "price", "opinion": "good", "polarity": "positive", "category": "LAPTOP#PRICING"}]}
+{"labels": [{"aspect": "screen", "opinion": "perfectly adequate", "polarity": "neutral", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "boot time", "opinion": "super quick", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "design", "opinion": "sleek and beautiful", "polarity": "positive", "category": "LAPTOP#DESIGN"}]}
+{"labels": [{"aspect": "chromebooks", "opinion": "great", "polarity": "positive", "category": "LAPTOP#FEATURES"}, {"aspect": "features", "opinion": "plenty", "polarity": "positive", "category": "LAPTOP#FEATURES"}]}
+{"labels": [{"aspect": "price", "opinion": "affordable", "polarity": "positive", "category": "LAPTOP#PRICE"}, {"aspect": "usability", "opinion": "easy to use", "polarity": "positive", "category": "LAPTOP#USABILITY"}]}
+{"labels": [{"aspect": "touch pad", "opinion": "multiple finger shortcuts", "polarity": "positive", "category": "LAPTOP#INPUT_DEVICES"}, {"aspect": "Chrome", "opinion": "navigating", "polarity": "positive", "category": "SOFTWARE#NAVIGATION"}]}
+{"labels": [{"aspect": "this thing", "opinion": "fantastic", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "price", "opinion": "inexpensive", "polarity": "positive", "category": "LAPTOP#PRICE"}]}
+{"labels": [{"aspect": "product", "opinion": "couldn't be happier", "polarity": "positive", "category": "PRODUCT#OVERALL"}]}
+{"labels": [{"aspect": "screen hinge", "opinion": "super strong", "polarity": "positive", "category": "LAPTOP#STRUCTURE"}]}
+{"labels": [{"aspect": "size", "opinion": "perfect", "polarity": "positive", "category": "LAPTOP#DESIGN"}]}
+{"labels": [{"aspect": "performance", "opinion": "great", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "battery life", "opinion": "good", "polarity": "positive", "category": "LAPTOP#BATTERY"}]}
+{"labels": [{"aspect": "chromebook", "opinion": "instantly connects", "polarity": "positive", "category": "LAPTOP#CONNECTION"}, {"aspect": "internet connection", "opinion": "instantly connects", "polarity": "positive", "category": "LAPTOP#CONNECTION"}]}
+{"labels": [{"aspect": "connect", "opinion": "took so long", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "NULL", "opinion": "NULL", "polarity": "positive", "category": "NULL"}]}
+{"labels": [{"aspect": "battery life", "opinion": "great", "polarity": "positive", "category": "LAPTOP#BATTERY"}, {"aspect": "keyboard", "opinion": "great", "polarity": "positive", "category": "LAPTOP#KEYBOARD"}, {"aspect": "features", "opinion": "amazing", "polarity": "positive", "category": "LAPTOP#FEATURES"}]}
+{"labels": [{"aspect": "apple product", "opinion": "much happier", "polarity": "positive", "category": "PRODUCT#COMPANY"}]}
+{"labels": [{"aspect": "samsung", "opinion": "NULL", "polarity": "positive", "category": "LAPTOP#BRAND"}, {"aspect": "chromebook", "opinion": "NULL", "polarity": "positive", "category": "LAPTOP#PRODUCT"}, {"aspect": "brand", "opinion": "NULL", "polarity": "positive", "category": "LAPTOP#BRAND"}]}
+{"labels": [{"aspect": "tablet", "opinion": "does not act like", "polarity": "negative", "category": "LAPTOP#FEATURES"}, {"aspect": "performance", "opinion": "NULL", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": []}
+{"labels": [{"aspect": "price", "opinion": "great", "polarity": "positive", "category": "PRODUCT#PRICE"}, {"aspect": "book", "opinion": "good", "polarity": "positive", "category": "PRODUCT#FEATURE"}]}
+{"labels": [{"aspect": "refurbished", "opinion": "haven ' t experienced any issues", "polarity": "positive", "category": "LAPTOP#CONDITION"}]}
+{"labels": [{"aspect": "laptop", "opinion": "very straight forward", "polarity": "positive", "category": "LAPTOP#USABILITY"}]}
+{"labels": []}
+{"labels": [{"aspect": "secure os", "opinion": "secure", "polarity": "positive", "category": "SOFTWARE#SECURITY"}]}
+{"labels": [{"aspect": "product", "opinion": "awesome", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "laptop", "opinion": "great", "polarity": "positive", "category": "LAPTOP#GENERAL"}, {"aspect": "tablet", "opinion": "great", "polarity": "positive", "category": "LAPTOP#TABLET"}]}
+{"labels": [{"aspect": "chormebook", "opinion": "works", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "size", "opinion": "like", "polarity": "positive", "category": "LAPTOP#DESIGN"}, {"aspect": "features", "opinion": "like", "polarity": "positive", "category": "LAPTOP#FEATURES"}]}
+{"labels": [{"aspect": "cheap", "opinion": "cheap", "polarity": "positive", "category": "LAPTOP#PRICE"}, {"aspect": "decently rugged", "opinion": "decently", "polarity": "positive", "category": "LAPTOP#DURABILITY"}, {"aspect": "light weight", "opinion": "light weight", "polarity": "positive", "category": "LAPTOP#DESIGN"}, {"aspect": "notebook", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#PRODUCT"}]}
+{"labels": [{"aspect": "keyboard", "opinion": "love", "polarity": "positive", "category": "LAPTOP#KEYBOARD"}]}
+{"labels": [{"aspect": "chromebook", "opinion": "love", "polarity": "positive", "category": "LAPTOP#PRODUCT"}, {"aspect": "lightweight", "opinion": "NULL", "polarity": "positive", "category": "LAPTOP#PHYSICAL_DESIGN"}]}
+{"labels": [{"aspect": "this", "opinion": "glad", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "navigation", "opinion": "easy to get used to", "polarity": "positive", "category": "SOFTWARE#OPERATION"}]}
+{"labels": [{"aspect": "NULL", "opinion": "great", "polarity": "positive", "category": "NULL"}]}
+{"labels": [{"aspect": "NULL", "opinion": "works well", "polarity": "positive", "category": "NULL"}]}
+{"labels": [{"aspect": "appearance", "opinion": "great", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "ability to play", "opinion": "great", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "speaker", "opinion": "isn't loud", "polarity": "negative", "category": "HARDWARE#AUDIO"}]}
+{"labels": []}
+{"labels": [{"aspect": "battery life", "opinion": "great", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "portability", "opinion": "easy", "polarity": "positive", "category": "LAPTOP#PORTABILITY"}]}
+{"labels": []}
+{"labels": [{"aspect": "NULL", "opinion": "perfect", "polarity": "positive", "category": "NULL"}]}
+{"labels": [{"aspect": "battery life", "opinion": "NULL", "polarity": "positive", "category": "LAPTOP#BATTERY"}, {"aspect": "speed", "opinion": "NULL", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "display", "opinion": "NULL", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "software", "opinion": "NULL", "polarity": "positive", "category": "SOFTWARE#OPERATION"}]}
+{"labels": []}
+{"labels": [{"aspect": "web browsing", "opinion": "nice", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "personal use", "opinion": "nice", "polarity": "positive", "category": "LAPTOP#USABILITY"}]}
+{"labels": [{"aspect": "chromebook", "opinion": "love", "polarity": "positive", "category": "LAPTOP#DEVICE"}]}
+{"labels": [{"aspect": "keyboard", "opinion": "small, tight", "polarity": "negative", "category": "LAPTOP#HARDWARE"}]}
+{"labels": [{"aspect": "laptop", "opinion": "high quality", "polarity": "positive", "category": "LAPTOP#QUALITY"}, {"aspect": "price", "opinion": "affordable", "polarity": "positive", "category": "LAPTOP#PRICE"}]}
+{"labels": [{"aspect": "delivery", "opinion": "a bit off", "polarity": "negative", "category": "SERVICES#DELIVERY"}, {"aspect": "USPS", "opinion": "they suck", "polarity": "negative", "category": "COMPANY#USPS"}]}
+{"labels": [{"aspect": "amd a12 processor", "opinion": "fast", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "ssd", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#STORAGE"}]}
+{"labels": [{"aspect": "weight", "opinion": "light", "polarity": "positive", "category": "LAPTOP#BUILD"}, {"aspect": "body", "opinion": "not much flex", "polarity": "negative", "category": "LAPTOP#BUILD"}]}
+{"labels": [{"aspect": "computer", "opinion": "NULL", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "computer", "opinion": "best", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "computer", "opinion": "great", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "laptop", "opinion": "excellent", "polarity": "positive", "category": "LAPTOP#GENERAL"}, {"aspect": "price", "opinion": "reasonable", "polarity": "neutral", "category": "LAPTOP#PRICE"}]}
+{"labels": [{"aspect": "laptop", "opinion": "NULL", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "battery life", "opinion": "decent", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "laptop", "opinion": "excelente", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "graphics", "opinion": "great", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "NULL", "opinion": "NULL", "polarity": "neutral", "category": "NULL"}]}
+{"labels": [{"aspect": "NULL", "opinion": "NULL", "polarity": "neutral", "category": "NULL"}]}
+{"labels": [{"aspect": "performance", "opinion": "fast enough", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "features", "opinion": "all the features we needed", "polarity": "positive", "category": "LAPTOP#FEATURES"}]}
+{"labels": [{"aspect": "laptop", "opinion": "love", "polarity": "positive", "category": "LAPTOP#GENERAL"}]}
+{"labels": [{"aspect": "battery", "opinion": "could last longer", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "light weight", "opinion": "NULL", "polarity": "positive", "category": "LAPTOP#DESIGN"}, {"aspect": "good battery life", "opinion": "good", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "sharp screen", "opinion": "sharp", "polarity": "positive", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "features", "opinion": "content", "polarity": "positive", "category": "LAPTOP#FEATURES"}]}
+{"labels": [{"aspect": "performance", "opinion": "great", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "processor", "opinion": "quiet", "polarity": "positive", "category": "LAPTOP#SPECIFICATIONS"}, {"aspect": "processor", "opinion": "cool", "polarity": "positive", "category": "LAPTOP#SPECIFICATIONS"}]}
+{"labels": [{"aspect": "the sims 4", "opinion": "ran very smoothly", "polarity": "positive", "category": "SOFTWARE#PERFORMANCE"}, {"aspect": "regular graphics", "opinion": "ran very smoothly", "polarity": "positive", "category": "HARDWARE#GRAPHICS"}]}
+{"labels": [{"aspect": "laptop", "opinion": "excited", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "runs", "opinion": "relatively well", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "NULL", "opinion": "NULL", "polarity": "positive", "category": "NULL"}]}
+{"labels": [{"aspect": "laptop", "opinion": "booted right up", "polarity": "positive", "category": "LAPTOP#GENERAL"}, {"aspect": "set up", "opinion": "super easy", "polarity": "positive", "category": "SOFTWARE#OPERATION"}]}
+{"labels": [{"aspect": "numbering pad", "opinion": "needed that", "polarity": "negative", "category": "LAPTOP#KEYBOARD"}]}
+{"labels": [{"aspect": "lappy", "opinion": "very good", "polarity": "positive", "category": "LAPTOP#GENERAL"}, {"aspect": "lappy", "opinion": "happy", "polarity": "positive", "category": "LAPTOP#GENERAL"}]}
+{"labels": [{"aspect": "thin", "opinion": "nice", "polarity": "positive", "category": "LAPTOP#BUILD"}, {"aspect": "light", "opinion": "nice", "polarity": "positive", "category": "LAPTOP#BUILD"}, {"aspect": "dvd player", "opinion": "surprised", "polarity": "positive", "category": "HARDWARE#COMPONENT"}]}
+{"labels": [{"aspect": "computer", "opinion": "perfect", "polarity": "positive", "category": "LAPTOP#OVERALL"}, {"aspect": "battery life", "opinion": "much shorter than they advertise", "polarity": "negative", "category": "LAPTOP#BATTERY"}]}
+{"labels": [{"aspect": "screen backlight", "opinion": "NULL", "polarity": "negative", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "processor", "opinion": "fast", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "laptop", "opinion": "get this one", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "battery", "opinion": "undersized", "polarity": "negative", "category": "LAPTOP#BATTERY"}, {"aspect": "amd a12 apu", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#PROCESSOR"}]}
+{"labels": [{"aspect": "laptop", "opinion": "excellent", "polarity": "positive", "category": "LAPTOP#GENERAL"}]}
+{"labels": [{"aspect": "dvd player", "opinion": "nice", "polarity": "positive", "category": "LAPTOP#MEDIA_PLAYBACK"}]}
+{"labels": [{"aspect": "ports", "opinion": "available", "polarity": "positive", "category": "HARDWARE#CONNECTIVITY"}]}
+{"labels": [{"aspect": "laptop", "opinion": "very fast", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "4cpu", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "8gpu", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "computer", "opinion": "great", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "computer", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "laptop", "opinion": "great", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "purchase", "opinion": "pleased", "polarity": "positive", "category": "LAPTOP#PURCHASE"}]}
+{"labels": [{"aspect": "cpu performance", "opinion": "does well", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "laptop", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#USAGE"}]}
+{"labels": [{"aspect": "NULL", "opinion": "NULL", "polarity": "positive", "category": "NULL"}]}
+{"labels": [{"aspect": "graphics", "opinion": "up full", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "lag", "opinion": "wasn't any", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "webpages", "opinion": "quickly", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "processor", "opinion": "power", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "NULL", "opinion": "perfect", "polarity": "positive", "category": "NULL"}]}
+{"labels": [{"aspect": "computer", "opinion": "pretty good", "polarity": "positive", "category": "LAPTOP#GENERAL"}, {"aspect": "laptop", "opinion": "pretty good", "polarity": "positive", "category": "LAPTOP#GENERAL"}]}
+{"labels": [{"aspect": "design", "opinion": "love", "polarity": "positive", "category": "LAPTOP#DESIGN"}]}
+{"labels": [{"aspect": "keyboard", "opinion": "great feel", "polarity": "positive", "category": "LAPTOP#USABILITY"}]}
+{"labels": [{"aspect": "computer", "opinion": "super fast", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "laptop", "opinion": "solid", "polarity": "positive", "category": "LAPTOP#USAGE"}]}
+{"labels": [{"aspect": "keys", "opinion": "popping off", "polarity": "negative", "category": "LAPTOP#KEYBOARD"}]}
+{"labels": [{"aspect": "battery life", "opinion": "can't comment on", "polarity": "neutral", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "battery life", "opinion": "short", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "battery", "opinion": "works", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "design", "opinion": "sleek", "polarity": "positive", "category": "LAPTOP#DESIGN"}]}
+{"labels": [{"aspect": "NULL", "opinion": "easy to use", "polarity": "positive", "category": "NULL"}]}
+{"labels": [{"aspect": "computer", "opinion": "nice", "polarity": "positive", "category": "LAPTOP#GENERAL"}]}
+{"labels": [{"aspect": "engineering", "opinion": "well", "polarity": "positive", "category": "LAPTOP#CONSTRUCTION"}, {"aspect": "design", "opinion": "well", "polarity": "positive", "category": "LAPTOP#DESIGN"}]}
+{"labels": [{"aspect": "laptop", "opinion": "very nice", "polarity": "positive", "category": "LAPTOP#NULL"}]}
+{"labels": [{"aspect": "NULL", "opinion": "perfect", "polarity": "positive", "category": "NULL"}]}
+{"labels": [{"aspect": "price", "opinion": "reasonable", "polarity": "positive", "category": "PRODUCT#PRICE"}]}
+{"labels": [{"aspect": "laptop", "opinion": "NULL", "polarity": "positive", "category": "LAPTOP#GENERAL"}, {"aspect": "performance", "opinion": "fast", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "operation", "opinion": "without problems", "polarity": "positive", "category": "SOFTWARE#OPERATION"}]}
+{"labels": [{"aspect": "price", "opinion": "great", "polarity": "positive", "category": "LAPTOP#GENERAL"}, {"aspect": "performance", "opinion": "great", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "battery", "opinion": "terrible", "polarity": "negative", "category": "LAPTOP#BATTERY"}]}
+{"labels": [{"aspect": "performance", "opinion": "slow", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "computer", "opinion": "great", "polarity": "positive", "category": "LAPTOP#OVERALL"}, {"aspect": "setup", "opinion": "fast", "polarity": "positive", "category": "SOFTWARE#SETUP"}, {"aspect": "setup", "opinion": "easy", "polarity": "positive", "category": "SOFTWARE#SETUP"}]}
+{"labels": [{"aspect": "laptop", "opinion": "inlove", "polarity": "positive", "category": "LAPTOP#GENERAL"}, {"aspect": "size 15", "opinion": "nice", "polarity": "positive", "category": "LAPTOP#PHYSICAL_DIMENSIONS"}]}
+{"labels": [{"aspect": "graphics", "opinion": "good", "polarity": "positive", "category": "LAPTOP#GRAPHICS"}]}
+{"labels": [{"aspect": "warranty", "opinion": "NULL", "polarity": "negative", "category": "PRODUCT#warranty"}, {"aspect": "honor", "opinion": "NULL", "polarity": "positive", "category": "SERVICE#customer_support"}]}
+{"labels": [{"aspect": "touch screen", "opinion": "phantom touch problems", "polarity": "negative", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "Chromebook", "opinion": "great", "polarity": "positive", "category": "LAPTOP#DEVICE"}, {"aspect": "phantom touches", "opinion": "unusable", "polarity": "negative", "category": "LAPTOP#FUNCTIONALITY"}]}
+{"labels": [{"aspect": "pixel", "opinion": "no effect", "polarity": "negative", "category": "LAPTOP#SCREEN"}]}
+{"labels": [{"aspect": "screen", "opinion": "beautiful", "polarity": "positive", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "3 : 2 aspect ratio", "opinion": "prefer", "polarity": "positive", "category": "LAPTOP#SCREEN"}, {"aspect": "Chromebooks", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#CHROMEBOOK"}]}
+{"labels": [{"aspect": "battery", "opinion": "fine", "polarity": "neutral", "category": "HARDWARE#BATTERY"}, {"aspect": "performance", "opinion": "nonstop", "polarity": "neutral", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "chromeos", "opinion": "NULL", "polarity": "neutral", "category": "SOFTWARE#OPERATION"}, {"aspect": "hardware", "opinion": "annoying", "polarity": "negative", "category": "LAPTOP#HARDWARE"}]}
+{"labels": [{"aspect": "cloud storage", "opinion": "no big deal", "polarity": "neutral", "category": "LAPTOP#STORAGE"}, {"aspect": "internet access", "opinion": "practically useless", "polarity": "negative", "category": "LAPTOP#CONNECTIVITY"}, {"aspect": "resetting to factory settings", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#OPERATION"}]}
+{"labels": [{"aspect": "touch screen", "opinion": "wonderfully", "polarity": "positive", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "backspace key", "opinion": "small", "polarity": "negative", "category": "LAPTOP#PHYSICAL_COMPONENTS"}]}
+{"labels": [{"aspect": "screen", "opinion": "not very durable", "polarity": "negative", "category": "LAPTOP#SCREEN"}]}
+{"labels": [{"aspect": "laptop", "opinion": "NULL", "polarity": "negative", "category": "LAPTOP#OPERATION"}]}
+{"labels": [{"aspect": "best buy", "opinion": "NULL", "polarity": "neutral", "category": "RETAILER#SERVICE"}, {"aspect": "device", "opinion": "bad", "polarity": "negative", "category": "LAPTOP#QUALITY"}]}
+{"labels": [{"aspect": "screen", "opinion": "gorgeous", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "profile", "opinion": "small", "polarity": "positive", "category": "LAPTOP#DESIGN"}, {"aspect": "lightweight", "opinion": "lightweight", "polarity": "positive", "category": "LAPTOP#BUILD"}, {"aspect": "stylus", "opinion": "built in", "polarity": "positive", "category": "LAPTOP#COMPONENT"}]}
+{"labels": []}
+{"labels": [{"aspect": "computer", "opinion": "incorrect", "polarity": "negative", "category": "LAPTOP#USABILITY"}]}
+{"labels": [{"aspect": "NULL", "opinion": "NULL", "polarity": "negative", "category": "NULL"}]}
+{"labels": [{"aspect": "screen", "opinion": "look good", "polarity": "positive", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "quality", "opinion": "terrible", "polarity": "negative", "category": "LAPTOP#QUALITY"}, {"aspect": "apps on the playstore", "opinion": "not really enjoyable", "polarity": "negative", "category": "SOFTWARE#USAGE"}]}
+{"labels": [{"aspect": "battery life", "opinion": "ok", "polarity": "neutral", "category": "LAPTOP#BATTERY"}]}
+{"labels": [{"aspect": "keyboard", "opinion": "easy it is to misfire", "polarity": "negative", "category": "LAPTOP#HARDWARE"}]}
+{"labels": [{"aspect": "android app support", "opinion": "simply isn't ready for prime time", "polarity": "negative", "category": "SOFTWARE#OPERATION"}]}
+{"labels": [{"aspect": "Android app", "opinion": "disappointed", "polarity": "negative", "category": "SOFTWARE#APPLICATIONS"}, {"aspect": "Chrome OS", "opinion": "NULL", "polarity": "neutral", "category": "SOFTWARE#OPERATING_SYSTEM"}]}
+{"labels": [{"aspect": "battery life", "opinion": "mediocre", "polarity": "negative", "category": "HARDWARE#BATTERY"}]}
+{"labels": [{"aspect": "amazon", "opinion": "NULL", "polarity": "neutral", "category": "SERVICE#COMPANY"}, {"aspect": "returning for refund", "opinion": "NULL", "polarity": "neutral", "category": "SERVICE#REPAIR"}, {"aspect": "repairing", "opinion": "NULL", "polarity": "neutral", "category": "SERVICE#REPAIR"}]}
+{"labels": [{"aspect": "battery", "opinion": "good", "polarity": "positive", "category": "LAPTOP#BATTERY"}, {"aspect": "display", "opinion": "pretty great", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "keyboard", "opinion": "pretty great", "polarity": "positive", "category": "LAPTOP#KEYBOARD"}]}
+{"labels": [{"aspect": "tablet", "opinion": "nothing pro", "polarity": "negative", "category": "ELECTRONICS#DEVICE"}]}
+{"labels": [{"aspect": "chromeos", "opinion": "bad", "polarity": "negative", "category": "SOFTWARE#OPERATION"}, {"aspect": "samsung", "opinion": "bad", "polarity": "negative", "category": "COMPANY#PRODUCT_QUALITY"}]}
+{"labels": [{"aspect": "computer", "opinion": "doesn't let you do things", "polarity": "negative", "category": "LAPTOP#OPERATION"}]}
+{"labels": [{"aspect": "keyboard", "opinion": "lacks", "polarity": "negative", "category": "LAPTOP#HARDWARE"}, {"aspect": "backlight", "opinion": "inconvenient", "polarity": "negative", "category": "LAPTOP#HARDWARE"}]}
+{"labels": [{"aspect": "price", "opinion": "fairly impressive value proposition", "polarity": "positive", "category": "PRODUCT#PRICE"}, {"aspect": "chromebook", "opinion": "fairly impressive value proposition", "polarity": "positive", "category": "LAPTOP#PRODUCT"}]}
+{"labels": [{"aspect": "$300", "opinion": "great", "polarity": "positive", "category": "LAPTOP#PRICE"}, {"aspect": "purchase", "opinion": "great", "polarity": "positive", "category": "LAPTOP#PURCHASE"}]}
+{"labels": [{"aspect": "price", "opinion": "NULL", "polarity": "negative", "category": "LAPTOP#PRICE"}]}
+{"labels": [{"aspect": "Acer", "opinion": "bad", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "oversize trackpad", "opinion": "nice, responsive, a pleasure to use", "polarity": "positive", "category": "LAPTOP#INPUT_DEVICES"}, {"aspect": "Chromebooks", "opinion": "pretty much all", "polarity": "neutral", "category": "PRODUCT#CATEGORY"}]}
+{"labels": [{"aspect": "performance", "opinion": "never lags", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "battery life", "opinion": "meets the 10-12 hour promise", "polarity": "positive", "category": "LAPTOP#BATTERY"}, {"aspect": "computer", "opinion": "go-to", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "aluminum shell", "opinion": "nice", "polarity": "positive", "category": "LAPTOP#DESIGN"}, {"aspect": "aluminum shell", "opinion": "very attractive", "polarity": "positive", "category": "LAPTOP#DESIGN"}, {"aspect": "keyboard", "opinion": "decent", "polarity": "positive", "category": "LAPTOP#KEYBOARD"}, {"aspect": "keyboard", "opinion": "much better tactile properties", "polarity": "positive", "category": "LAPTOP#KEYBOARD"}]}
+{"labels": [{"aspect": "card reader / writer", "opinion": "lack", "polarity": "negative", "category": "HARDWARE#PERIPHERALS"}]}
+{"labels": [{"aspect": "NULL", "opinion": "NULL", "polarity": "NULL", "category": "NULL"}]}
+{"labels": [{"aspect": "powerhouse", "opinion": "not a powerhouse", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "laptop", "opinion": "unbelievably good", "polarity": "positive", "category": "LAPTOP#PRODUCT"}]}
+{"labels": [{"aspect": "battery life", "opinion": "incredible", "polarity": "positive", "category": "LAPTOP#BATTERY"}, {"aspect": "battery charging speed", "opinion": "NULL", "polarity": "positive", "category": "LAPTOP#BATTERY"}]}
+{"labels": [{"aspect": "performance", "opinion": "well enough", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "performance", "opinion": "quick / less laggy", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "price", "opinion": "great buy", "polarity": "positive", "category": "LAPTOP#PRICE"}]}
+{"labels": [{"aspect": "Chrome OS", "opinion": "learning curve", "polarity": "negative", "category": "SOFTWARE#OPERATING_SYSTEM"}]}
+{"labels": [{"aspect": "Play Store", "opinion": "does not recognize", "polarity": "negative", "category": "SOFTWARE#STORE"}, {"aspect": "device", "opinion": "does not recognize", "polarity": "negative", "category": "LAPTOP#DEVICE"}]}
+{"labels": [{"aspect": "Chromebook", "opinion": "NULL", "polarity": "negative", "category": "LAPTOP#DEVICE"}, {"aspect": "Angry Birds", "opinion": "NULL", "polarity": "neutral", "category": "SOFTWARE#GAME"}]}
+{"labels": [{"aspect": "hdmi", "opinion": "NULL", "polarity": "neutral", "category": "HARDWARE#PORTS"}, {"aspect": "usb ports", "opinion": "NULL", "polarity": "neutral", "category": "HARDWARE#PORTS"}, {"aspect": "back has no ports", "opinion": "misery", "polarity": "negative", "category": "HARDWARE#PORTS"}]}
+{"labels": [{"aspect": "chromebook", "opinion": "superb", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "celeron n3160", "opinion": "respectable", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "octane score", "opinion": "near-8000", "polarity": "neutral", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "design", "opinion": "solid", "polarity": "positive", "category": "LAPTOP#DESIGN"}, {"aspect": "design", "opinion": "well-balanced", "polarity": "positive", "category": "LAPTOP#DESIGN"}]}
+{"labels": [{"aspect": "Chromebook", "opinion": "favorite", "polarity": "positive", "category": "LAPTOP#SPECIFIC_MODEL"}, {"aspect": "laptop", "opinion": "favorite", "polarity": "positive", "category": "LAPTOP#GENERAL"}]}
+{"labels": [{"aspect": "chromebook", "opinion": "pleased", "polarity": "positive", "category": "LAPTOP#PRODUCT_QUALITY"}, {"aspect": "tasks", "opinion": "worked well", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "software", "opinion": "decent", "polarity": "positive", "category": "SOFTWARE#OPERATION"}, {"aspect": "chromeos", "opinion": "decent", "polarity": "positive", "category": "SOFTWARE#OPERATION"}]}
+{"labels": [{"aspect": "price", "opinion": "hesitant", "polarity": "negative", "category": "LAPTOP#PRICE"}, {"aspect": "machine", "opinion": "amazing", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "machine", "opinion": "aesthetically pleasing", "polarity": "positive", "category": "LAPTOP#DESIGN"}]}
+{"labels": [{"aspect": "this model", "opinion": "growth opportunities", "polarity": "positive", "category": "LAPTOP#DESIGN"}]}
+{"labels": [{"aspect": "trackpad", "opinion": "delicate", "polarity": "negative", "category": "HARDWARE#INPUT_DEVICES"}]}
+{"labels": [{"aspect": "battery", "opinion": "good", "polarity": "positive", "category": "LAPTOP#BATTERY"}]}
+{"labels": [{"aspect": "laptop", "opinion": "ideal", "polarity": "positive", "category": "LAPTOP#GENERAL_USE"}]}
+{"labels": [{"aspect": "chromebook", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#FEATURES"}, {"aspect": "ms office", "opinion": "NULL", "polarity": "neutral", "category": "SOFTWARE#APPLICATIONS"}]}
+{"labels": [{"aspect": "battery", "opinion": "pretty good", "polarity": "positive", "category": "HARDWARE#PERFORMANCE"}]}
+{"labels": [{"aspect": "celeron processor", "opinion": "slow", "polarity": "negative", "category": "LAPTOP#PROCESSOR"}, {"aspect": "browsing", "opinion": "snappy", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "chromebook", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#PRODUCT"}, {"aspect": "chromebase", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#PRODUCT"}]}
+{"labels": [{"aspect": "performance", "opinion": "fast", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "google play store", "opinion": "support", "polarity": "negative", "category": "SOFTWARE#FUNCTIONALITY"}]}
+{"labels": [{"aspect": "creative software", "opinion": "operates with no problems", "polarity": "positive", "category": "SOFTWARE#OPERATION"}, {"aspect": "high settings", "opinion": "no problems", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "NULL", "opinion": "huge plus", "polarity": "positive", "category": "NULL"}]}
+{"labels": [{"aspect": "drives", "opinion": "solid state drive", "polarity": "positive", "category": "LAPTOP#STORAGE"}]}
+{"labels": [{"aspect": "built-in speakers", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#AUDIO"}]}
+{"labels": [{"aspect": "dvd drive", "opinion": "no", "polarity": "negative", "category": "HARDWARE#STORAGE"}]}
+{"labels": [{"aspect": "drag-and-drop items", "opinion": "couldn't", "polarity": "negative", "category": "SOFTWARE#FUNCTIONALITY"}, {"aspect": "settings", "opinion": "changed the behavior", "polarity": "positive", "category": "SOFTWARE#SETTINGS"}]}
+{"labels": [{"aspect": "light", "opinion": "pretty", "polarity": "positive", "category": "LAPTOP#PHYSICAL_DESIGN"}]}
+{"labels": [{"aspect": "screen", "opinion": "very sharp", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "viewing angles", "opinion": "good", "polarity": "positive", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "os x", "opinion": "looks classy", "polarity": "positive", "category": "SOFTWARE#OPERATION"}, {"aspect": "high resolution display", "opinion": "looks classy", "polarity": "positive", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "NULL", "opinion": "no complaints", "polarity": "positive", "category": "NULL"}]}
+{"labels": [{"aspect": "computer", "opinion": "blazing fast", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "os x yosemite", "opinion": "refined", "polarity": "positive", "category": "SOFTWARE#OPERATION"}, {"aspect": "os", "opinion": "elegant", "polarity": "positive", "category": "SOFTWARE#OPERATION"}]}
+{"labels": [{"aspect": "laptop", "opinion": "works great", "polarity": "positive", "category": "LAPTOP#PRODUCT"}, {"aspect": "package", "opinion": "delivered on time", "polarity": "positive", "category": "DELIVERY#PACKAGE"}]}
+{"labels": [{"aspect": "fast", "opinion": "fast", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "efficient", "opinion": "efficient", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "computer", "opinion": "very high quality", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "backlighting", "opinion": "comparable", "polarity": "neutral", "category": "HARDWARE#DISPLAY"}, {"aspect": "mbp", "opinion": "brighter", "polarity": "positive", "category": "LAPTOP#MODEL"}]}
+{"labels": [{"aspect": "thunderbolt ports", "opinion": "nice", "polarity": "positive", "category": "HARDWARE#PORTS"}, {"aspect": "mbp", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#MODEL"}]}
+{"labels": [{"aspect": "laptop", "opinion": "best", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": []}
+{"labels": [{"aspect": "machine", "opinion": "excellent", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": []}
+{"labels": [{"aspect": "response", "opinion": "excellent", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "battery life", "opinion": "excellent", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "weight", "opinion": "light", "polarity": "positive", "category": "LAPTOP#PORTABILITY"}]}
+{"labels": [{"aspect": "ports", "opinion": "generous selection", "polarity": "positive", "category": "LAPTOP#PORTS"}]}
+{"labels": [{"aspect": "laptop", "opinion": "sleek", "polarity": "positive", "category": "LAPTOP#DESIGN"}, {"aspect": "laptop", "opinion": "sexy", "polarity": "positive", "category": "LAPTOP#DESIGN"}]}
+{"labels": [{"aspect": "processing speed", "opinion": "enjoy", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "shipping", "opinion": "fast", "polarity": "positive", "category": "SERVICE#SHIPMENT"}, {"aspect": "product", "opinion": "exactly as described", "polarity": "positive", "category": "LAPTOP#PRODUCT_QUALITY"}, {"aspect": "authentic apple", "opinion": "NULL", "polarity": "positive", "category": "BRAND#AUTHENTICITY"}, {"aspect": "new", "opinion": "NULL", "polarity": "positive", "category": "LAPTOP#PRODUCT_CONDITION"}, {"aspect": "factory sealed", "opinion": "NULL", "polarity": "positive", "category": "LAPTOP#PRODUCT_CONDITION"}]}
+{"labels": [{"aspect": "sharp display", "opinion": "NULL", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "track pad", "opinion": "NULL", "polarity": "positive", "category": "LAPTOP#PERIPHERALS"}]}
+{"labels": [{"aspect": "weight", "opinion": "light", "polarity": "positive", "category": "LAPTOP#PHYSICAL_CHARACTERISTICS"}, {"aspect": "performance", "opinion": "speedy", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "macbook", "opinion": "love", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "product", "opinion": "great", "polarity": "positive", "category": "PRODUCT#GENERAL"}]}
+{"labels": [{"aspect": "computer", "opinion": "amazing", "polarity": "positive", "category": "LAPTOP#PRODUCT_QUALITY"}, {"aspect": "cellelectronics", "opinion": "NULL", "polarity": "neutral", "category": "COMPANY#REPUTATION"}]}
+{"labels": [{"aspect": "hardware", "opinion": "work real well together", "polarity": "positive", "category": "LAPTOP#HARDWARE"}, {"aspect": "software", "opinion": "work real well together", "polarity": "positive", "category": "SOFTWARE#SOFTWARE"}]}
+{"labels": [{"aspect": "computer", "opinion": "great", "polarity": "positive", "category": "LAPTOP#GENERAL"}]}
+{"labels": [{"aspect": "portable feature", "opinion": "love", "polarity": "positive", "category": "LAPTOP#PORTABILITY"}, {"aspect": "running speed", "opinion": "very fast", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "battery life", "opinion": "issue", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "laptop", "opinion": "thinner", "polarity": "positive", "category": "LAPTOP#PHYSICAL_ATTRIBUTES"}, {"aspect": "laptop", "opinion": "lighter", "polarity": "positive", "category": "LAPTOP#PHYSICAL_ATTRIBUTES"}]}
+{"labels": [{"aspect": "computer", "opinion": "awesome", "polarity": "positive", "category": "LAPTOP#QUALITY"}]}
+{"labels": [{"aspect": "shipping", "opinion": "fast", "polarity": "positive", "category": "SERVICE#SHIPPING"}, {"aspect": "seller", "opinion": "great", "polarity": "positive", "category": "SERVICE#SELLER"}]}
+{"labels": [{"aspect": "mac", "opinion": "great", "polarity": "positive", "category": "LAPTOP#PRODUCT_QUALITY"}, {"aspect": "chip", "opinion": "NULL", "polarity": "neutral", "category": "HARDWARE#COMPONENT"}]}
+{"labels": [{"aspect": "design", "opinion": "beautiful", "polarity": "positive", "category": "LAPTOP#DESIGN"}, {"aspect": "force feedback track pad", "opinion": "amazing", "polarity": "positive", "category": "LAPTOP#INPUT_DEVICES"}]}
+{"labels": []}
+{"labels": [{"aspect": "computer", "opinion": "love", "polarity": "positive", "category": "LAPTOP#GENERAL"}]}
+{"labels": [{"aspect": "force touch trackpad", "opinion": "awesome", "polarity": "positive", "category": "LAPTOP#INPUT_DEVICES"}]}
+{"labels": [{"aspect": "retina display", "opinion": "super gorgeous", "polarity": "positive", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "laptop", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#GENERAL"}, {"aspect": "condition", "opinion": "excellent", "polarity": "positive", "category": "LAPTOP#PHYSICAL_CONDITION"}]}
+{"labels": [{"aspect": "programs", "opinion": "love", "polarity": "positive", "category": "SOFTWARE#PROGRAMS"}, {"aspect": "functions", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#FUNCTIONALITY"}, {"aspect": "appearance", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#DESIGN"}, {"aspect": "quality", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#DESIGN"}]}
+{"labels": [{"aspect": "battery life", "opinion": "isn't nearly as long", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "macbook", "opinion": "blessing", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "macbook", "opinion": "NULL", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "ss hard drive", "opinion": "zero lag", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "NULL", "opinion": "NULL", "polarity": "negative", "category": "NULL"}]}
+{"labels": [{"aspect": "bulky", "opinion": "really like", "polarity": "positive", "category": "LAPTOP#DESIGN"}]}
+{"labels": [{"aspect": "price", "opinion": "great", "polarity": "positive", "category": "PRODUCT#PRICE"}, {"aspect": "customer service", "opinion": "great", "polarity": "positive", "category": "SERVICE#CUSTOMER_SERVICE"}]}
+{"labels": [{"aspect": "macbook", "opinion": "great", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "laptop", "opinion": "works perfect", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "charger", "opinion": "only lasted a week", "polarity": "negative", "category": "ACCESSORIES#DURABILITY"}]}
+{"labels": [{"aspect": "machine", "opinion": "awesome", "polarity": "positive", "category": "LAPTOP#GENERAL"}]}
+{"labels": [{"aspect": "costs", "opinion": "a few bucks", "polarity": "negative", "category": "LAPTOP#PRICE"}, {"aspect": "apple", "opinion": "the best", "polarity": "positive", "category": "LAPTOP#COMPANY"}]}
+{"labels": [{"aspect": "HDMI", "opinion": "NULL", "polarity": "positive", "category": "LAPTOP#CONNECTIVITY"}, {"aspect": "battery life", "opinion": "fantastic", "polarity": "positive", "category": "LAPTOP#BATTERY"}]}
+{"labels": [{"aspect": "price", "opinion": "great", "polarity": "positive", "category": "LAPTOP#PRICE"}]}
+{"labels": [{"aspect": "computer", "opinion": "great", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "laptop", "opinion": "no issues", "polarity": "positive", "category": "LAPTOP#OVERALL"}, {"aspect": "deliver", "opinion": "no issues", "polarity": "positive", "category": "DELIVERY#QUALITY"}, {"aspect": "computer", "opinion": "no issues", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "product", "opinion": "great", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "ports", "opinion": "lack", "polarity": "negative", "category": "HARDWARE#CONNECTIVITY"}, {"aspect": "magsafe connector", "opinion": "lack", "polarity": "negative", "category": "HARDWARE#CONNECTIVITY"}]}
+{"labels": [{"aspect": "shipping", "opinion": "fast", "polarity": "positive", "category": "SERVICE#DELIVERY"}]}
+{"labels": [{"aspect": "apple", "opinion": "NULL", "polarity": "neutral", "category": "SOFTWARE#COMPANY"}, {"aspect": "updates", "opinion": "easy", "polarity": "positive", "category": "SOFTWARE#PERFORMANCE"}]}
+{"labels": [{"aspect": "condition", "opinion": "great", "polarity": "positive", "category": "LAPTOP#CONDITION"}]}
+{"labels": [{"aspect": "computer", "opinion": "high quaility", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "machine", "opinion": "like", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "machine", "opinion": "quite a bit", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "system", "opinion": "glitchy", "polarity": "negative", "category": "LAPTOP#SYSTEM"}, {"aspect": "chrome os", "opinion": "NULL", "polarity": "neutral", "category": "SOFTWARE#OPERATION"}]}
+{"labels": [{"aspect": "NULL", "opinion": "NULL", "polarity": "positive", "category": "NULL"}]}
+{"labels": [{"aspect": "screen", "opinion": "solidly enough", "polarity": "positive", "category": "LAPTOP#DESIGN"}]}
+{"labels": [{"aspect": "battery", "opinion": "solid", "polarity": "positive", "category": "HARDWARE#BATTERY"}]}
+{"labels": []}
+{"labels": [{"aspect": "true tablet", "opinion": "buy", "polarity": "positive", "category": "LAPTOP#FEATURE"}, {"aspect": "kindle", "opinion": "keep me from investing", "polarity": "negative", "category": "SOFTWARE#PRODUCT"}]}
+{"labels": [{"aspect": "keyboard", "opinion": "love", "polarity": "positive", "category": "LAPTOP#KEYBOARD"}]}
+{"labels": [{"aspect": "update", "opinion": "NULL", "polarity": "positive", "category": "SOFTWARE#OPERATION"}]}
+{"labels": [{"aspect": "windows 7 laptop", "opinion": "on its last leg", "polarity": "negative", "category": "LAPTOP#OPERATING_SYSTEM"}]}
+{"labels": [{"aspect": "free google drive online storage", "opinion": "NULL", "polarity": "neutral", "category": "SOFTWARE#STORAGE"}]}
+{"labels": [{"aspect": "touchscreen", "opinion": "looks good", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "touchscreen", "opinion": "responsive", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "keyboard", "opinion": "nice", "polarity": "positive", "category": "LAPTOP#INPUT_DEVICES"}]}
+{"labels": [{"aspect": "Chromebooks", "opinion": "NULL", "polarity": "positive", "category": "LAPTOP#FUNCTIONALITY"}]}
+{"labels": [{"aspect": "screenwriting app", "opinion": "not available", "polarity": "negative", "category": "SOFTWARE#AVAILABILITY"}]}
+{"labels": [{"aspect": "internet connection", "opinion": "suck", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "studio desktop", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#DESKTOP"}]}
+{"labels": [{"aspect": "button", "opinion": "loud click", "polarity": "negative", "category": "LAPTOP#INPUT_DEVICES"}]}
+{"labels": [{"aspect": "price", "opinion": "NULL", "polarity": "positive", "category": "LAPTOP#PRICE"}]}
+{"labels": [{"aspect": "quiet fan-less device", "opinion": "happy", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "doesn't heat up too much", "opinion": "happy", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "chromebook", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#PRODUCT"}, {"aspect": "reviews", "opinion": "some", "polarity": "neutral", "category": "LAPTOP#REVIEWS"}]}
+{"labels": [{"aspect": "return policy", "opinion": "excellent", "polarity": "positive", "category": "LAPTOP#POLICY"}, {"aspect": "prime", "opinion": "NULL", "polarity": "neutral", "category": "SERVICE#PRIME"}]}
+{"labels": [{"aspect": "Pandora", "opinion": "sounded fine", "polarity": "positive", "category": "SOFTWARE#OPERATION"}, {"aspect": "volume", "opinion": "sounded fine", "polarity": "positive", "category": "LAPTOP#AUDIO_QUALITY"}]}
+{"labels": [{"aspect": "android apps", "opinion": "functioned properly", "polarity": "positive", "category": "SOFTWARE#APPLICATIONS"}, {"aspect": "size of window", "opinion": "restricted", "polarity": "negative", "category": "HARDWARE#DISPLAY"}]}
+{"labels": [{"aspect": "laptop", "opinion": "dirty", "polarity": "negative", "category": "LAPTOP#GENERAL"}, {"aspect": "screen", "opinion": "grimy", "polarity": "negative", "category": "LAPTOP#DISPLAY"}, {"aspect": "air vent", "opinion": "pet hair", "polarity": "negative", "category": "LAPTOP#BUILD"}]}
+{"labels": [{"aspect": "keys", "opinion": "look up", "polarity": "negative", "category": "LAPTOP#HARDWARE"}, {"aspect": "start up mode", "opinion": "get into", "polarity": "negative", "category": "LAPTOP#OPERATION"}]}
+{"labels": [{"aspect": "mac's os", "opinion": "blaming", "polarity": "negative", "category": "SOFTWARE#OPERATING_SYSTEM"}, {"aspect": "glitchy services", "opinion": "blaming", "polarity": "negative", "category": "SOFTWARE#SERVICES"}]}
+{"labels": []}
+{"labels": [{"aspect": "power button", "opinion": "wasn't working", "polarity": "negative", "category": "LAPTOP#HARDWARE"}, {"aspect": "keyboard", "opinion": "wasn't working", "polarity": "negative", "category": "LAPTOP#HARDWARE"}, {"aspect": "trackpad", "opinion": "wasn't working", "polarity": "negative", "category": "LAPTOP#HARDWARE"}]}
+{"labels": [{"aspect": "seller's description", "opinion": "tested, fully functional", "polarity": "negative", "category": "PRODUCT#DESCRIPTION"}]}
+{"labels": [{"aspect": "laptop", "opinion": "missing", "polarity": "negative", "category": "LAPTOP#STRUCTURE"}]}
+{"labels": [{"aspect": "charger", "opinion": "look great", "polarity": "positive", "category": "LAPTOP#ACCESSORIES"}]}
+{"labels": [{"aspect": "apple", "opinion": "do not waste your time", "polarity": "negative", "category": "SOFTWARE#SERVICE"}, {"aspect": "apple care", "opinion": "pay even more money", "polarity": "negative", "category": "SOFTWARE#SERVICE"}]}
+{"labels": [{"aspect": "computer", "opinion": "love", "polarity": "positive", "category": "LAPTOP#GENERAL"}, {"aspect": "MacBook", "opinion": "tout", "polarity": "positive", "category": "LAPTOP#BRAND"}]}
+{"labels": [{"aspect": "anti-reflective coating", "opinion": "will wear off", "polarity": "negative", "category": "LAPTOP#SCREEN"}, {"aspect": "Apple", "opinion": "isn't covered under warranty", "polarity": "negative", "category": "LAPTOP#WARRANTY"}]}
+{"labels": [{"aspect": "MacBook Pro", "opinion": "dependable", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "usb ports", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#PORTS"}, {"aspect": "thunderbolt ports", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#PORTS"}, {"aspect": "$4500nz laptop", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#PRICE"}]}
+{"labels": [{"aspect": "ssd drive", "opinion": "not user replaceable", "polarity": "negative", "category": "HARDWARE#STORAGE"}]}
+{"labels": [{"aspect": "charger", "opinion": "defective", "polarity": "negative", "category": "LAPTOP#ACCESSORIES"}, {"aspect": "charger", "opinion": "shot", "polarity": "negative", "category": "LAPTOP#ACCESSORIES"}]}
+{"labels": [{"aspect": "laptop", "opinion": "excellent", "polarity": "positive", "category": "LAPTOP#DESIGN"}, {"aspect": "laptop", "opinion": "very light", "polarity": "positive", "category": "LAPTOP#PHYSICAL_ATTRIBUTES"}]}
+{"labels": [{"aspect": "keyboard", "opinion": "love", "polarity": "positive", "category": "LAPTOP#INPUT_DEVICES"}, {"aspect": "trackpad", "opinion": "love", "polarity": "positive", "category": "LAPTOP#INPUT_DEVICES"}]}
+{"labels": [{"aspect": "battery life", "opinion": "good", "polarity": "positive", "category": "LAPTOP#BATTERY"}]}
+{"labels": [{"aspect": "NULL", "opinion": "NULL", "polarity": "negative", "category": "NULL"}]}
+{"labels": [{"aspect": "laptops", "opinion": "5 stars", "polarity": "positive", "category": "LAPTOP#LAPTOP"}]}
+{"labels": [{"aspect": "booting", "opinion": "stopped", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "tool", "opinion": "great", "polarity": "positive", "category": "LAPTOP#UTILIZATION"}]}
+{"labels": [{"aspect": "apple", "opinion": "isn't even trying anymore", "polarity": "negative", "category": "COMPANY#GENERAL"}]}
+{"labels": [{"aspect": "battery life", "opinion": "very good", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "NULL", "opinion": "not worth it", "polarity": "negative", "category": "NULL"}]}
+{"labels": [{"aspect": "apple", "opinion": "NULL", "polarity": "negative", "category": "SOFTWARE#COMPANY"}, {"aspect": "functionality", "opinion": "horrendous", "polarity": "negative", "category": "SOFTWARE#PERFORMANCE"}]}
+{"labels": [{"aspect": "notebook", "opinion": "happy", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "warranty", "opinion": "valid", "polarity": "positive", "category": "PRODUCT#SERVICE"}]}
+{"labels": [{"aspect": "asus", "opinion": "horrible", "polarity": "negative", "category": "COMPANY#REPUTATION"}]}
+{"labels": [{"aspect": "device", "opinion": "solid", "polarity": "neutral", "category": "LAPTOP#QUALITY"}]}
+{"labels": [{"aspect": "1080p", "opinion": "perfect", "polarity": "positive", "category": "LAPTOP#SCREEN"}, {"aspect": "images", "opinion": "sharp", "polarity": "positive", "category": "LAPTOP#SCREEN"}]}
+{"labels": [{"aspect": "battery life", "opinion": "solid", "polarity": "positive", "category": "LAPTOP#BATTERY"}]}
+{"labels": [{"aspect": "touchscreen", "opinion": "responsive enough", "polarity": "positive", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "chrome apps", "opinion": "picking up drastically in quality and quantity", "polarity": "positive", "category": "SOFTWARE#APPLICATIONS"}, {"aspect": "chrome os", "opinion": "coming into its own", "polarity": "positive", "category": "SOFTWARE#OPERATING_SYSTEM"}]}
+{"labels": [{"aspect": "tablet mode", "opinion": "looks too 'tall'", "polarity": "negative", "category": "LAPTOP#USABILITY"}, {"aspect": "screen", "opinion": "too 'tall'", "polarity": "negative", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "screen ratio", "opinion": "great", "polarity": "positive", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "battery", "opinion": "no longer charge", "polarity": "negative", "category": "LAPTOP#BATTERY"}]}
+{"labels": [{"aspect": "device", "opinion": "highly recommend", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "ui", "opinion": "NULL", "polarity": "negative", "category": "SOFTWARE#USER_INTERFACE"}]}
+{"labels": [{"aspect": "screen", "opinion": "don't look good", "polarity": "negative", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "app", "opinion": "no way", "polarity": "negative", "category": "SOFTWARE#FILE_HANDLING"}]}
+{"labels": [{"aspect": "battery life", "opinion": "great", "polarity": "positive", "category": "LAPTOP#BATTERY"}]}
+{"labels": [{"aspect": "volume", "opinion": "low", "polarity": "negative", "category": "AUDIO#QUALITY"}]}
+{"labels": [{"aspect": "asus chromebook", "opinion": "beautiful", "polarity": "positive", "category": "LAPTOP#DESIGN"}]}
+{"labels": [{"aspect": "chromebook", "opinion": "dead", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "heavy", "opinion": "too", "polarity": "negative", "category": "LAPTOP#PHYSICAL_DESIGN"}]}
+{"labels": [{"aspect": "transfer speeds", "opinion": "miserably slow", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "lan to nas", "opinion": "slow", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "backlight bleed", "opinion": "no", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "shimmery matte texture", "opinion": "no", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "uneven backlight", "opinion": "no", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "dead / stuck pixels", "opinion": "no", "polarity": "positive", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "product", "opinion": "fantastic", "polarity": "positive", "category": "LAPTOP#OVERALL"}, {"aspect": "build quality", "opinion": "great", "polarity": "positive", "category": "LAPTOP#BUILD_QUALITY"}, {"aspect": "screen resolution", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#DISPLAY"}, {"aspect": "keyboard", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#KEYBOARD"}, {"aspect": "product", "opinion": "stopped turning on", "polarity": "negative", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "power supply", "opinion": "issue", "polarity": "negative", "category": "HARDWARE#POWER_SUPPLY"}]}
+{"labels": [{"aspect": "price", "opinion": "unacceptable", "polarity": "negative", "category": "LAPTOP#PRICE"}]}
+{"labels": [{"aspect": "notebook", "opinion": "NULL", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "os", "opinion": "limited by", "polarity": "negative", "category": "SOFTWARE#OPERATION"}]}
+{"labels": [{"aspect": "laptop", "opinion": "great", "polarity": "positive", "category": "LAPTOP#GENERAL"}, {"aspect": "lightweight", "opinion": "lightweight", "polarity": "positive", "category": "LAPTOP#DESIGN"}, {"aspect": "booted fast", "opinion": "booted fast", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "simple to use", "opinion": "simple to use", "polarity": "positive", "category": "LAPTOP#USABILITY"}]}
+{"labels": [{"aspect": "chromebook", "opinion": "best overall", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "customer service people", "opinion": "rude", "polarity": "negative", "category": "SERVICE#SUPPORT"}]}
+{"labels": [{"aspect": "unit", "opinion": "stopped charging", "polarity": "negative", "category": "LAPTOP#HARDWARE"}]}
+{"labels": [{"aspect": "NULL", "opinion": "NULL", "polarity": "negative", "category": "NULL"}]}
+{"labels": [{"aspect": "customer service", "opinion": "sucks", "polarity": "negative", "category": "SERVICE#SERVICE_QUALITY"}]}
+{"labels": [{"aspect": "customer service", "opinion": "argue", "polarity": "negative", "category": "SERVICES#CUSTOMER_SERVICE"}, {"aspect": "adp accidental damage and protection plan", "opinion": "NULL", "polarity": "neutral", "category": "SERVICES#PROTECTION_PLAN"}]}
+{"labels": [{"aspect": "laptop", "opinion": "beautiful, well built", "polarity": "positive", "category": "LAPTOP#QUALITY"}]}
+{"labels": [{"aspect": "product", "opinion": "nutty", "polarity": "negative", "category": "PRODUCT#PRICE"}]}
+{"labels": [{"aspect": "asus", "opinion": "what the heck were you thinking", "polarity": "negative", "category": "LAPTOP#BRAND"}, {"aspect": "product", "opinion": "what the heck were you thinking", "polarity": "negative", "category": "LAPTOP#DESIGN"}]}
+{"labels": [{"aspect": "product", "opinion": "love", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "battery", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#BATTERY"}, {"aspect": "battery time", "opinion": "decreasing", "polarity": "negative", "category": "LAPTOP#BATTERY"}]}
+{"labels": [{"aspect": "chromebook", "opinion": "very impressed", "polarity": "positive", "category": "LAPTOP#PRODUCT_QUALITY"}]}
+{"labels": [{"aspect": "tablet mode", "opinion": "heavy", "polarity": "negative", "category": "LAPTOP#USABILITY"}]}
+{"labels": [{"aspect": "tablet / computer", "opinion": "high hopes", "polarity": "positive", "category": "LAPTOP#DEVICE"}, {"aspect": "customer reviews", "opinion": "NULL", "polarity": "neutral", "category": "SOFTWARE#REVIEWS"}]}
+{"labels": [{"aspect": "google docs", "opinion": "work fine", "polarity": "positive", "category": "SOFTWARE#OPERATION"}]}
+{"labels": [{"aspect": "chromebook", "opinion": "does most of what i need", "polarity": "positive", "category": "LAPTOP#GENERAL"}, {"aspect": "gaming", "opinion": "NULL", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "printer", "opinion": "would not identify", "polarity": "negative", "category": "HARDWARE#PERIPHERALS"}, {"aspect": "cloud print", "opinion": "most annoying", "polarity": "negative", "category": "SOFTWARE#SERVICES"}]}
+{"labels": [{"aspect": "tpm", "opinion": "no longer working", "polarity": "negative", "category": "HARDWARE#SECURITY"}, {"aspect": "computer", "opinion": "useless", "polarity": "negative", "category": "HARDWARE#SYSTEM"}]}
+{"labels": [{"aspect": "product", "opinion": "sturdy", "polarity": "positive", "category": "LAPTOP#BUILD_QUALITY"}, {"aspect": "product", "opinion": "lightweight", "polarity": "positive", "category": "LAPTOP#BUILD_QUALITY"}, {"aspect": "product", "opinion": "fast", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "battery", "opinion": "runtime was as advertised", "polarity": "positive", "category": "LAPTOP#BATTERY"}]}
+{"labels": [{"aspect": "touchpad", "opinion": "very sticky", "polarity": "negative", "category": "LAPTOP#INPUT_DEVICES"}]}
+{"labels": [{"aspect": "screen quality", "opinion": "so - so", "polarity": "neutral", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "asus", "opinion": "not buy", "polarity": "negative", "category": "LAPTOP#BRAND"}]}
+{"labels": [{"aspect": "dead pixel", "opinion": "has", "polarity": "negative", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "amazon", "opinion": "no response", "polarity": "negative", "category": "COMPANY#CUSTOMER_SERVICE"}, {"aspect": "asus", "opinion": "no response", "polarity": "negative", "category": "COMPANY#CUSTOMER_SERVICE"}]}
+{"labels": [{"aspect": "wifi signal", "opinion": "won't hold", "polarity": "negative", "category": "LAPTOP#CONNECTIVITY"}, {"aspect": "wifi signal", "opinion": "really weak", "polarity": "negative", "category": "LAPTOP#CONNECTIVITY"}]}
+{"labels": [{"aspect": "chrome extensions", "opinion": "perform poorly", "polarity": "negative", "category": "SOFTWARE#OPERATION"}, {"aspect": "work production experience", "opinion": "degrades", "polarity": "negative", "category": "SOFTWARE#PRODUCTIVITY"}]}
+{"labels": [{"aspect": "speakers", "opinion": "horrible", "polarity": "negative", "category": "HARDWARE#AUDIO"}]}
+{"labels": [{"aspect": "battery life", "opinion": "not good", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "screen", "opinion": "very weird", "polarity": "negative", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "intel m3 processor", "opinion": "amazing", "polarity": "positive", "category": "LAPTOP#PROCESSOR"}, {"aspect": "google play store", "opinion": "nice", "polarity": "positive", "category": "SOFTWARE#STORE"}, {"aspect": "android apps variants", "opinion": "trump", "polarity": "positive", "category": "SOFTWARE#APPS"}]}
+{"labels": [{"aspect": "chromebook", "opinion": "great", "polarity": "positive", "category": "LAPTOP#FEATURE"}, {"aspect": "charging", "opinion": "stopped", "polarity": "negative", "category": "LAPTOP#BATTERY"}]}
+{"labels": [{"aspect": "product", "opinion": "excited", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "chromebooks", "opinion": "cool", "polarity": "positive", "category": "LAPTOP#GENERAL"}, {"aspect": "battery", "opinion": "dont last at all", "polarity": "negative", "category": "LAPTOP#BATTERY"}]}
+{"labels": [{"aspect": "machine", "opinion": "extremely useable and functionable", "polarity": "positive", "category": "LAPTOP#USABILITY"}]}
+{"labels": [{"aspect": "battery", "opinion": "NULL", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "file system", "opinion": "complicated", "polarity": "negative", "category": "SOFTWARE#OPERATION"}]}
+{"labels": [{"aspect": "display panel", "opinion": "warped", "polarity": "negative", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "turning on", "opinion": "NULL", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "hardware", "opinion": "looks great", "polarity": "positive", "category": "LAPTOP#HARDWARE"}, {"aspect": "chrome os", "opinion": "sucks", "polarity": "negative", "category": "SOFTWARE#OPERATION"}, {"aspect": "cloud applications", "opinion": "sucks", "polarity": "negative", "category": "SOFTWARE#OPERATION"}]}
+{"labels": []}
+{"labels": [{"aspect": "screen hinge", "opinion": "weak", "polarity": "negative", "category": "LAPTOP#PHYSICAL_COMPONENTS"}]}
+{"labels": [{"aspect": "screen", "opinion": "average", "polarity": "neutral", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "chromebook", "opinion": "brilliant", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "customer support", "opinion": "provides zeros", "polarity": "negative", "category": "SERVICE#SUPPORT"}, {"aspect": "os", "opinion": "NULL", "polarity": "neutral", "category": "SOFTWARE#OPERATION"}]}
+{"labels": [{"aspect": "product", "opinion": "horrible", "polarity": "negative", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "tech support", "opinion": "no help", "polarity": "negative", "category": "SERVICE#TECH_SUPPORT"}]}
+{"labels": [{"aspect": "chromebook", "opinion": "difficult", "polarity": "negative", "category": "LAPTOP#USAGE"}]}
+{"labels": [{"aspect": "freezing", "opinion": "freezes constantly", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "microphone", "opinion": "does not work", "polarity": "negative", "category": "HARDWARE#COMPONENTS"}, {"aspect": "speaker", "opinion": "NULL", "polarity": "neutral", "category": "HARDWARE#COMPONENTS"}]}
+{"labels": [{"aspect": "tablet mode", "opinion": "horribly", "polarity": "negative", "category": "LAPTOP#FEATURES"}, {"aspect": "os", "opinion": "horribly", "polarity": "negative", "category": "SOFTWARE#OPERATING_SYSTEM"}, {"aspect": "applications", "opinion": "horribly", "polarity": "negative", "category": "SOFTWARE#APPLICATIONS"}]}
+{"labels": [{"aspect": "returning the second one", "opinion": "does n ' t give me the option", "polarity": "negative", "category": "LAPTOP#RETURN_POLICY"}]}
+{"labels": [{"aspect": "laptop", "opinion": "okay", "polarity": "neutral", "category": "LAPTOP#GENERAL_USE"}]}
+{"labels": [{"aspect": "chrombooks", "opinion": "nicest", "polarity": "positive", "category": "LAPTOP#PRODUCT_QUALITY"}]}
+{"labels": [{"aspect": "trackpad", "opinion": "annoying", "polarity": "negative", "category": "HARDWARE#INPUT_DEVICES"}]}
+{"labels": [{"aspect": "top metal monitor casing", "opinion": "soft", "polarity": "negative", "category": "MONITOR#BUILD_QUALITY"}, {"aspect": "top metal monitor casing", "opinion": "bendable", "polarity": "negative", "category": "MONITOR#BUILD_QUALITY"}]}
+{"labels": [{"aspect": "metal screen casing", "opinion": "slightly bent", "polarity": "negative", "category": "LAPTOP#DESIGN"}, {"aspect": "durability", "opinion": "not sure", "polarity": "neutral", "category": "LAPTOP#DURABILITY"}]}
+{"labels": [{"aspect": "right side usb port", "opinion": "NULL", "polarity": "negative", "category": "HARDWARE#PORTS"}]}
+{"labels": [{"aspect": "chromebook", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#PRODUCT_QUALITY"}, {"aspect": "manufacturing issues", "opinion": "bad", "polarity": "negative", "category": "LAPTOP#PRODUCT_QUALITY"}, {"aspect": "customer service", "opinion": "bad", "polarity": "negative", "category": "CUSTOMER_SERVICE#GENERAL"}]}
+{"labels": [{"aspect": "1080 screen", "opinion": "too small", "polarity": "negative", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "chromium os", "opinion": "limiting", "polarity": "negative", "category": "SOFTWARE#OPERATION"}]}
+{"labels": [{"aspect": "keyboard", "opinion": "fantastic", "polarity": "positive", "category": "HARDWARE#INPUT_DEVICES"}]}
+{"labels": [{"aspect": "touchpad", "opinion": "strange off color plastic", "polarity": "negative", "category": "LAPTOP#DESIGN"}]}
+{"labels": [{"aspect": "trackpad", "opinion": "faulty", "polarity": "negative", "category": "LAPTOP#INPUT_DEVICES"}, {"aspect": "cursor movement", "opinion": "jerky erratic", "polarity": "negative", "category": "LAPTOP#INPUT_DEVICES"}]}
+{"labels": [{"aspect": "screen", "opinion": "dead", "polarity": "negative", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "chromebook", "opinion": "really speedy", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "unit", "opinion": "shortly died", "polarity": "negative", "category": "LAPTOP#QUALITY"}]}
+{"labels": [{"aspect": "cooler boost button", "opinion": "like", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "thermaltake auto laptop cooling pad", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#COOLING"}]}
+{"labels": [{"aspect": "trackpad", "opinion": "ok", "polarity": "neutral", "category": "HARDWARE#INPUT_DEVICES"}]}
+{"labels": [{"aspect": "wireless card", "opinion": "finicky", "polarity": "negative", "category": "HARDWARE#WIRELESS"}]}
+{"labels": [{"aspect": "internet connection", "opinion": "lose", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "hardware", "opinion": "defective", "polarity": "negative", "category": "LAPTOP#HARDWARE"}]}
+{"labels": [{"aspect": "machine", "opinion": "run like heck", "polarity": "negative", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "NULL", "opinion": "break", "polarity": "negative", "category": "NULL"}]}
+{"labels": [{"aspect": "laptop", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#GENERAL"}]}
+{"labels": [{"aspect": "closing it and opening it up later", "opinion": "50 / 50 proposition", "polarity": "negative", "category": "LAPTOP#RELIABILITY"}, {"aspect": "display", "opinion": "crash", "polarity": "negative", "category": "LAPTOP#TECHNICAL"}, {"aspect": "disk", "opinion": "crash", "polarity": "negative", "category": "LAPTOP#TECHNICAL"}, {"aspect": "driver", "opinion": "fail", "polarity": "negative", "category": "LAPTOP#TECHNICAL"}, {"aspect": "brand new laptop", "opinion": "NULL", "polarity": "negative", "category": "LAPTOP#QUALITY"}]}
+{"labels": [{"aspect": "machine", "opinion": "screaming at high speed", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "machine", "opinion": "exactly what i was hoping for", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "system", "opinion": "poor shape", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "msi", "opinion": "poor shape", "polarity": "negative", "category": "BRAND#MANUFACTURER"}]}
+{"labels": [{"aspect": "laptop", "opinion": "perform well", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "drivers", "opinion": "uninstall / install in exactly the correct order", "polarity": "negative", "category": "SOFTWARE#INSTALLATION"}, {"aspect": "installation", "opinion": "clean win 10 installation", "polarity": "positive", "category": "SOFTWARE#INSTALLATION"}]}
+{"labels": [{"aspect": "sound", "opinion": "terrible", "polarity": "negative", "category": "LAPTOP#AUDIO_QUALITY"}, {"aspect": "sound", "opinion": "tinny", "polarity": "negative", "category": "LAPTOP#AUDIO_QUALITY"}]}
+{"labels": [{"aspect": "performance", "opinion": "fast", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "product", "opinion": "excellent", "polarity": "positive", "category": "PRODUCT#GENERAL"}]}
+{"labels": [{"aspect": "msi", "opinion": "liked", "polarity": "positive", "category": "LAPTOP#BRAND"}, {"aspect": "performance", "opinion": "NULL", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "price", "opinion": "fairly decent", "polarity": "positive", "category": "LAPTOP#PRICE"}]}
+{"labels": [{"aspect": "battery", "opinion": "NULL", "polarity": "neutral", "category": "HARDWARE#PERFORMANCE"}]}
+{"labels": [{"aspect": "laptop", "opinion": "stopped booting", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "laptop", "opinion": "worked pretty good", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "laptop", "opinion": "not worth the time", "polarity": "negative", "category": "LAPTOP#VALUE"}, {"aspect": "laptop", "opinion": "not worth the money", "polarity": "negative", "category": "LAPTOP#VALUE"}]}
+{"labels": [{"aspect": "tech support", "opinion": "NULL", "polarity": "negative", "category": "SERVICE#SUPPORT"}]}
+{"labels": [{"aspect": "laptop", "opinion": "disappointed", "polarity": "negative", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "computer", "opinion": "worst", "polarity": "negative", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "laptop", "opinion": "NULL", "polarity": "negative", "category": "LAPTOP#DURABILITY"}]}
+{"labels": [{"aspect": "laptop", "opinion": "NULL", "polarity": "negative", "category": "LAPTOP#GENERAL"}, {"aspect": "bsod errors", "opinion": "NULL", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "hardware", "opinion": "NULL", "polarity": "negative", "category": "HARDWARE#GENERAL"}]}
+{"labels": [{"aspect": "design", "opinion": "poor", "polarity": "negative", "category": "LAPTOP#DESIGN"}, {"aspect": "tech support", "opinion": "terrible", "polarity": "negative", "category": "SUPPORT#TECHNICAL_SUPPORT"}]}
+{"labels": [{"aspect": "computer", "opinion": "amazing", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "laptop", "opinion": "like", "polarity": "positive", "category": "LAPTOP#GENERAL"}, {"aspect": "headset", "opinion": "nice", "polarity": "positive", "category": "HEADSET#GENERAL"}]}
+{"labels": [{"aspect": "msi", "opinion": "not too happy", "polarity": "negative", "category": "COMPANY#MANUFACTURER"}, {"aspect": "laptop", "opinion": "likely to return", "polarity": "negative", "category": "LAPTOP#GENERAL"}]}
+{"labels": [{"aspect": "laptop", "opinion": "great", "polarity": "positive", "category": "LAPTOP#GENERAL"}]}
+{"labels": [{"aspect": "support page", "opinion": "very buggy", "polarity": "negative", "category": "SOFTWARE#SUPPORT"}, {"aspect": "support people", "opinion": "unhelpful", "polarity": "negative", "category": "SOFTWARE#SUPPORT"}]}
+{"labels": [{"aspect": "optane drive", "opinion": "avoid", "polarity": "negative", "category": "HARDWARE#PERFORMANCE"}]}
+{"labels": [{"aspect": "product", "opinion": "NULL", "polarity": "negative", "category": "LAPTOP#PRODUCT_QUALITY"}]}
+{"labels": [{"aspect": "customer tech support", "opinion": "absolutely no idea how to help you", "polarity": "negative", "category": "SERVICE#SUPPORT"}, {"aspect": "msi", "opinion": "absolutely no idea how to help you", "polarity": "negative", "category": "COMPANY#CUSTOMER_SERVICE"}]}
+{"labels": [{"aspect": "factory reset", "opinion": "piece of garbage", "polarity": "negative", "category": "LAPTOP#OPERATION"}, {"aspect": "ownership", "opinion": "NULL", "polarity": "negative", "category": "LAPTOP#OWNERSHIP"}]}
+{"labels": [{"aspect": "plastic", "opinion": "bending", "polarity": "negative", "category": "LAPTOP#BUILD_QUALITY"}]}
+{"labels": [{"aspect": "laptop", "opinion": "loved", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "msi", "opinion": "will never own another", "polarity": "negative", "category": "COMPANY#NULL"}]}
+{"labels": [{"aspect": "laptop", "opinion": "solid rating", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "laptop", "opinion": "doesn't work", "polarity": "negative", "category": "LAPTOP#OPERATION"}]}
+{"labels": [{"aspect": "performance", "opinion": "slow", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "NULL", "opinion": "NULL", "polarity": "neutral", "category": "NULL"}]}
+{"labels": [{"aspect": "price", "opinion": "steep", "polarity": "negative", "category": "LAPTOP#PRICE"}]}
+{"labels": [{"aspect": "laptop", "opinion": "decent", "polarity": "neutral", "category": "LAPTOP#OVERALL"}, {"aspect": "screen freezes", "opinion": "minor", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "NULL", "opinion": "malfunctioned", "polarity": "negative", "category": "LAPTOP#RELIABILITY"}]}
+{"labels": [{"aspect": "screen", "opinion": "nice", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "viewing angle", "opinion": "decent", "polarity": "neutral", "category": "LAPTOP#DISPLAY"}, {"aspect": "contrast", "opinion": "ok", "polarity": "neutral", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "keyboard", "opinion": "very nice and very responsive", "polarity": "positive", "category": "LAPTOP#HARDWARE"}]}
+{"labels": [{"aspect": "bootup time", "opinion": "fast", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "Optane memory", "opinion": "nice alternative", "polarity": "positive", "category": "LAPTOP#HARDWARE"}]}
+{"labels": [{"aspect": "charge", "opinion": "doesn't last", "polarity": "negative", "category": "LAPTOP#BATTERY"}]}
+{"labels": [{"aspect": "NULL", "opinion": "NULL", "polarity": "negative", "category": "NULL"}]}
+{"labels": [{"aspect": "hard drive", "opinion": "slow", "polarity": "negative", "category": "HARDWARE#STORAGE"}]}
+{"labels": [{"aspect": "ips matte fhd panel", "opinion": "very good", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "reflections", "opinion": "zero", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "light bleed", "opinion": "almost zero", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "brightness", "opinion": "average", "polarity": "neutral", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "laptop", "opinion": "ok", "polarity": "neutral", "category": "LAPTOP#QUALITY"}, {"aspect": "laptop", "opinion": "not great", "polarity": "negative", "category": "LAPTOP#QUALITY"}]}
+{"labels": [{"aspect": "ethernet port", "opinion": "NULL", "polarity": "negative", "category": "LAPTOP#HARDWARE"}]}
+{"labels": [{"aspect": "backlit keyboard", "opinion": "no", "polarity": "negative", "category": "LAPTOP#FEATURES"}]}
+{"labels": [{"aspect": "power", "opinion": "plenty", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "hard drive", "opinion": "weak point", "polarity": "negative", "category": "LAPTOP#STORAGE"}, {"aspect": "ram slots", "opinion": "extendable", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "one m", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#EXPANSION"}]}
+{"labels": [{"aspect": "notebook", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#GENERAL"}, {"aspect": "8gb ram", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#SPECIFICATION"}, {"aspect": "i5 - 8250u cpu", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#SPECIFICATION"}, {"aspect": "weight", "opinion": "reasonable", "polarity": "positive", "category": "LAPTOP#DESIGN"}, {"aspect": "extendable", "opinion": "extendable", "polarity": "positive", "category": "LAPTOP#USABILITY"}]}
+{"labels": [{"aspect": "delete and power button", "opinion": "not a fan", "polarity": "negative", "category": "LAPTOP#DESIGN"}]}
+{"labels": []}
+{"labels": [{"aspect": "laptop", "opinion": "nice", "polarity": "positive", "category": "LAPTOP#OVERALL"}, {"aspect": "looking", "opinion": "nice", "polarity": "positive", "category": "LAPTOP#DESIGN"}]}
+{"labels": [{"aspect": "windows 10", "opinion": "NULL", "polarity": "neutral", "category": "SOFTWARE#OPERATING_SYSTEM"}, {"aspect": "sharp display", "opinion": "sharp", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "card slot", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#PORTS_AND_SLOTS"}]}
+{"labels": [{"aspect": "quality", "opinion": "great", "polarity": "positive", "category": "LAPTOP#QUALITY"}, {"aspect": "computer", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "flip", "opinion": "like", "polarity": "positive", "category": "LAPTOP#MODEL"}, {"aspect": "build quality", "opinion": "good", "polarity": "positive", "category": "LAPTOP#BUILD_QUALITY"}]}
+{"labels": [{"aspect": "NULL", "opinion": "NULL", "polarity": "NULL", "category": "NULL"}]}
+{"labels": []}
+{"labels": [{"aspect": "laptop", "opinion": "epic powerhouse", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "laptop", "opinion": "very good", "polarity": "positive", "category": "LAPTOP#OVERALL"}, {"aspect": "lightweight", "opinion": "NULL", "polarity": "positive", "category": "LAPTOP#DESIGN"}]}
+{"labels": [{"aspect": "hardware", "opinion": "excellent", "polarity": "positive", "category": "LAPTOP#HARDWARE"}, {"aspect": "windows 10", "opinion": "nasty trouble", "polarity": "negative", "category": "SOFTWARE#OPERATION"}]}
+{"labels": [{"aspect": "NULL", "opinion": "NULL", "polarity": "neutral", "category": "NULL"}]}
+{"labels": [{"aspect": "computer", "opinion": "not charging", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "fingerprint reader", "opinion": "works most of the time", "polarity": "neutral", "category": "LAPTOP#HARDWARE"}]}
+{"labels": [{"aspect": "sound", "opinion": "fine", "polarity": "positive", "category": "LAPTOP#AUDIO_QUALITY"}]}
+{"labels": [{"aspect": "machine", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#GENERAL"}, {"aspect": "boots up", "opinion": "slow", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "laptop", "opinion": "great value", "polarity": "positive", "category": "LAPTOP#VALUE"}]}
+{"labels": [{"aspect": "15 inch screen", "opinion": "love", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "14 inch body", "opinion": "love", "polarity": "positive", "category": "LAPTOP#SIZE"}]}
+{"labels": [{"aspect": "plastic", "opinion": "cheaply made", "polarity": "negative", "category": "LAPTOP#DESIGN"}, {"aspect": "performance", "opinion": "well worth the trade", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "touchpad", "opinion": "works well", "polarity": "positive", "category": "LAPTOP#HARDWARE"}]}
+{"labels": [{"aspect": "speakers", "opinion": "mediocre", "polarity": "negative", "category": "LAPTOP#AUDIO"}, {"aspect": "speakers", "opinion": "don't put out too much volume", "polarity": "negative", "category": "LAPTOP#AUDIO"}, {"aspect": "speakers", "opinion": "sensitive to position", "polarity": "negative", "category": "LAPTOP#AUDIO"}]}
+{"labels": [{"aspect": "screen", "opinion": "like", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "screen", "opinion": "clean", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "screen", "opinion": "crisp", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "ram", "opinion": "enjoying", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "simple", "opinion": "like", "polarity": "positive", "category": "LAPTOP#DESIGN"}, {"aspect": "clutter", "opinion": "without so much", "polarity": "negative", "category": "LAPTOP#USER_INTERFACE"}, {"aspect": "complexity", "opinion": "without so much", "polarity": "negative", "category": "LAPTOP#USER_INTERFACE"}]}
+{"labels": [{"aspect": "price", "opinion": "cheap", "polarity": "positive", "category": "LAPTOP#PRICE"}]}
+{"labels": [{"aspect": "weight", "opinion": "perfect", "polarity": "positive", "category": "LAPTOP#BUILD"}, {"aspect": "size", "opinion": "perfect", "polarity": "positive", "category": "LAPTOP#BUILD"}, {"aspect": "design", "opinion": "perfect", "polarity": "positive", "category": "LAPTOP#BUILD"}]}
+{"labels": [{"aspect": "laptop", "opinion": "never power on", "polarity": "negative", "category": "LAPTOP#POWER"}]}
+{"labels": [{"aspect": "lightweight", "opinion": "lightweight", "polarity": "positive", "category": "LAPTOP#PHYSICAL_DESIGN"}, {"aspect": "sleek", "opinion": "sleek", "polarity": "positive", "category": "LAPTOP#PHYSICAL_DESIGN"}]}
+{"labels": [{"aspect": "NULL", "opinion": "decent", "polarity": "neutral", "category": "NULL"}]}
+{"labels": [{"aspect": "ssd", "opinion": "issue", "polarity": "negative", "category": "HARDWARE#STORAGE"}, {"aspect": "hardware", "opinion": "issue", "polarity": "negative", "category": "HARDWARE#GENERAL"}]}
+{"labels": [{"aspect": "amazon", "opinion": "good", "polarity": "positive", "category": "COMPANY#SERVICE"}, {"aspect": "amazon customer service", "opinion": "NULL", "polarity": "positive", "category": "COMPANY#SERVICE"}]}
+{"labels": [{"aspect": "return procedure", "opinion": "elaborate", "polarity": "negative", "category": "CUSTOMER_SERVICE#RETURN_POLICY"}]}
+{"labels": [{"aspect": "it", "opinion": "doesn't stay on", "polarity": "negative", "category": "LAPTOP#GENERAL"}]}
+{"labels": [{"aspect": "keyboard", "opinion": "responsive", "polarity": "positive", "category": "LAPTOP#KEYBOARD"}, {"aspect": "keyboard", "opinion": "good", "polarity": "positive", "category": "LAPTOP#KEYBOARD"}]}
+{"labels": [{"aspect": "Acer product", "opinion": "NULL", "polarity": "negative", "category": "LAPTOP#BRAND"}]}
+{"labels": [{"aspect": "build quality", "opinion": "props", "polarity": "positive", "category": "LAPTOP#CONSTRUCTION"}]}
+{"labels": [{"aspect": "NULL", "opinion": "NULL", "polarity": "negative", "category": "NULL"}]}
+{"labels": [{"aspect": "keyboard", "opinion": "exceptional", "polarity": "positive", "category": "LAPTOP#HARDWARE"}, {"aspect": "touchpad", "opinion": "exceptional", "polarity": "positive", "category": "LAPTOP#HARDWARE"}]}
+{"labels": [{"aspect": "screen brightness", "opinion": "below average", "polarity": "negative", "category": "LAPTOP#DISPLAY"}]}
+{"labels": []}
+{"labels": [{"aspect": "acer", "opinion": "NULL", "polarity": "negative", "category": "LAPTOP#BRAND"}, {"aspect": "water damaging", "opinion": "couldn't fix", "polarity": "negative", "category": "LAPTOP#CONDITION"}]}
+{"labels": [{"aspect": "acer aspire e 15", "opinion": "NULL", "polarity": "neutral", "category": "PRODUCT#LAPTOP"}, {"aspect": "performance", "opinion": "worked great", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "battery", "opinion": "NULL", "polarity": "negative", "category": "LAPTOP#BATTERY"}]}
+{"labels": [{"aspect": "keyboard", "opinion": "stopped working", "polarity": "negative", "category": "HARDWARE#INPUT_DEVICES"}]}
+{"labels": [{"aspect": "NULL", "opinion": "NULL", "polarity": "positive", "category": "NULL"}]}
+{"labels": [{"aspect": "performance", "opinion": "good", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "support", "opinion": "NULL", "polarity": "neutral", "category": "CUSTOMER_SERVICE#SUPPORT"}]}
+{"labels": [{"aspect": "consumer reports", "opinion": "highly rated", "polarity": "positive", "category": "PRODUCT#REVIEW"}, {"aspect": "pc magazine", "opinion": "highly rated", "polarity": "positive", "category": "PRODUCT#REVIEW"}, {"aspect": "other raters", "opinion": "highly rated", "polarity": "positive", "category": "PRODUCT#REVIEW"}]}
+{"labels": [{"aspect": "quality", "opinion": "good", "polarity": "positive", "category": "LAPTOP#QUALITY"}, {"aspect": "price", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#PRICE"}]}
+{"labels": [{"aspect": "battery", "opinion": "NULL", "polarity": "negative", "category": "LAPTOP#BATTERY"}]}
+{"labels": [{"aspect": "black screen", "opinion": "NULL", "polarity": "negative", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "computer", "opinion": "fine", "polarity": "neutral", "category": "LAPTOP#OVERALL"}, {"aspect": "speakers", "opinion": "broke", "polarity": "negative", "category": "LAPTOP#AUDIO"}]}
+{"labels": [{"aspect": "computer", "opinion": "good", "polarity": "positive", "category": "LAPTOP#VALUE"}, {"aspect": "hdmi port", "opinion": "broken", "polarity": "negative", "category": "HARDWARE#PORT"}]}
+{"labels": [{"aspect": "turn on", "opinion": "won't turn on", "polarity": "negative", "category": "LAPTOP#OPERATION"}, {"aspect": "charge", "opinion": "won't charge", "polarity": "negative", "category": "LAPTOP#OPERATION"}]}
+{"labels": [{"aspect": "game laptop", "opinion": "not", "polarity": "negative", "category": "LAPTOP#TYPE"}]}
+{"labels": [{"aspect": "battery life", "opinion": "last", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "speakers", "opinion": "take a moment to get used to", "polarity": "neutral", "category": "LAPTOP#AUDIO"}]}
+{"labels": [{"aspect": "keyboard", "opinion": "hate", "polarity": "negative", "category": "LAPTOP#INPUT_DEVICES"}, {"aspect": "keyboard", "opinion": "cheap", "polarity": "negative", "category": "LAPTOP#INPUT_DEVICES"}]}
+{"labels": [{"aspect": "laptop", "opinion": "cheap", "polarity": "negative", "category": "LAPTOP#QUALITY"}, {"aspect": "laptop", "opinion": "flimsy", "polarity": "negative", "category": "LAPTOP#QUALITY"}]}
+{"labels": [{"aspect": "graphics card", "opinion": "bad", "polarity": "negative", "category": "HARDWARE#GRAPHICS_CARD"}]}
+{"labels": [{"aspect": "Acer", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#COMPANY"}, {"aspect": "computer", "opinion": "issues setting up", "polarity": "negative", "category": "LAPTOP#SETUP"}, {"aspect": "touch pad", "opinion": "did n ' t even work", "polarity": "negative", "category": "LAPTOP#COMPONENT"}]}
+{"labels": [{"aspect": "bad board", "opinion": "bad", "polarity": "negative", "category": "HARDWARE#COMPONENTS"}]}
+{"labels": [{"aspect": "laptop", "opinion": "something wrong", "polarity": "negative", "category": "LAPTOP#GENERAL"}]}
+{"labels": [{"aspect": "power management", "opinion": "NULL", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "e 15", "opinion": "very disappointed", "polarity": "negative", "category": "LAPTOP#PRODUCT"}]}
+{"labels": [{"aspect": "trackpad", "opinion": "stopped working", "polarity": "negative", "category": "LAPTOP#HARDWARE"}]}
+{"labels": [{"aspect": "flicker", "opinion": "annoying", "polarity": "negative", "category": "LAPTOP#DISPLAY"}, {"aspect": "screen", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "computer", "opinion": "runs decent", "polarity": "neutral", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "keypad", "opinion": "turns off every time", "polarity": "negative", "category": "LAPTOP#HARDWARE"}]}
+{"labels": [{"aspect": "NULL", "opinion": "NULL", "polarity": "NULL", "category": "NULL"}]}
+{"labels": [{"aspect": "machine", "opinion": "defective", "polarity": "negative", "category": "LAPTOP#QUALITY"}]}
+{"labels": [{"aspect": "ssd", "opinion": "fast", "polarity": "positive", "category": "HARDWARE#PERFORMANCE"}, {"aspect": "processor", "opinion": "fast", "polarity": "positive", "category": "HARDWARE#PERFORMANCE"}, {"aspect": "experience", "opinion": "good", "polarity": "positive", "category": "USABILITY#OVERALL"}]}
+{"labels": [{"aspect": "keyboard", "opinion": "shoved way left", "polarity": "negative", "category": "LAPTOP#DESIGN"}, {"aspect": "track pad", "opinion": "shoved way left", "polarity": "negative", "category": "LAPTOP#DESIGN"}]}
+{"labels": [{"aspect": "keyboard", "opinion": "rattles", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "wifi", "opinion": "will not connect", "polarity": "negative", "category": "LAPTOP#CONNECTIVITY"}, {"aspect": "screen", "opinion": "flashes when adjusting while on", "polarity": "negative", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "speakers", "opinion": "horrible", "polarity": "negative", "category": "HARDWARE#AUDIO"}]}
+{"labels": [{"aspect": "core i5 cpu", "opinion": "latest 8th generation", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "keyboard", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#HARDWARE"}]}
+{"labels": [{"aspect": "keyboard", "opinion": "no backlight", "polarity": "negative", "category": "LAPTOP#DESIGN"}]}
+{"labels": [{"aspect": "key presses", "opinion": "too stiff", "polarity": "negative", "category": "LAPTOP#KEYBOARD"}]}
+{"labels": [{"aspect": "hdd", "opinion": "NULL", "polarity": "neutral", "category": "HARDWARE#STORAGE"}, {"aspect": "laptop", "opinion": "slow", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": []}
+{"labels": [{"aspect": "backlight", "opinion": "no", "polarity": "negative", "category": "LAPTOP#DISPLAY"}, {"aspect": "keys", "opinion": "too stiff", "polarity": "negative", "category": "LAPTOP#KEYBOARD"}]}
+{"labels": [{"aspect": "keyboard", "opinion": "not healthy", "polarity": "negative", "category": "HARDWARE#INPUT_DEVICES"}]}
+{"labels": [{"aspect": "linux", "opinion": "mostly compatible", "polarity": "positive", "category": "LAPTOP#SOFTWARE_COMPATIBILITY"}, {"aspect": "fingerprint reader", "opinion": "except", "polarity": "negative", "category": "LAPTOP#HARDWARE"}]}
+{"labels": [{"aspect": "asus vivobook f510ua", "opinion": "NULL", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "screen", "opinion": "can hear the screen creak", "polarity": "negative", "category": "LAPTOP#QUALITY"}]}
+{"labels": [{"aspect": "hardwire connection", "opinion": "doesn't support", "polarity": "negative", "category": "LAPTOP#CONNECTIVITY"}]}
+{"labels": [{"aspect": "software", "opinion": "no software", "polarity": "negative", "category": "SOFTWARE#INSTALLATION"}, {"aspect": "updates", "opinion": "every day", "polarity": "negative", "category": "SOFTWARE#OPERATION"}]}
+{"labels": [{"aspect": "locking up", "opinion": "locked up", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "sound", "opinion": "sounds like a lawn mower", "polarity": "negative", "category": "LAPTOP#SOUND_QUALITY"}]}
+{"labels": [{"aspect": "screen quality", "opinion": "enjoy", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "wifi", "opinion": "fast", "polarity": "positive", "category": "LAPTOP#CONNECTIVITY"}]}
+{"labels": [{"aspect": "NULL", "opinion": "NULL", "polarity": "negative", "category": "NULL"}]}
+{"labels": [{"aspect": "keyboard", "opinion": "comfortable", "polarity": "positive", "category": "LAPTOP#HARDWARE"}]}
+{"labels": [{"aspect": "track pad", "opinion": "doesn't slide smoothly", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "laptop", "opinion": "horrible", "polarity": "negative", "category": "LAPTOP#GENERAL"}]}
+{"labels": [{"aspect": "return policy", "opinion": "spend over $160", "polarity": "negative", "category": "SERVICE#RETURN_POLICY"}]}
+{"labels": [{"aspect": "asus", "opinion": "will never buy", "polarity": "negative", "category": "COMPANY#PRODUCT"}]}
+{"labels": [{"aspect": "crashed", "opinion": "dead", "polarity": "negative", "category": "LAPTOP#OPERATION"}]}
+{"labels": [{"aspect": "screen", "opinion": "pretty good", "polarity": "positive", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "keyboard", "opinion": "awful", "polarity": "negative", "category": "LAPTOP#INPUT_DEVICES"}]}
+{"labels": [{"aspect": "ASUS", "opinion": "NULL", "polarity": "negative", "category": "LAPTOP#SERVICE"}, {"aspect": "replacement key", "opinion": "replacement", "polarity": "negative", "category": "LAPTOP#HARDWARE"}, {"aspect": "computer", "opinion": "without", "polarity": "negative", "category": "LAPTOP#GENERAL"}]}
+{"labels": [{"aspect": "NULL", "opinion": "don't buy", "polarity": "negative", "category": "NULL"}]}
+{"labels": [{"aspect": "boot", "opinion": "damaged", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "disk (c:)", "opinion": "runs at 100%", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": []}
+{"labels": [{"aspect": "performance", "opinion": "NULL", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "NULL", "opinion": "NULL", "polarity": "neutral", "category": "NULL"}]}
+{"labels": [{"aspect": "laptop", "opinion": "good", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "fingerprint scanner", "opinion": "half jotted and barely works", "polarity": "negative", "category": "HARDWARE#SECURITY"}]}
+{"labels": [{"aspect": "screen", "opinion": "NULL", "polarity": "negative", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "finger print scanner", "opinion": "not working", "polarity": "negative", "category": "LAPTOP#SECURITY"}]}
+{"labels": [{"aspect": "spec hardware", "opinion": "great", "polarity": "positive", "category": "LAPTOP#SPECIFICATIONS"}, {"aspect": "hard drive", "opinion": "NULL", "polarity": "negative", "category": "LAPTOP#STORAGE"}]}
+{"labels": [{"aspect": "touch pad", "opinion": "poor", "polarity": "negative", "category": "LAPTOP#PHYSICAL_COMPONENTS"}]}
+{"labels": [{"aspect": "physical case", "opinion": "solid", "polarity": "positive", "category": "LAPTOP#BUILD_QUALITY"}, {"aspect": "production quality", "opinion": "expect in machine 3 - 5x the price of this machine", "polarity": "positive", "category": "LAPTOP#MANUFACTURING"}]}
+{"labels": [{"aspect": "user interfaces", "opinion": "tight, responsive", "polarity": "positive", "category": "SOFTWARE#OPERATION"}]}
+{"labels": [{"aspect": "light weight", "opinion": "light weight", "polarity": "positive", "category": "LAPTOP#SPECIFICATIONS"}, {"aspect": "development stack", "opinion": "very robust", "polarity": "positive", "category": "SOFTWARE#DEVELOPMENT"}, {"aspect": "Cloud9", "opinion": "added convenience", "polarity": "positive", "category": "SOFTWARE#COLLABORATION"}]}
+{"labels": [{"aspect": "games", "opinion": "worked very well", "polarity": "positive", "category": "SOFTWARE#OPERATION"}, {"aspect": "password vault", "opinion": "worked very well", "polarity": "positive", "category": "SOFTWARE#OPERATION"}, {"aspect": "productivity apps", "opinion": "worked very well", "polarity": "positive", "category": "SOFTWARE#OPERATION"}, {"aspect": "Skype", "opinion": "worked very well", "polarity": "positive", "category": "SOFTWARE#OPERATION"}, {"aspect": "Spotify", "opinion": "worked very well", "polarity": "positive", "category": "SOFTWARE#OPERATION"}, {"aspect": "network scanning android apps", "opinion": "worked very well", "polarity": "positive", "category": "SOFTWARE#OPERATION"}]}
+{"labels": [{"aspect": "mouse and trackpad settings", "opinion": "very minimalist", "polarity": "negative", "category": "PERIPHERALS#SETTINGS"}, {"aspect": "power management options", "opinion": "pretty minimal", "polarity": "negative", "category": "PERFORMANCE#MANAGEMENT"}]}
+{"labels": [{"aspect": "google play store", "opinion": "great", "polarity": "positive", "category": "SOFTWARE#APPLICATION_AVAILABILITY"}]}
+{"labels": [{"aspect": "Linux configs", "opinion": "seamless and smooth", "polarity": "positive", "category": "SOFTWARE#OPERATION"}, {"aspect": "Linux environments", "opinion": "effortless", "polarity": "positive", "category": "SOFTWARE#OPERATION"}]}
+{"labels": [{"aspect": "machine", "opinion": "great", "polarity": "positive", "category": "LAPTOP#GENERAL"}, {"aspect": "machine", "opinion": "fun and valuable", "polarity": "positive", "category": "LAPTOP#GENERAL"}, {"aspect": "versatility", "opinion": "makes this machine such a fun and valuable computer", "polarity": "positive", "category": "LAPTOP#USABILITY"}]}
+{"labels": [{"aspect": "anti-glare screen protector", "opinion": "nice, fitted", "polarity": "positive", "category": "ACCESSORIES#PROTECTION"}, {"aspect": "screen", "opinion": "gorgeous", "polarity": "positive", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "intel core m3 processor", "opinion": "NULL", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "apps", "opinion": "wonderfully", "polarity": "positive", "category": "SOFTWARE#OPERATION"}, {"aspect": "microsoft word", "opinion": "wonderfully", "polarity": "positive", "category": "SOFTWARE#OPERATION"}, {"aspect": "excel", "opinion": "wonderfully", "polarity": "positive", "category": "SOFTWARE#OPERATION"}]}
+{"labels": [{"aspect": "android youtube app", "opinion": "doesn't work well", "polarity": "negative", "category": "SOFTWARE#APPLICATION"}, {"aspect": "full-screen mode", "opinion": "very inconvenient", "polarity": "negative", "category": "DISPLAY#FULLSCREEN"}]}
+{"labels": [{"aspect": "processor", "opinion": "pretty fast", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "working", "opinion": "excellently", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "chromebook", "opinion": "best", "polarity": "positive", "category": "LAPTOP#QUALITY"}, {"aspect": "chromebook", "opinion": "overall", "polarity": "positive", "category": "LAPTOP#QUALITY"}]}
+{"labels": [{"aspect": "battery", "opinion": "great", "polarity": "positive", "category": "HARDWARE#BATTERY"}]}
+{"labels": [{"aspect": "backlight", "opinion": "great", "polarity": "positive", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "surface", "opinion": "nice", "polarity": "positive", "category": "LAPTOP#KEYBOARD"}]}
+{"labels": [{"aspect": "multi - touch input", "opinion": "works great", "polarity": "positive", "category": "LAPTOP#INPUT_METHODS"}]}
+{"labels": [{"aspect": "build quality", "opinion": "pleased", "polarity": "positive", "category": "LAPTOP#QUALITY"}]}
+{"labels": [{"aspect": "light", "opinion": "light enough", "polarity": "positive", "category": "LAPTOP#PHYSICAL_DESIGN"}]}
+{"labels": [{"aspect": "runs", "opinion": "without issues", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "speakers", "opinion": "better", "polarity": "positive", "category": "LAPTOP#AUDIO"}]}
+{"labels": [{"aspect": "chromebook", "opinion": "finally", "polarity": "positive", "category": "LAPTOP#DEVICE"}, {"aspect": "$1300 pixel", "opinion": "not", "polarity": "negative", "category": "LAPTOP#SCREEN"}]}
+{"labels": [{"aspect": "screen", "opinion": "great contrast", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "screen", "opinion": "glossy", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "screen", "opinion": "sharp", "polarity": "positive", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "screen", "opinion": "brighter", "polarity": "negative", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "chromebook", "opinion": "great", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "chromebook", "opinion": "spectacular", "polarity": "positive", "category": "LAPTOP#PRODUCT_QUALITY"}]}
+{"labels": []}
+{"labels": [{"aspect": "core m3 processor", "opinion": "NULL", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "c302", "opinion": "NULL", "polarity": "positive", "category": "LAPTOP#GENERAL"}, {"aspect": "fanless", "opinion": "NULL", "polarity": "positive", "category": "LAPTOP#DESIGN"}, {"aspect": "sleek design", "opinion": "sleek", "polarity": "positive", "category": "LAPTOP#DESIGN"}]}
+{"labels": [{"aspect": "timesaver", "opinion": "real", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "display", "opinion": "excellent", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "touch responsive", "opinion": "excellent", "polarity": "positive", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "extra cost", "opinion": "worth", "polarity": "positive", "category": "LAPTOP#VALUE"}, {"aspect": "premium product feel", "opinion": "looking for", "polarity": "positive", "category": "LAPTOP#QUALITY"}]}
+{"labels": [{"aspect": "screen", "opinion": "nice", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "touchscreen", "opinion": "NULL", "polarity": "positive", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "battery", "opinion": "doesn't last nearly as long as advertised", "polarity": "negative", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "machine", "opinion": "fast", "polarity": "positive", "category": "LAPTOP#GENERAL"}, {"aspect": "designed", "opinion": "cleverly", "polarity": "positive", "category": "LAPTOP#DESIGN"}]}
+{"labels": [{"aspect": "operational speed", "opinion": "fastest", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "laptop", "opinion": "fastest", "polarity": "positive", "category": "LAPTOP#GENERAL"}]}
+{"labels": [{"aspect": "NULL", "opinion": "NULL", "polarity": "positive", "category": "NULL"}]}
+{"labels": [{"aspect": "trackpad", "opinion": "isn't the best", "polarity": "negative", "category": "LAPTOP#INPUT_DEVICES"}]}
+{"labels": [{"aspect": "touch screen", "opinion": "accurate", "polarity": "negative", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "screen size", "opinion": "awkward", "polarity": "negative", "category": "LAPTOP#DISPLAY"}, {"aspect": "resolution", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "Chromebooks", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#CATEGORY"}, {"aspect": "ASUS", "opinion": "best choice", "polarity": "positive", "category": "BRAND#CATEGORY"}]}
+{"labels": [{"aspect": "chromebook", "opinion": "extremely impressed", "polarity": "positive", "category": "LAPTOP#PRODUCT_QUALITY"}]}
+{"labels": [{"aspect": "tablet", "opinion": "works well", "polarity": "positive", "category": "LAPTOP#USAGE"}]}
+{"labels": [{"aspect": "laptop", "opinion": "great", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "web based", "opinion": "NULL", "polarity": "neutral", "category": "SOFTWARE#OPERATION"}]}
+{"labels": [{"aspect": "price tag", "opinion": "well worth it", "polarity": "positive", "category": "LAPTOP#PRICE"}]}
+{"labels": [{"aspect": "display", "opinion": "vibrant", "polarity": "positive", "category": "LAPTOP#SCREEN"}, {"aspect": "pixel density", "opinion": "excellent", "polarity": "positive", "category": "LAPTOP#SCREEN"}]}
+{"labels": [{"aspect": "dispersion of ports", "opinion": "like", "polarity": "positive", "category": "LAPTOP#DESIGN"}, {"aspect": "ergonomics", "opinion": "helps", "polarity": "positive", "category": "LAPTOP#USABILITY"}]}
+{"labels": [{"aspect": "screen", "opinion": "huge fan", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "build quality", "opinion": "excellent", "polarity": "positive", "category": "LAPTOP#BUILD_QUALITY"}]}
+{"labels": [{"aspect": "Chrome OS experience", "opinion": "best premium", "polarity": "positive", "category": "SOFTWARE#OPERATION"}, {"aspect": "price", "opinion": "respectable", "polarity": "positive", "category": "PRODUCT#PRICE"}]}
+{"labels": [{"aspect": "screen", "opinion": "fantastic", "polarity": "positive", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "mousepad", "opinion": "comfortable", "polarity": "positive", "category": "LAPTOP#HARDWARE"}]}
+{"labels": [{"aspect": "battery performance", "opinion": "NULL", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "sound", "opinion": "rich and plenty loud enough", "polarity": "positive", "category": "LAPTOP#SOUND_QUALITY"}]}
+{"labels": [{"aspect": "keyboard", "opinion": "comfortably", "polarity": "positive", "category": "LAPTOP#KEYBOARD"}, {"aspect": "backlit", "opinion": "allow", "polarity": "positive", "category": "LAPTOP#KEYBOARD"}]}
+{"labels": [{"aspect": "trackpad", "opinion": "excellent", "polarity": "positive", "category": "LAPTOP#HARDWARE"}, {"aspect": "touchscreen", "opinion": "excellent", "polarity": "positive", "category": "LAPTOP#HARDWARE"}]}
+{"labels": [{"aspect": "speaker sound", "opinion": "ok", "polarity": "neutral", "category": "LAPTOP#AUDIO"}, {"aspect": "speaker sound", "opinion": "not great", "polarity": "negative", "category": "LAPTOP#AUDIO"}]}
+{"labels": [{"aspect": "chromebook", "opinion": "love", "polarity": "positive", "category": "LAPTOP#DEVICES"}, {"aspect": "utility", "opinion": "provides a large amount of", "polarity": "positive", "category": "LAPTOP#UTILIZATION"}, {"aspect": "university setting", "opinion": "perfect", "polarity": "positive", "category": "LAPTOP#ENVIRONMENT"}]}
+{"labels": [{"aspect": "usb - c ports", "opinion": "working well", "polarity": "positive", "category": "LAPTOP#PORTS"}, {"aspect": "multiple port adapter", "opinion": "gives me", "polarity": "positive", "category": "LAPTOP#PORTS"}]}
+{"labels": [{"aspect": "speaker", "opinion": "good", "polarity": "positive", "category": "LAPTOP#SOUND"}]}
+{"labels": [{"aspect": "device", "opinion": "sturdy", "polarity": "positive", "category": "LAPTOP#BUILD_QUALITY"}, {"aspect": "device", "opinion": "clean looking", "polarity": "positive", "category": "LAPTOP#BUILD_QUALITY"}]}
+{"labels": [{"aspect": "touchscreen", "opinion": "very responsive", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "tablet mode", "opinion": "works great", "polarity": "positive", "category": "LAPTOP#OPERATION"}]}
+{"labels": [{"aspect": "battery life", "opinion": "touted", "polarity": "negative", "category": "LAPTOP#BATTERY"}]}
+{"labels": [{"aspect": "chromebook", "opinion": "fantastic", "polarity": "positive", "category": "LAPTOP#HARDWARE"}]}
+{"labels": [{"aspect": "battery", "opinion": "last 13 - 9 hours", "polarity": "positive", "category": "LAPTOP#BATTERY"}]}
+{"labels": [{"aspect": "chromebook", "opinion": "love", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "touchscreen", "opinion": "works very well", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "android apps", "opinion": "are working right now", "polarity": "positive", "category": "SOFTWARE#OPERATION"}]}
+{"labels": [{"aspect": "chromebook", "opinion": "love", "polarity": "positive", "category": "LAPTOP#DEVICE"}]}
+{"labels": [{"aspect": "device", "opinion": "love", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "keyboard", "opinion": "like", "polarity": "positive", "category": "LAPTOP#HARDWARE"}]}
+{"labels": [{"aspect": "device", "opinion": "not especially comfortable", "polarity": "negative", "category": "LAPTOP#OVERALL"}, {"aspect": "bezel", "opinion": "sharp", "polarity": "negative", "category": "LAPTOP#DESIGN"}]}
+{"labels": [{"aspect": "size", "opinion": "just the size I need", "polarity": "positive", "category": "LAPTOP#SPECIFICATIONS"}]}
+{"labels": [{"aspect": "keyboard", "opinion": "praised", "polarity": "positive", "category": "LAPTOP#INPUT_DEVICES"}, {"aspect": "keyboard", "opinion": "spectacular", "polarity": "negative", "category": "LAPTOP#INPUT_DEVICES"}]}
+{"labels": [{"aspect": "weight", "opinion": "light", "polarity": "positive", "category": "LAPTOP#PORTABILITY"}, {"aspect": "build quality", "opinion": "sturdy", "polarity": "positive", "category": "LAPTOP#BUILD_QUALITY"}]}
+{"labels": [{"aspect": "battery life", "opinion": "seems just as promised", "polarity": "positive", "category": "LAPTOP#BATTERY"}]}
+{"labels": [{"aspect": "keyboard", "opinion": "comfortable", "polarity": "positive", "category": "LAPTOP#HARDWARE"}]}
+{"labels": [{"aspect": "screen", "opinion": "clear and bright", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "system", "opinion": "doesn't lag", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "chromebook", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#USAGE"}]}
+{"labels": [{"aspect": "battery", "opinion": "incredibly long", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "wireless printer", "opinion": "no problems", "polarity": "positive", "category": "PERIPHERALS#CONNECTION"}]}
+{"labels": []}
+{"labels": [{"aspect": "NULL", "opinion": "NULL", "polarity": "NULL", "category": "NULL"}]}
+{"labels": [{"aspect": "asus flip 302", "opinion": "consideration", "polarity": "positive", "category": "LAPTOP#PRODUCT"}]}
+{"labels": [{"aspect": "battery life", "opinion": "quite good", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "keyboard experience", "opinion": "great", "polarity": "positive", "category": "LAPTOP#USABILITY"}]}
+{"labels": [{"aspect": "plugs", "opinion": "good", "polarity": "positive", "category": "LAPTOP#PORTS"}, {"aspect": "plugs", "opinion": "bad", "polarity": "negative", "category": "LAPTOP#PORTS"}]}
+{"labels": [{"aspect": "headphones", "opinion": "horribly low", "polarity": "negative", "category": "AUDIO#QUALITY"}, {"aspect": "music", "opinion": "very unenjoyable", "polarity": "negative", "category": "AUDIO#QUALITY"}]}
+{"labels": [{"aspect": "keyboard", "opinion": "nice sized", "polarity": "positive", "category": "LAPTOP#INPUT"}, {"aspect": "tablet", "opinion": "works great", "polarity": "positive", "category": "LAPTOP#DESIGN"}]}
+{"labels": [{"aspect": "machine", "opinion": "far better", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "size", "opinion": "perfect", "polarity": "positive", "category": "LAPTOP#DESIGN"}, {"aspect": "bright", "opinion": "nice", "polarity": "positive", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "laptop", "opinion": "better", "polarity": "positive", "category": "LAPTOP#VALUE"}]}
+{"labels": [{"aspect": "thin", "opinion": "super", "polarity": "positive", "category": "LAPTOP#DESIGN"}, {"aspect": "light", "opinion": "super", "polarity": "positive", "category": "LAPTOP#DESIGN"}]}
+{"labels": [{"aspect": "weight", "opinion": "without all the added weight", "polarity": "positive", "category": "LAPTOP#PHYSICAL_ATTRIBUTES"}]}
+{"labels": [{"aspect": "light in weight", "opinion": "very", "polarity": "positive", "category": "LAPTOP#PHYSICAL_ATTRIBUTES"}, {"aspect": "durable", "opinion": "quite", "polarity": "positive", "category": "LAPTOP#PHYSICAL_ATTRIBUTES"}, {"aspect": "strong", "opinion": "quite", "polarity": "positive", "category": "LAPTOP#PHYSICAL_ATTRIBUTES"}]}
+{"labels": [{"aspect": "picture quality", "opinion": "very good", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "book", "opinion": "responsive", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "book", "opinion": "fast", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "asus", "opinion": "recommend", "polarity": "positive", "category": "LAPTOP#OVERALL"}, {"aspect": "c302", "opinion": "recommend", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "keyboard", "opinion": "weak", "polarity": "negative", "category": "HARDWARE#INPUT_DEVICES"}]}
+{"labels": [{"aspect": "touchscreen", "opinion": "works well", "polarity": "positive", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "handy", "opinion": "handy", "polarity": "positive", "category": "LAPTOP#BUILD_QUALITY"}]}
+{"labels": [{"aspect": "light", "opinion": "very", "polarity": "positive", "category": "LAPTOP#WEIGHT"}, {"aspect": "typing on the couch", "opinion": "comfortable", "polarity": "positive", "category": "LAPTOP#COMFORT"}]}
+{"labels": [{"aspect": "sound", "opinion": "really low", "polarity": "negative", "category": "LAPTOP#AUDIO_QUALITY"}]}
+{"labels": [{"aspect": "spacebar", "opinion": "doesn't accept input", "polarity": "negative", "category": "LAPTOP#KEYBOARD"}]}
+{"labels": [{"aspect": "computer", "opinion": "favorite", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "battery life", "opinion": "stunning", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "NULL", "opinion": "insanely satisfied", "polarity": "positive", "category": "NULL"}]}
+{"labels": [{"aspect": "chromebook", "opinion": "best", "polarity": "positive", "category": "LAPTOP#OVERALL"}]}
+{"labels": [{"aspect": "performance", "opinion": "smooth", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "performance", "opinion": "fast", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "build quality", "opinion": "well engineered", "polarity": "positive", "category": "LAPTOP#BUILD_QUALITY"}, {"aspect": "build quality", "opinion": "built", "polarity": "positive", "category": "LAPTOP#BUILD_QUALITY"}]}
+{"labels": [{"aspect": "screen resolution", "opinion": "great", "polarity": "positive", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "touch pad", "opinion": "accurate", "polarity": "positive", "category": "LAPTOP#INPUT_DEVICES"}]}
+{"labels": [{"aspect": "screen brightness", "opinion": "NULL", "polarity": "negative", "category": "LAPTOP#DISPLAY"}, {"aspect": "keyboard backlight", "opinion": "NULL", "polarity": "negative", "category": "LAPTOP#KEYBOARD"}]}
+{"labels": [{"aspect": "chromebook", "opinion": "very pleased", "polarity": "positive", "category": "LAPTOP#PRODUCT_QUALITY"}, {"aspect": "price tag", "opinion": "worth the price", "polarity": "positive", "category": "LAPTOP#PRICE"}]}
+{"labels": [{"aspect": "touchscreen", "opinion": "nice", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "trackpad", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#INPUT_DEVICES"}, {"aspect": "keyboard", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#INPUT_DEVICES"}]}
+{"labels": [{"aspect": "keyboard", "opinion": "comfortable", "polarity": "positive", "category": "LAPTOP#KEYBOARD"}, {"aspect": "screen", "opinion": "sharp", "polarity": "positive", "category": "LAPTOP#DISPLAY"}]}
+{"labels": []}
+{"labels": [{"aspect": "chromebook", "opinion": "love", "polarity": "positive", "category": "LAPTOP#PRODUCT"}]}
+{"labels": [{"aspect": "touch screen", "opinion": "really accurate", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "360 flip feature", "opinion": "really easy", "polarity": "positive", "category": "LAPTOP#DESIGN"}]}
+{"labels": [{"aspect": "chromebook", "opinion": "5 stars", "polarity": "positive", "category": "LAPTOP#PRODUCT_RATING"}]}
+{"labels": [{"aspect": "computer", "opinion": "great", "polarity": "positive", "category": "LAPTOP#GENERAL"}, {"aspect": "price", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#PRICE"}]}
+{"labels": [{"aspect": "usb - c", "opinion": "no more odd angles", "polarity": "positive", "category": "LAPTOP#PORTS"}, {"aspect": "charging", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#CHARGING"}]}
+{"labels": [{"aspect": "price", "opinion": "expensive", "polarity": "negative", "category": "PRODUCT#PRICING"}]}
+{"labels": [{"aspect": "NULL", "opinion": "NULL", "polarity": "neutral", "category": "NULL"}]}
+{"labels": [{"aspect": "laptop", "opinion": "love", "polarity": "positive", "category": "LAPTOP#OVERALL"}, {"aspect": "laptop", "opinion": "super happy", "polarity": "positive", "category": "LAPTOP#OVERALL"}, {"aspect": "price range", "opinion": "expected", "polarity": "neutral", "category": "LAPTOP#PRICE"}]}
+{"labels": [{"aspect": "feels", "opinion": "mighty solid", "polarity": "positive", "category": "LAPTOP#BUILD_QUALITY"}, {"aspect": "performs", "opinion": "mighty solid", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "wifi connectivity", "opinion": "strong", "polarity": "positive", "category": "LAPTOP#CONNECTIVITY"}, {"aspect": "wifi connectivity", "opinion": "consistent", "polarity": "positive", "category": "LAPTOP#CONNECTIVITY"}]}
+{"labels": [{"aspect": "screen", "opinion": "isn't bright enough", "polarity": "negative", "category": "LAPTOP#DISPLAY"}, {"aspect": "speakers", "opinion": "aren't louder", "polarity": "negative", "category": "LAPTOP#AUDIO"}]}
+{"labels": [{"aspect": "dh54", "opinion": "gets the job done", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "rendering", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "weight painting", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "ripping", "opinion": "NULL", "polarity": "neutral", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "graphics", "opinion": "great", "polarity": "positive", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "NULL", "opinion": "NULL", "polarity": "positive", "category": "NULL#NULL"}]}
+{"labels": [{"aspect": "chromebook", "opinion": "pricey", "polarity": "negative", "category": "LAPTOP#PRICING"}, {"aspect": "chromebook", "opinion": "worth it", "polarity": "positive", "category": "LAPTOP#PRICING"}]}
+{"labels": [{"aspect": "Microsoft Office", "opinion": "drawback", "polarity": "negative", "category": "SOFTWARE#OPERATION"}]}
+{"labels": [{"aspect": "NULL", "opinion": "NULL", "polarity": "positive", "category": "NULL"}]}
+{"labels": [{"aspect": "product", "opinion": "well built", "polarity": "positive", "category": "LAPTOP#BUILD_QUALITY"}]}
+{"labels": [{"aspect": "screen resolution", "opinion": "very good", "polarity": "positive", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "NULL", "opinion": "recommend", "polarity": "positive", "category": "NULL"}]}
+{"labels": [{"aspect": "backlight", "opinion": "love", "polarity": "positive", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "speakers", "opinion": "ok", "polarity": "neutral", "category": "AUDIO"}, {"aspect": "speakers", "opinion": "not amazing", "polarity": "negative", "category": "AUDIO"}, {"aspect": "mounted on the sides", "opinion": "work well", "polarity": "positive", "category": "DESIGN"}]}
+{"labels": [{"aspect": "play store apps", "opinion": "huge plus", "polarity": "positive", "category": "SOFTWARE#OPERATION"}, {"aspect": "google docs", "opinion": "NULL", "polarity": "positive", "category": "SOFTWARE#OPERATION"}]}
+{"labels": [{"aspect": "screen", "opinion": "really good", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "keyboard", "opinion": "much better", "polarity": "positive", "category": "LAPTOP#HARDWARE"}, {"aspect": "form factor", "opinion": "much better", "polarity": "positive", "category": "LAPTOP#HARDWARE"}]}
+{"labels": [{"aspect": "2 - 1 aspect", "opinion": "enjoy", "polarity": "positive", "category": "LAPTOP#DESIGN"}, {"aspect": "weird groves", "opinion": "there aren't any", "polarity": "positive", "category": "LAPTOP#DESIGN"}]}
+{"labels": [{"aspect": "computer", "opinion": "not bad", "polarity": "neutral", "category": "LAPTOP#GENERAL"}, {"aspect": "360 rotation", "opinion": "feel good", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "touch screen", "opinion": "feel good", "polarity": "positive", "category": "LAPTOP#DISPLAY"}]}
+{"labels": [{"aspect": "battery life", "opinion": "amazing", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "NULL", "opinion": "NULL", "polarity": "NULL", "category": "NULL"}]}
+{"labels": [{"aspect": "laptop form", "opinion": "mediocre", "polarity": "negative", "category": "LAPTOP#DESIGN"}]}
+{"labels": [{"aspect": "chromebook", "opinion": "best", "polarity": "positive", "category": "LAPTOP#SPECIFIC_MODEL"}, {"aspect": "laptops", "opinion": "best", "polarity": "positive", "category": "LAPTOP#GENERAL"}]}
+{"labels": [{"aspect": "battery life", "opinion": "great", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "touchscreen / flip feature", "opinion": "love", "polarity": "positive", "category": "LAPTOP#DESIGN"}]}
+{"labels": [{"aspect": "audio quest dragonfly", "opinion": "runs perfectly", "polarity": "positive", "category": "HARDWARE#AUDIO"}, {"aspect": "usb - c ports", "opinion": "automatically detected", "polarity": "positive", "category": "LAPTOP#PORTS"}]}
+{"labels": [{"aspect": "keyboard", "opinion": ["backlit", "big enough"], "polarity": "positive", "category": "LAPTOP#USABILITY"}]}
+{"labels": [{"aspect": "keyboard", "opinion": "love", "polarity": "positive", "category": "LAPTOP#INPUT"}, {"aspect": "screen resolution", "opinion": "love", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "speed", "opinion": "love", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "battery", "opinion": "lasts", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}]}
+{"labels": [{"aspect": "quick", "opinion": "quick", "polarity": "positive", "category": "LAPTOP#PERFORMANCE"}, {"aspect": "battery", "opinion": "lasts a long time", "polarity": "positive", "category": "LAPTOP#BATTERY"}, {"aspect": "functionality", "opinion": "does what I need it to do", "polarity": "positive", "category": "LAPTOP#FUNCTIONALITY"}]}
+{"labels": [{"aspect": "machine", "opinion": "clean, mean, lean", "polarity": "positive", "category": "LAPTOP#BUILD_QUALITY"}]}
+{"labels": [{"aspect": "switch", "opinion": "awesome", "polarity": "positive", "category": "LAPTOP#DESIGN"}]}
+{"labels": [{"aspect": "backlit keyboard", "opinion": "awesome", "polarity": "positive", "category": "LAPTOP#KEYBOARD"}]}
+{"labels": [{"aspect": "keyboard", "opinion": "confusing", "polarity": "negative", "category": "LAPTOP#USABILITY"}]}
+{"labels": [{"aspect": "screen display", "opinion": "bright", "polarity": "positive", "category": "LAPTOP#DISPLAY"}, {"aspect": "graphics", "opinion": "excellent", "polarity": "positive", "category": "LAPTOP#GRAPHICS"}]}
