@@ -31,11 +31,20 @@ class AsinSpiderSpider(scrapy.Spider):
     def parse(self, response):
         # Loop over product containers and extract ASINs
         for product in response.css('div[role="listitem"][data-component-type="s-search-result"]'):
-            # print(product)
             asin = product.attrib.get("data-asin")
             if asin:
                 print(f"Found ASIN: {asin}")
-                yield {"asin": asin}
+                img_src = product.css("img.s-image::attr(src)").get()
+                price = product.css("div[data-cy='price-recipe'] span.a-price > span.a-offscreen::text").get()
+                relative_url = product.css("a.a-link-normal.s-no-outline::attr(href)").get()
+                product_url = response.urljoin(relative_url) if relative_url else None
+                print(f"Found ASIN: {asin}, Price: {price}, Image URL: {img_src}, Product URL: {product_url}")
+                yield {
+                    "asin": asin,
+                    "price": price,
+                    "image_url": img_src,
+                    "product_url": product_url
+                }
                 self.asin_count += 1
 
                 # check if we reached the maximum number of ASINs

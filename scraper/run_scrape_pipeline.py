@@ -50,13 +50,13 @@ def process_asins(review_pages_per_asin=3):
 
     # Loop through each scraped ASIN and process it
     for entry in asins_data:
-        product_id = entry.get('asin')
-        if product_id:
-            print(f"\n=== Processing product: {product_id} ===")
+        # product_id = entry.get('asin')
+        if entry:
+            print(f"\n=== Processing product: {entry.get("asin")} ===")
             # Here you can decide whether to process all ASINs or just one
             processor = AmazonReviewProcessor(
                 api_key=SCRAPINGBEE_API_KEY, 
-                product_id=product_id, 
+                product_info=entry, 
                 review_pages=review_pages_per_asin
             )
             processor.process()
@@ -76,13 +76,13 @@ if __name__ == "__main__":
     #     "apple": ("apple", "&rh=n%3A21512780011%2Cp_123%3A110955"),
     #     "lg": ("lg", "&rh=n%3A21512780011%2Cp_123%3A46658"),
     # }
-    run_spider(brand="hp", max_asins=6)
+    run_spider(brand="hp", max_asins=1) # TODO: 3 asins per brand for testing, 10 reviews per asin, round the percentage to nearest 10 and scrape # reviews based on the percentage
 
     print("=== Processing ASINs ===")
 
     # scrape reviews for each ASIN, define the number of review pages to scrape
     # 1 page = 10 reviews
-    process_asins(review_pages_per_asin=4)
+    process_asins(review_pages_per_asin=1)
 
     print("=== Workflow complete ===")
 
