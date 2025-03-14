@@ -1,0 +1,48 @@
+models
+{
+    "title": "Dell Inspiron Touchscreen ",
+    "product_id": "B0CTPCTW66",
+    "average_rating": "4.2 out of 5 stars",
+    "review_count": "246 global ratings",
+    "link": ///
+    "price": $372,
+    "image_url": djdsadad,
+    "histogram": {
+        "5_star": "65%",
+        "4_star": "17%",
+        "3_star": "5%",
+        "2_star": "3%",
+        "1_star": "10%"
+    },
+    "summary": ...,
+    "pos_5_aspects": ["BATTERY",...],
+    "neg_5_aspects": [...],
+    "pos_4_aspects": [...],
+    "neg_4_aspects": [...],
+    "pos_3_aspects": [...],
+    "neg_3_aspects": [...],
+    "pos_2_aspects": [...],
+    "neg_2_aspects": [...],
+    "pos_1_aspects": [...],
+    "neg_1_aspects": [...],
+},
+
+
+
+front page: user input, kw 4/5 dropdown aspects ranked, selection will 8 Aspects, 4 aspects -> backend > 
+recommended page: list of 5 laptops for now (subj to chg) (image,name, average review, price) 
+show more details (new page): above + historgam + link, overall summary
+
+scraping and backend
+scrape put in a file insert using the file 
+
+
+**Aspects** (subj to chg depends on data):
+   AUDIO
+   BATTERY
+   BUILD_QUALITY
+   DESIGN
+   DISPLAY
+   PERFORMANCE
+   PORTABILITY
+   PRICE
