@@ -1,130 +1,21 @@
 [
     {
-        "title": "HP Pavilion 15.6\" HD Touchscreen Anti-Glare Laptop, 16GB RAM, 1TB SSD Storage, Intel Core Processor up to 4.1GHz, Up to 11 Hours Long Battery Life, Type-C, HDMI, Windows 11 Home, Silver",
-        "product_id": "B0C4G4L53W",
-        "price": "$388.86",
-        "image_url": "https://m.media-amazon.com/images/I/71aTEZOda0L._AC_UY218_.jpg",
-        "product_url": "https://www.amazon.com/HP-Pavilion-Touchscreen-Anti-Glare-Processor/dp/B0C4G4L53W",
+        "title": "Dell Inspiron Touchscreen Laptop, 15.6\" Business & Student Laptop Computer, Windows 11 Pro Laptop 32GB RAM 1TB SSD, Intel i5-1155G7 Processor, Full HD IPS Display, Numeric Keypad, HDMI, Carbon Black",
+        "product_id": "B0CTPCTW66",
+        "price": "$514.97",
+        "image_url": "https://m.media-amazon.com/images/I/61Wc1fDGJuL._AC_UY218_.jpg",
+        "product_url": "https://www.amazon.com/Dell-Inspiron-Touchscreen-i5-1155G7-Processor/dp/B0CTPCTW66",
         "average_rating": "4.2 out of 5 stars",
-        "review_count": "943 global ratings",
+        "review_count": "269 global ratings",
         "histogram": {
-            "5_star": "65%",
-            "4_star": "16%",
-            "3_star": "6%",
+            "5_star": "66%",
+            "4_star": "17%",
+            "3_star": "4%",
             "2_star": "3%",
             "1_star": "10%"
         },
         "histogram_reviews_to_scrape": {
-            "5_star": 6,
-            "4_star": 2,
-            "3_star": 1,
-            "2_star": 0,
-            "1_star": 1
-        },
-        "review": [
-            {
-                "review_text": "The laptop is fast and does everything I have expected from a HP laptop. The price was right on Amazon and the only thing is UPS couldn\u2019t deliver it to my address so I had to drive to a local UPS store to pick it up."
-            },
-            {
-                "review_text": "Fast,durable battery, easy to use,easy set up. Love the touch screen"
-            },
-            {
-                "review_text": "I love this computer is a very good computer"
-            },
-            {
-                "review_text": "10 stars!!!! I've always had HP and apple products. This laptop is a touchscreen and helps with my photo edited for my business. Fast and compact. Highly recommend!!!"
-            },
-            {
-                "review_text": "Works great"
-            },
-            {
-                "review_text": "Great device"
-            },
-            {
-                "review_text": "I have this laptop for a while now and it works perfectly fine, the touch screen is a huge plus for me, for the price it definitely gives value for money. If you are looking for a laptop for school or simple an everyday easy going laptop this is ideal. It\u2019s durable and works well with wifi. I must say I took away one star because the battery doesn\u2019t last long otherwise it\u2019s pretty efficient"
-            },
-            {
-                "review_text": "After a day of use the battery went dead while in sleep mode, when I went to turn it back on it went in to bitlocker recovery mode and would not reload Windows. Idk if that's a windows 11 problem or the computer itself"
-            },
-            {
-                "review_text": "battery only lasts a few hours and not as long as advertised"
-            },
-            {
-                "review_text": "WASTE OF MONEY!! Computer went completely black screened in 11 months. Warranty for 1 year.System was completely removed from laptop while doing class work, sent it to Hp and warranty was voided due to the seller modifying the laptop and adding 1TB when it\u2019s only suppose to come with 256gb. Reached out to Amazon and they said I should receive call from seller which I never did. After seeing everyone else\u2019s reviews I\u2019m sure I won\u2019t get anywhere with them and not willing to pay a $200 bs restocking fee! Hubby is a computer wiz luckily (I should\u2019ve let him look at it first but wanted to use my warranty).These computers are refurbished, all the parts are from HP EXCEPT for the 1TB Hard drive, which is made from Kingston. Did some research and a 1TB drive is only $60 (I would purchase a different brand than Kingston since it\u2019s the cheapest, you get what you pay for).YouTube how to open and replace the hard drive (easy af)  and do it yourself. But this company seems to make sure these laptops only last but a year which is terrible for people using their last to buy the price of crap , trying to get through school/work etc. Smh. BUYER BEWAREI brought the Samsung 990 Evo Plus 1TB hard drive from Amazon for $70 and paid an extra $12 for a 2 year warranty .. just installed it and re-installed Windows 11 and EVERYTHING was backed up once I signed back in to Microsoft which makes me extremely happy!! DO NOT send your laptop back to this company, they will only sell it again with a weak/used hard drive for $400 to someone else\u2026.It\u2019s cheaper to fix it yourself. :)"
-            }
-        ],
-        "review_summary": "The laptop is generally praised for its speed, touch screen, and ease of use, but many reviews highlight issues with battery life and durability, leading to a range of mixed experiences from satisfaction to frustration with warranty and repairs."
-    },
-    {
-        "title": "HP 14 Laptop, Intel Celeron N4020, 4 GB RAM, 64 GB Storage, 14-inch Micro-edge HD Display, Windows 11 Home, Thin & Portable, 4K Graphics, One Year of Microsoft 365 (14-dq0040nr, Snowflake White)",
-        "product_id": "B0947BJ67M",
-        "price": "$177.40",
-        "image_url": "https://m.media-amazon.com/images/I/815uX7wkOZS._AC_UY218_.jpg",
-        "product_url": "https://www.amazon.com/HP-Micro-edge-Microsoft-14-dq0040nr-Snowflake/dp/B0947BJ67M",
-        "average_rating": "4.1 out of 5 stars",
-        "review_count": "2,546 global ratings",
-        "histogram": {
-            "5_star": "64%",
-            "4_star": "13%",
-            "3_star": "7%",
-            "2_star": "3%",
-            "1_star": "13%"
-        },
-        "histogram_reviews_to_scrape": {
-            "5_star": 6,
-            "4_star": 1,
-            "3_star": 1,
-            "2_star": 0,
-            "1_star": 1
-        },
-        "review": [
-            {
-                "review_text": "I got this laptop for use while traveling. Will not use it for demanding software. It's slow. but in the acceptable range. It comes with Windows 11 Home in S mode. S mode limits the software you can use to those available in the Microsoft store. It wouldn't let me use LastPass or Dropbox. It came with Dropbox for S mode, but I couldn't get it to run.I removed S mode - once it's gone it can't be restored - and Dropbox and LastPass ran fine as did Chrome. It took several hours for Dropbox to sync my files, but it did so effectively. Thus, I have access to everything on my hard drive at home. I plugged in a tiny Samsung 256 GB flash drive (it costs $22 on Amazon) into a USB port and now I have far more storage than I'll ever need on this computer. The drive is so small that I'll leave it there for the life of the computer.All the programs I'll need when away from home run on this device. I wouldn't try to use it for gaming, but as a work away-from-home laptop for relatively simple tasks, it does the job at a very affordable price."
-            },
-            {
-                "review_text": "HP 14 Laptop (14-dq0040nr) \u2013 Affordable and Portable, but with Some Trade-offs\u2b50 Rating: 4.0/5 \u2b50Pros:\u2705 Affordable Price \u2013 This HP 14 laptop is budget-friendly, making it a great option for students, light users, or those in need of a secondary device.\u2705 Portable & Lightweight \u2013 The thin and lightweight design makes it easy to carry around, ideal for on-the-go use.\u2705 Decent Display \u2013 The 14-inch HD micro-edge display offers clear visuals, though it's not full HD.\u2705 Windows 11 Home \u2013 Comes with the latest OS, which is optimized for modern applications.\u2705 1-Year Microsoft 365 Subscription \u2013 A great addition for users who rely on Word, Excel, and other Office tools.Cons:\u274c Limited Performance \u2013 The Intel Celeron N4020 processor is okay for basic tasks like web browsing, email, and document editing, but struggles with multitasking or demanding applications.\u274c Only 4GB RAM \u2013 The memory is quite low for modern standards, leading to slower performance when multiple tabs or applications are open.\u274c Minimal Storage (64GB eMMC) \u2013 The storage space is extremely limited, meaning you'll need external storage or cloud solutions for larger files.\u274c Not Ideal for Heavy Use \u2013 Not recommended for gaming, video editing, or other intensive tasks.\u274c No Backlit Keyboard \u2013 Typing in low-light conditions can be challenging.Final Verdict:The HP 14 Laptop (14-dq0040nr) is a solid choice for those needing an affordable, portable device for light tasks like browsing, streaming, and office work. However, its limited RAM and storage make it less suitable for power users or heavy multitaskers. If you need a simple laptop for everyday use and don't mind relying on cloud storage, this could be a good pick\u2014but if you need better performance, consider upgrading to a model with more RAM and SSD storage."
-            },
-            {
-                "review_text": "It's a little slow because it don't have a lot of memory after you update everything but we only got it to look things up and do some research so it's worth it"
-            },
-            {
-                "review_text": "Great laptop for the money. Does everything I need and then some. Very fast and responsive to the network. I highly recommend for a medium level lap top."
-            },
-            {
-                "review_text": "It was easy to set up and start using. It only took a few minutes to put my information in and I started using it."
-            },
-            {
-                "review_text": "If you\u2019re looking for an inexpensive laptop\u2026 this is the one. Exactly as described . Runs quickly , pretty basic. Does what it needs to ."
-            },
-            {
-                "review_text": "The HP 14 is a great choice for those looking for a basic laptop under $200, but it\u2019s not for gamers, designers, or anyone who does more than the basics on their computer. Most surprisingly, it\u2019s even decent  for streaming video and for cord cutters who can take advantage of the HDMI port to connect to a larger display.The basics:  It comes with Windows 11 Home in S mode, but you can easily switch out of S mode if you need to install additional programs not found on the Microsoft store. I turned it off with 4 minutes of use, so that\u2019s a breeze.  And of course, this laptop features a 14-inch 1920 x 1080 display, an Intel Celeron N4020 processor, and 4GB of RAM.**Here are some of the highlights of the HP 14:*** **Great for basic tasks:** The HP 14 can handle basic tasks such as browsing the web, checking email, and using productivity software, but with only 4GB of RAM, I  experienced some  slowdowns when I had many tabs open in my browser or was running multiple programs at once.* **Long battery life:** The laptop can last up to 6.5 hours on a single charge. I was definitely impressed!* **Comfortable keyboard:** The keyboard is bouncy with a generous click and plenty of room for typing.if you like firmer keyboards, this one may not be your jam.* **SD card slot:** The HP 14 includes an SD card slot, which is a rarity for laptops in this price range.perfect for me,because my trail cam\u2019s card can be emptied daily with ease!* **HDMI port:** as mentioned, this is great  for cord cutters who want to connect to a larger display or projector. My last cheap laptop was twice the price of this one and didn\u2019t have an hdmi or a card reader.**Here are some things to keep in mind:*** **Small touchpad:** The touchpad is small and can be difficult to use.* **Dim screen:** The screen is a bit dim and I found it impossible to use outside no matter how I adjusted the display settings.* **Low storage:** 64GB of storage may not be enough for some users.* **Limited RAM:** 4GB of RAM  limits multitasking capabilities.I don\u2019t know yet if those last two items are upgradable, but I\u2019ll check into it if things get bogged down over the next few weeks!**Overall, the HP 14 is a great laptop for students, casual users, and anyone looking for a basic laptop under $200, especially if you don't plan on running multiple programs at once.  However, if you need a laptop for more demanding tasks, you may want to consider a model with more RAM.**"
-            },
-            {
-                "review_text": "It's a nice laptop but it's soooo slow. If you're going to use it to watch YouTube or write google docs, then this wouldn't be bad but if you want to game, play Roblox or use it for work, probably not the best option at all."
-            },
-            {
-                "review_text": "This is a shockingly terrible computer.  The look and feel is extremely cheap.  The thing felt incredibly flimsy, and the entire keyboard could be pushed in without much effort.  Awkward feeling keyboard feel and layout too.  The screen quality was awful.  If you weren't looking at the exact perfect angle, the screen would appear faded out and the color would change.  It has an extremely narrow range of viewing angles.  I could never adjust my eyes to the color, and photos would look simply terrible.  My Chromebook has vastly superior color rendering, and the screen looks good at a wide range of viewing angles.  The resolution was purported to be 1080, but the pixels seemed very large and most things appeared \"blocky\".  But the worst part of this computer was the performance.  Unbelievably slow!  Web pages would take forever to load, text would come in, and a bunch of white boxes would appear on screen until each image would load.  It is not my connection either, as I ran this computer right next to my Chromebook, which had none of these loading problems.  This computer was so slow that it would literally hang up while I was typing!  I would start to type a sentence, and nothing would happen on screen, then a few seconds later, the words would start to show up.  I closed everything but one web browser to compose an email, and I could not write simple text without the computer lagging behind.  It was beyond terrible to the point I may have just gotten a lemon.  But if this was not a broken machine, it's the worst computer I have ever used.  Returned it less than a week after using, I was fed up!"
-            }
-        ],
-        "review_summary": "The laptop is an affordable and lightweight option suitable for basic tasks, but it suffers from slow performance, limited storage, and is not recommended for demanding applications or gaming."
-    },
-    {
-        "title": "HP 15.6\" Business Laptop, Free Microsoft Office 2024 Lifetime License, Copilot AI Chat, HD Touchscreen Display, Intel 6-Core i3-1215U 4.4 GHz, 16GB RAM, 1TB SSD, Long Battery Life, Windows 11 Pro",
-        "product_id": "B0CWN27G3V",
-        "price": "$403.98",
-        "image_url": "https://m.media-amazon.com/images/I/71xEfn8Qi8L._AC_UY218_.jpg",
-        "product_url": "https://www.amazon.com/HP-Business-Microsoft-Lifetime-Touchscreen/dp/B0CWN27G3V",
-        "average_rating": "4.2 out of 5 stars",
-        "review_count": "94 global ratings",
-        "histogram": {
-            "5_star": "65%",
-            "4_star": "16%",
-            "3_star": "5%",
-            "2_star": "3%",
-            "1_star": "11%"
-        },
-        "histogram_reviews_to_scrape": {
-            "5_star": 6,
+            "5_star": 7,
             "4_star": 2,
             "3_star": 0,
             "2_star": 0,
@@ -132,33 +23,234 @@
         },
         "review": [
             {
-                "review_text": "I love this computer. It was easy to set up, it came with Microsoft Office installed (make sure to decline the option to buy 365 twice). It\u2019s light but not cheap feeling.  Great value for the money."
+                "reviewer_name": "TJ",
+                "star_rating": "5.0 out of 5 stars",
+                "review_date": "Reviewed in the United States on February 16, 2025",
+                "review_text": "I bought the 40GB RAM with 2TB and I love it.  Fairly easy to set up, speed is awesome, very light weight, battery life is pretty good.  I would highly recommend this as a great deal for the price."
             },
             {
-                "review_text": "This Laptop was bought for my husband,  we went for it because of the free office.I saw some review that the free Microsoft office didn't come with a license key. But the description on the product site says it comes preinstalled so there is no need for a license key.We set up the Laptop pretty easy, the windows update tool a while but other than that set up was a breeze.If this is your personal Laptop I advise you chose personal, hold off on using your work email until you are done setting up.To get free Microsoft working; When you get to the pary where you are offered free one month 365 you should decline it, it asks you like twice or thrice using different language,  decline it every time. Once you succeed,  it will take you straight to windows and you will find your free Microsoft there and all you have to do is click on word and accept license. (Also this process helps you get off windows s mood) That way you can enjoy your Laptop.Also, if you email is already tied to a 365 account it will be wise to use a neutral email as this may interfer with you getting the decline offer button. (You must use an email to sign into the laptop)I am not sure about battery life and other functionality but so far the Laptop is working fine."
+                "reviewer_name": "Michael Nolan",
+                "star_rating": "5.0 out of 5 stars",
+                "review_date": "Reviewed in the United States on March 13, 2025",
+                "review_text": "Excellent laptop! Fast and convenient. I couldn't ask for a better computer. The Windows 11 is a bit different from the W 10 I have been used to, but after a short time I have found it to be better and seemingly simpler in some ways."
             },
             {
-                "review_text": "I am pleased with the quality of this computer. Sturdy, easy to set-up, happy to have Windows 11 pro and Microsoft Office 24 included. Only been using it for a week, so hoping it will continue to work as well as it has so far. Also delivered in just 3 days of ordering. Internet speed is good even with multiple windows open at once. I'm a retiree, so no gaming just email, shopping and research. But very happy with this purchase."
+                "reviewer_name": "Old JW",
+                "star_rating": "5.0 out of 5 stars",
+                "review_date": "Reviewed in the United States on February 24, 2025",
+                "review_text": "I am enjoying this new computer. It is much quicker than my previous computer and it has many more features for me to use and enjoy. It was priced right and delivered as promised."
             },
             {
-                "review_text": "Just what I was looking for: a light-weight HP laptop that has Microsoft lifetime non-subscription,  upgraded features. I've been satisfactorily using Windows 10 on two 17-inch laptops (an HP and a Lenovo) for several years. But when Microsoft announced not supporting WIN 10 and encouraging the installation of WIN 11, I knew I would have to \"bite the bullet\" and upgrade before I ended up having to buy Windows 11. WIN 11 comes pre-installed. I've become accustomed to using Office suites since the mid-90s (okay, okay I'm now 78).  Free pre-installation of the latest of the non-subscription Office suites (2024) was a big plus when considering the purchase of this new laptop.  I hope I'm all set for the rest of my life.  I was also looking for a laptop that--as I age--I could much more easily carry around the house than I can right now carry my 17-inchers.  (It could also be easier to carry when I pack up other personals if ever notified to evacuate due to fire, wind, or earthquake.) Also, realizing that I didn't necessarily need a 17-inch laptop any longer, I chose a less expensive 15-incher. By the way, validating the pre-installed Office 2019 is easy. Just don't hurry, read everything on the screen as you work toward validation, and you'll be done with that step in four minutes! Watch that you do not install Microsoft 365 'cause you'll have to pay for and subscribe to it. If you don't need it, then Office is truly adequate for you. The legal pre-installed version of Office 2019 is genuine Microsoft software that does not come with a product key and, therefore, it does not need to be registered with Microsoft.  (If you have an online Microsoft account, it's up to you if you want to register the laptop itself.)  One more thing, once you're done with setup process, you'll notice that OneDrive is the default for synchronizing. If you're not familiar with OneDrive, go online to understand what it's for and how it works. Contact the seller via Amazon's communication feature for anything. Just click his name on the right side of the product description page and you'll arrive at the seller's profile with the link for communication in the upper right corner."
+                "reviewer_name": "Angel A. O. Ortiz",
+                "star_rating": "5.0 out of 5 stars",
+                "review_date": "Reviewed in the United States on February 26, 2025",
+                "review_text": "A great price for a 40 GB Ram and 2 TB memory. Great for all purposes, business, trading, emulators, Google meet and all features."
             },
             {
-                "review_text": "I have only had this laptop for a short time but it is fast, Holds a charge well, the camera for meetings is great and all is good! Good value for the money!"
+                "reviewer_name": "Dale",
+                "star_rating": "5.0 out of 5 stars",
+                "review_date": "Reviewed in the United States on March 12, 2025",
+                "review_text": "Nice Dell Laptop with allthe features."
             },
             {
-                "review_text": "Great laptop for the price and it comes with lifetime subscriptions to word, excel, PowerPoint!  Super fast compared to my Acer.  Have only had it set up a few days but love it so far.  Would recommend."
+                "reviewer_name": "Rebecca Jacobson",
+                "star_rating": "5.0 out of 5 stars",
+                "review_date": "Reviewed in the United States on March 3, 2025",
+                "review_text": "Great product and a decent price\u2026"
             },
             {
-                "review_text": "I purchased three of these laptops (1 for me and 2 for my church) to replace non-upgradeable Windows 10 computers.  The hardware configuration and features makes this a very competent laptop.  Connecting to WiFi and downloading required updates was straightforward.  Following the instructions on the OUTSIDE of the HP box for Office 2024 was confusing.  It said to skip or reject the Office 365 Trial offer which I did.  Clicking on any Office app caused a screen to appear showing Office 365 that asked me to agee to the terms of use.  Not sure if I have Office 2024 or 365, or if they are one in the same."
+                "reviewer_name": "Gerald C Vale",
+                "star_rating": "5.0 out of 5 stars",
+                "review_date": "Reviewed in the United States on March 10, 2025",
+                "review_text": "It was a gift for our son and he is very happy with it"
             },
             {
-                "review_text": "It has been so long since I bought a computer, that I did not notice that this portable had no RJ-45 port. When I bought previous computers, that port was an automatic on every computer since it was the only way to connect to the internet.  I bought an adapter to get internet access even thought I do have Wi-FI but I prefer the security of a wired hook-up.  Other than not having that port, this portable has all the features I need since I also bought an Excel software versus paying for 365 every year. Perhaps when I buy my next computer in another 10 years, wireless will be as safe as wired."
+                "reviewer_name": "AnMo917",
+                "star_rating": "4.0 out of 5 stars",
+                "review_date": "Reviewed in the United States on March 1, 2025",
+                "review_text": "Ease of use for high school or college student. It's light weight and a nice resolution touch screen. The 15.6 inch screen size is perfect it's not too big or too small. Not the best graphics card but not bad if used for simple videos or zoom. Great work laptop."
             },
             {
-                "review_text": "Buyer beware. I purchased this as a \u201cnew\u201d computer. First attempt at booting, got timeout error message. Second attempt, error said there was no operating system installed, contact HP. On HP website, was able to see that the computer had less than 10 months warranty. Contacted HP, they asked the size of hard drive. When I told them it was 1TB, they said that serial number machine was not a 1TB machine when it left them in October. I purchased in January. They said Amazon upgraded it and made an error. Bottom line is machine is inoperable. They suggested purchasing from Best Buy or HP directly. This one is going back."
+                "reviewer_name": "JAT",
+                "star_rating": "4.0 out of 5 stars",
+                "review_date": "Reviewed in the United States on January 31, 2025",
+                "review_text": "This item was advertised as having Microsoft 11 pro. It is 11 home.  Upon initial set up was unable to login to welcome screen. Took it to a local tech to fix this - paid out of pocket for repair. On board speakers did not work. Went to Dell support to download a new driver which resolved the problem. Otherwise, so far, I like the screen size and performance of the laptop. My intended use is casual, personal for home."
+            },
+            {
+                "reviewer_name": "Thomas Going",
+                "star_rating": "1.0 out of 5 stars",
+                "review_date": "Reviewed in the United States on January 9, 2025",
+                "review_text": "BUYER BEWARE OF DELL, AMAZON AND THIRD PARTY SELLERS ON AMAZON.  And extended warranty company Asurion.Amazon's  practice of listing and selling products like Dell computers for third party sellers seems like a scam, since the third party seller can sell old products on Amazon where the warranty is already expired or almost so.  And I saw nothing on AMAZON's site when I bought the DELL computer that things like an expired or limited time warranty could be an issue when buying ON AMAZON from a third party seller.Bought this Dell computer on Amazon, July 16, 2024, and Jan.3, 2025 the screen separated from the cover.  Contacted Dell, and they advised the WARRANTY was EXPIRED!  That's less than 6 months.  Dell said the AMAZON third party seller resold the computer on AMAZON months after it bought the computer, and the warranty began to run earlier when the third party seller bought the computer. Not when I purchased the computer on Amazon!Spent hours on the phone with Dell, and they know about this issue with third party sellers.  Even after providing them with the Amazon invoice and receipt of when I took possession of the computer, they would not help me and apply and run the warranty to the date I bought the computer from Amazon.Amazon's rep basically said sorry, but that's my problem for buying from a third party seller. Say what?  I bought the computer on AMAZON and paid AMAZON.  Now I'm out of luck?To make matters worse, I bought an extended warranty on Amazon from Asurion on the same day I bought the Dell computer on Amazon.  When I tried to make a claim, Asurion auto responded that the Dell computer still has the manufactures warranty and to contact Dell, seemingly as a result of only having purchased the computer from Amazon in July.  And not taking into account that the warranty started to run when the third party seller bought the computer months earlier.Shame on Dell, Amazon, and Asurion."
             }
         ],
-        "review_summary": "The laptop reviews highlight its affordability, ease of setup, lightweight design, and inclusion of Microsoft Office, though there are mixed experiences regarding connectivity features and some concerns about warranty issues and operating system installation."
+        "review_summary": "The laptop offers excellent performance, lightweight design, and great value for money, though customers have faced issues with incorrect specifications and warranty complications from third-party sellers."
+    },
+    {
+        "title": "Dell Latitude 3550 Laptop Computer for Business and Work, 13th Gen Intel 10-Core i5-1335U (Beat i7-1255U), 32GB DDR5 RAM, 1TB PCIe SSD, 15.6\" FHD, WiFi 6E, Bluetooth 5.3, USB4 Type-C, Windows 11 Pro",
+        "product_id": "B0CTKKHKR3",
+        "price": "$799.00",
+        "image_url": "https://m.media-amazon.com/images/I/81RuYfizHuL._AC_UY218_.jpg",
+        "product_url": "https://www.amazon.com/Dell-Latitude-3540-i7-1195G7-Bluetooth/dp/B0CTKKHKR3",
+        "average_rating": "4.4 out of 5 stars",
+        "review_count": "46 global ratings",
+        "histogram": {
+            "5_star": "82%",
+            "4_star": "6%",
+            "1_star": "12%"
+        },
+        "histogram_reviews_to_scrape": {
+            "5_star": 8,
+            "4_star": 1,
+            "1_star": 1
+        },
+        "review": [
+            {
+                "reviewer_name": "default_character",
+                "star_rating": "5.0 out of 5 stars",
+                "review_date": "Reviewed in the United States on December 7, 2024",
+                "review_text": "This is a nice little laptop for when you're travelling, which is why I purchased it.  Good price and quick delivery; free support for a while (forgot how long).  No issues when starting it up for the first time, just the regular annoying Windows quirks; seemed that you had to have a Microsoft email account already set up, because I was unable to configure one by following the prompts on the install.  But we all know about MS issues.  No problems getting my critical Windows 10 software installed.  I gave up on getting the MS tools (like Outlook, Excel, Word) re-installed, because of all the license junk they add on to make it impossible (let's just call it \"Bill's revenge,\" ok?  Instead, I used Thunderbird for email (wow!!!!), and Google for the docs.  Way less of a pain.Crisp and clear screen -- really amazing.  Great SSD storage size, and very light.  Haven't tried to use unplugged for an afternoon, but I'm supposing it'll function.  Keyboard is kind of ok; fine for travelling, but not sure about using 24x7.  Blazingly fast, and 32GB of memory is awesome."
+            },
+            {
+                "reviewer_name": "Ben",
+                "star_rating": "5.0 out of 5 stars",
+                "review_date": "Reviewed in the United States on September 15, 2024",
+                "review_text": "Purchased this laptop as my personal laptop when I retired. Setup was easy and it is working great."
+            },
+            {
+                "reviewer_name": "James E. O'Brien",
+                "star_rating": "5.0 out of 5 stars",
+                "review_date": "Reviewed in the United States on October 28, 2024",
+                "review_text": "I am delighted with this product. The ease and comfort of set up shocked me in its simplicity. The connectivity is so precise that I hardly had to lift a finger in order to load - and instantly use - the programs, software and apps I use regularly. The machine simply went out and transferred the connections that had been in place in my previous machine, once it had securely verified and confirmed my identity and the validity of my access. When I think of the old days of installing this, that and the other...In addition, the speed of operation, the storage capacity and system stability are a dream come true. I only regret having waited as long as I did to upgrade machines."
+            },
+            {
+                "reviewer_name": "Michael A Schall",
+                "star_rating": "5.0 out of 5 stars",
+                "review_date": "Reviewed in the United States on January 2, 2025",
+                "review_text": "This is the same brand and model that I use at work. I don't want to mix personal and business browsing. I like this brand and model of computer. Thank you."
+            },
+            {
+                "reviewer_name": "Thomas",
+                "star_rating": "5.0 out of 5 stars",
+                "review_date": "Reviewed in the United States on November 13, 2024",
+                "review_text": "The keyboard is lit and using the mouse adds the the speed of this Dell laptop!  Large hard drive and memory add to faster performance!"
+            },
+            {
+                "reviewer_name": "Robert C. Cochran",
+                "star_rating": "5.0 out of 5 stars",
+                "review_date": "Reviewed in the United States on August 18, 2024",
+                "review_text": "Dell Latitude 3540 15.6\" Laptop is a great quality product and an outstanding value for the money."
+            },
+            {
+                "reviewer_name": "S. Barefield",
+                "star_rating": "5.0 out of 5 stars",
+                "review_date": "Reviewed in the United States on October 31, 2024",
+                "review_text": "I use a dell computer for work, so I knew what to expect. I love this computer. Does everything I need to do for home use."
+            },
+            {
+                "reviewer_name": "MJC",
+                "star_rating": "5.0 out of 5 stars",
+                "review_date": "Reviewed in the United States on November 22, 2024",
+                "review_text": "Dell is always a best in class buy"
+            },
+            {
+                "reviewer_name": "Kate",
+                "star_rating": "4.0 out of 5 stars",
+                "review_date": "Reviewed in the United States on October 14, 2019",
+                "review_text": "This computer is used for word processing and design work. It has the capacity to manage large amounts of photo and video data."
+            },
+            {
+                "reviewer_name": "Verified purchase",
+                "star_rating": "1.0 out of 5 stars",
+                "review_date": "Reviewed in the United States on November 17, 2024",
+                "review_text": "It was shipped to the Philippines from USA. We paid extra shipping fee so it will come early but it arrived 2 days late than expected and the package arrived open box and has scratches on the side and no warranty card just like when you buy at Dell directly. Setting up was awful. We got blue screen and kernel security problem and it froze and had to reboot it hard and turned on and upon doing something a blue screen popped up again experiencing problem again. Talk to agent and nobody could help. Will return if not fixed in a month\u2019s time.Update: So much it caused us just to return this item. Beware of the return label especially if it\u2019s outside USA as you have to pay for your shipment because the waybill number would be invalid. We have returned it after 2 months. Also make sure ask the seller to provide you with MSDS form as it is needed to process your return. I don\u2019t recommend buying from 3rd party seller or marketplace seller like Tech Plus Pro as Dell won\u2019t recognize your laptop for warranty even if it\u2019s brand new. We\u2019ll see if they will refund me fully and even the shipping fee and import fees. I will update soon.Update: They are refusing to refund me. They got the item back and asking for paper work that customer impossible to provide and now no refund. Terrible customer service and return policy."
+            }
+        ],
+        "review_summary": "The laptop is praised for its portability, ease of setup, performance, and value, though some users experienced issues with customer service and returns when purchased from third-party sellers."
+    },
+    {
+        "title": "Dell Inspiron 15 3000 3520 Business Laptop Computer[Windows 11 Pro], 15.6'' FHD Touchscreen, 11th Gen Intel Quad-Core i5-1135G7, 16GB RAM, 1TB PCIe SSD, Numeric Keypad, Wi-Fi, Webcam, HDMI, Black",
+        "product_id": "B0CC936WF1",
+        "price": "$489.00",
+        "image_url": "https://m.media-amazon.com/images/I/71gbrvRJI-L._AC_UY218_.jpg",
+        "product_url": "https://www.amazon.com/Dell-Laptop-Touchscreen-Quad-Core-i5-1135G7/dp/B0CC936WF1",
+        "average_rating": "4.2 out of 5 stars",
+        "review_count": "364 global ratings",
+        "histogram": {
+            "5_star": "65%",
+            "4_star": "15%",
+            "3_star": "6%",
+            "2_star": "3%",
+            "1_star": "11%"
+        },
+        "histogram_reviews_to_scrape": {
+            "5_star": 6,
+            "4_star": 2,
+            "3_star": 1,
+            "2_star": 0,
+            "1_star": 1
+        },
+        "review": [
+            {
+                "reviewer_name": "P Brac",
+                "star_rating": "5.0 out of 5 stars",
+                "review_date": "Reviewed in the United States on January 22, 2025",
+                "review_text": "I like Dell laptops, with touchscreen, runs faster than my old machine. All the features I wanted ."
+            },
+            {
+                "reviewer_name": "Mark F.",
+                "star_rating": "5.0 out of 5 stars",
+                "review_date": "Reviewed in the United States on December 11, 2024",
+                "review_text": "I've been using Dell laptops, workstations and servers and network switches for 3 decades. In this time, I've had one server motherboard replaced under warranty and all the other hardware goes way past its life expectancy with some equipment running a decade or more without issues. You simply can't go wrong with a Dell product. My laptop has been running flawless and the build quality is outstanding as with all of their other products.Buy it !"
+            },
+            {
+                "reviewer_name": "Angela Conti",
+                "star_rating": "5.0 out of 5 stars",
+                "review_date": "Reviewed in the United States on February 25, 2025",
+                "review_text": "My business laptop's hard drive crashed. I ordered this one until I could find another. It's fast and has a nice battery life for a second work laptop."
+            },
+            {
+                "reviewer_name": "M. Pelland",
+                "star_rating": "5.0 out of 5 stars",
+                "review_date": "Reviewed in the United States on January 7, 2025",
+                "review_text": "I returned three \"refurbished\" Amazon laptops--very annoying and time consuming. Each had problems. In days gone by, refurbished or renewed electronics were a good value and dependable. I gave up and chose the new model of this Dell. Win 11. It is exactly what I need with no issues, no problems. The keyboard lights up. The cover is attractive. The unit works perfectly. Buy new--it's worth it."
+            },
+            {
+                "reviewer_name": "Karmen KG",
+                "star_rating": "5.0 out of 5 stars",
+                "review_date": "Reviewed in the United States on January 29, 2025",
+                "review_text": "this is very fast, light, and small not too small but enough to read well"
+            },
+            {
+                "reviewer_name": "Omar",
+                "star_rating": "5.0 out of 5 stars",
+                "review_date": "Reviewed in the United States on February 7, 2025",
+                "review_text": "Excelente equipo,tiene muy buenas propiedades, muy rapida,buen precio la recomiendo 100%"
+            },
+            {
+                "reviewer_name": "Jeff",
+                "star_rating": "4.0 out of 5 stars",
+                "review_date": "Reviewed in the United States on January 6, 2025",
+                "review_text": "I've had several Dell computers over the years.  My last laptop was an hp and broke after only three years.  The back of the base cracked.  It was usable but I could not close the cover.  The speed was also slow.  After doing some research, I found this Dell model.  The hp was bigger and that posed some problems.  This size is better.  The only drawback that I didn't notice when I ordered is that it does not have backlit keys.  Other dells have had this and once you have, it you get spoiled.  For now, it's been great."
+            },
+            {
+                "reviewer_name": "Joe Bios",
+                "star_rating": "4.0 out of 5 stars",
+                "review_date": "Reviewed in the United States on December 21, 2024",
+                "review_text": "I purchased a Dell 3520 Win 11 Pro from a reseller \"Like New\". A few things folks might find helpful. 1. Dell sells a limited set of configurations (Memory, SSD, etc), so resellers open the laptop to \"upgrade\" memory, SSD to offer more choice in configurations. Of course, this begs the question what components are being installed. In my case the components were reasonable: 16GB Samsung DDR4 3200 memory and WD Green 1TB SSD, but its \"reasonable\" to check the delivered system. 2. Microsoft defaults to keeping a \"remarkable\" amount of information about your activities, like every app installed, every webpage viewed, etc., so I strongly suggest logging into your Microsoft account (account.microsoft.com) and turn on every privacy control they provide. Then clear the accumulated history and log into the account in a day or so and check if they stopped accumulating data. 3. Windows PRO provides S Mode which is a restrictive version of Windows (only M$ store apps, lighter weight process controls etc). This is mostly for PCs going to less than trusted employees. Turning off S Mode is a one-way trip, i.e. it cannot be reenabled (essentially forever). The system I receive had S Mode off. This is something I would have done anyway, but it's something to consider if you need S Mode for employee users."
+            },
+            {
+                "reviewer_name": "Amazon Customer",
+                "star_rating": "3.0 out of 5 stars",
+                "review_date": "Reviewed in the United States on February 6, 2025",
+                "review_text": "this dell computer does work well. the volume keys do not work, I downloaded an app and have problems with it. I would like to return this dell computer. I can not get the apps. that I am use to. I need a computer that I can the apps. that I need. I also need to update my grand daughter Tandem insulin pump and can do it on this computer. I can do this on a computer that has play store on it. The pump need to be updated before the end of this month. I have 2 computers picked out in my cart to choice from. THIS IS VERY IMPORTANT THAT I GET INSULIN PUMP IS VERY NECCESARY TO MY GRAND DAUGHTER.  THANK YOU VERY MUCHI am so sorry, I did see your  report and credit to my account. I would like to send back to you. please send me a return label so I can print it out and send back to you.  Like I said I AM SO SORRY I DID SEE THE RETURN TO ME  THANK YOU VERY MUCHI received the new computer and returning the dell computer in the box the new computer was in.  How do i return it back, do I need a return label"
+            },
+            {
+                "reviewer_name": "Capt. C.",
+                "star_rating": "1.0 out of 5 stars",
+                "review_date": "Reviewed in the United States on June 11, 2024",
+                "review_text": "I can only begin this review with serious misgivings about this particular Dell Inspirion laptop.  When one purchases a product from a \"Dell Vendor\", one presumes it is a 100% Dell product.  Apparently this was not the case with this laptop.  Exactly 3 days after the Amazon/Vendor's return policy ran out, this laptop stopped working.  The error message was \"Corrupt Hard Drive\".  I can understand electronic devices will sometimes have issues.  I can also understand manufacturers and vendors need to have a limit on how long they will allow items to be returned.  So we called Dell Warranty Service, and they were very helpful.  They sent a box, pre-paid shipping label and we thought that would be the end of it.  Wait a reasonable time for the laptop to be repaired under warranty, and we could go on with our lives.  NOT SO.  According to the Dell Warranty Center, this particular laptop has a 3rd Party Hard Drive.  Not a hard-drive provided by Dell or installed by Dell or used by Dell.  So... our laptop was... in fact... not able to be repaired under warranty.  Dell has offered to fix the laptop and install the correct, but the repair is nearly as much as the laptop cost new from Amazon.  This is totally unacceptable!  When we bought the laptop, we presumed it was a new Dell Laptop with appropriately sourced and installed electronics that would be approved by Dell (or installed by Dell)... BUYER BEWARE of ROKC Electronics.  They have offered NO Help,  NO Sympathy,  and we are now completely out of the money we spent, and have a laptop that is absolutely Useless!!!!  I can only imagine if we were still in the window for return, they would put the same Non-Dell parts back in, and we would be facing similar issues down the road.  This is not the way to run a business.  And certainly not the way an Amazon vendor should be doing business.  Very Very Very Disappointed!"
+            }
+        ],
+        "review_summary": "The laptop reviews highlight strong satisfaction with Dell products, emphasizing their speed, reliability, and build quality, but also caution against third-party models due to potential hardware issues."
     }
 ]

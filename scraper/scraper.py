@@ -156,9 +156,23 @@ class AmazonReviewProcessor:
                         page_soup = BeautifulSoup(page_content, 'html.parser')
                         review_elements = page_soup.select("li[data-hook='review']")
                         for rev in review_elements:
-                            span_tag = rev.select_one("span[data-hook='review-body'] span")
-                            if span_tag:
-                                star_reviews.append(span_tag.get_text(strip=True))
+                            review_text_tag = rev.select_one("span[data-hook='review-body'] span")
+                            reviewer_name_tag = rev.select_one("a.a-profile > div.a-profile-content > span.a-profile-name")
+                            star_rating_tag = rev.select_one("i[data-hook='review-star-rating'] span.a-icon-alt")
+                            review_date_tag = rev.select_one("span[data-hook='review-date']")
+                            
+                            # scrape reviews
+                            if review_text_tag:
+                                review_text = review_text_tag.get_text(strip=True)
+                                reviewer_name = reviewer_name_tag.get_text(strip=True) if reviewer_name_tag else ""
+                                star_rating = star_rating_tag.get_text(strip=True) if star_rating_tag else ""
+                                review_date = review_date_tag.get_text(strip=True) if review_date_tag else ""
+                                star_reviews.append({
+                                    "reviewer_name": reviewer_name,
+                                    "star_rating": star_rating,
+                                    "review_date": review_date,
+                                    "review_text": review_text
+                                })
                             if len(star_reviews) >= count_needed:
                                 break
                     else:
@@ -171,9 +185,14 @@ class AmazonReviewProcessor:
             else:
                 print(f"No reviews to scrape for {star} rating.")
 
-        # --- Use only the star-filtered reviews (skip main reviews) ---
-        unique_review_texts = list(dict.fromkeys(additional_reviews))
-        combined_reviews = [{"review_text": text} for text in unique_review_texts if text]
+        # --- Remove duplicate reviews ---
+        unique_reviews = []
+        seen_texts = set()
+        for review in additional_reviews:
+            if review["review_text"] not in seen_texts:
+                seen_texts.add(review["review_text"])
+                unique_reviews.append(review)
+        combined_reviews = unique_reviews
         self.total_reviews_scraped = len(combined_reviews)
 
         # --- Extract additional product details ---

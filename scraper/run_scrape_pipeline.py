@@ -111,7 +111,7 @@ if __name__ == "__main__":
     #     "apple": ("apple", "&rh=n%3A21512780011%2Cp_123%3A110955"),
     #     "lg": ("lg", "&rh=n%3A21512780011%2Cp_123%3A46658"),
     # }
-    run_spider(brand="hp", max_asins=3) # TODO: 3 asins per brand for testing, 10 reviews per asin, round the percentage to nearest 10 and scrape # reviews based on the percentage
+    run_spider(brand="dell", max_asins=3) # TODO: 3 asins per brand for testing, 10 reviews per asin, round the percentage to nearest 10 and scrape # reviews based on the percentage
 
     print("=== Processing ASINs ===")
 
