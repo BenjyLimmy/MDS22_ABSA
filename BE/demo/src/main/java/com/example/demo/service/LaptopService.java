@@ -28,6 +28,10 @@ public class LaptopService {
 
     private static final Logger logger = LoggerFactory.getLogger(LaptopService.class);
 
+    // get all laptops from database
+    public List<Laptop> getAllLaptops() {
+        return laptopRepository.findAll();
+    }
 
     // import many files at once 
     public void importDataFromDirectory(String directoryPath) throws IOException {
