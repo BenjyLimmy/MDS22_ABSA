@@ -10,6 +10,8 @@ import com.example.demo.model.Laptop;
 import com.example.demo.service.LaptopService;
 
 import java.io.IOException;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 @RestController
@@ -30,7 +32,11 @@ public class LaptopController {
     }
 
     @GetMapping("/laptops")
-    public ResponseEntity<List<Laptop>> getAllLaptops(@RequestParam(required = false) List<String> aspects) {
+    public ResponseEntity<List<Laptop>> getAllLaptops(@RequestParam(required = false) String aspects) {
+        List<String> aspectList = aspects != null
+                ? Arrays.asList(aspects.split(","))
+                : Collections.emptyList();
+                
         // For now, we're not using the aspects parameter
         List<Laptop> laptops = laptopService.getAllLaptops();
         return ResponseEntity.ok(laptops);
