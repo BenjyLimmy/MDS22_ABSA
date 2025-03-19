@@ -40,6 +40,9 @@ public class Laptop {
     @JsonProperty("histogram")
     private Map<String, String> histogram;
 
+    @JsonProperty("histogram_reviews_to_scrape")
+    private Map<String, String> histogramReviewsToScrape;
+
     @JsonProperty("review")
     private List<Review> review;
 
@@ -148,6 +151,14 @@ public class Laptop {
 
     public void setHistogram(Map<String, String> histogram) {
         this.histogram = histogram;
+    }
+
+    public Map<String, String> getHistogramReviewsToScrape() {
+        return histogramReviewsToScrape;
+    }
+
+    public void setHistogramReviewsToScrape(Map<String, String> histogramReviewsToScrape) {
+        this.histogramReviewsToScrape = histogramReviewsToScrape;
     }
 
     public List<Review> getReview() {
