@@ -26,6 +26,8 @@ pip install -r requirements.txt
 
 - `SCRAPINGBEE_API_KEY`
 - `AMAZON_COOKIES`
+- `MONGO_USERNAME`
+- `MONGO_PASSWORD`
 
 ## Running the Scraper Pipeline
 
