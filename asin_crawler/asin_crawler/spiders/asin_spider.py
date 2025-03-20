@@ -1,5 +1,9 @@
+import os
 import scrapy
 from scrapy import Request
+from dotenv import load_dotenv
+
+load_dotenv()
 
 class AsinSpiderSpider(scrapy.Spider):
     name = "asin_spider"
@@ -16,6 +20,7 @@ class AsinSpiderSpider(scrapy.Spider):
 
     def __init__(self, brand="hp", max_asins=None, *args, **kwargs):
         super().__init__(*args, **kwargs)
+        self.cookies = {'cookie_name': os.getenv("AMAZON_COOKIES")}
         if brand not in self.brand_filter_map:
             self.logger.error(f"Brand '{brand}' not found. Defaulting to 'hp'.")
             brand = "hp"
@@ -28,8 +33,13 @@ class AsinSpiderSpider(scrapy.Spider):
         self.max_asins = int(max_asins) if max_asins is not None else None
         self.asin_count = 0
 
+    def start_requests(self):
+        for url in self.start_urls:
+            yield Request(url, cookies=self.cookies, callback=self.parse)
+
     def parse(self, response):
         # Loop over product containers and extract ASINs
+        print("res:", response)
         for product in response.css('div[role="listitem"][data-component-type="s-search-result"]'):
             asin = product.attrib.get("data-asin")
             if asin:

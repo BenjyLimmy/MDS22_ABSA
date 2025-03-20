@@ -18,7 +18,7 @@ class AmazonReviewProcessor:
         self.image_url = product_info.get("image_url")
         self.product_url = product_info.get("product_url")
         self.pages = review_pages
-        self.output_dir = "sample_data"
+        self.output_dir = "scraper_results"
         self.ensure_output_dir()
         
         # Track for summary
@@ -215,7 +215,7 @@ class AmazonReviewProcessor:
         }
 
         # Save the product data into a JSON file (accumulating if file exists)
-        json_path = os.path.join(self.output_dir, "product.json")
+        json_path = os.path.join(self.output_dir, "reviews.json")
         if os.path.exists(json_path):
             with open(json_path, "r", encoding="utf-8") as infile:
                 try:
