@@ -26,7 +26,7 @@ def scrape_asins(brand, max_asins=None):
     handler.run()
 
 
-def process_asins(review_pages_per_asin=3):
+def scrape_reviews(review_pages_per_asin=3):
     """
     Reads the ASINs from asins.json and processes them.
     """
@@ -92,7 +92,7 @@ if __name__ == "__main__":
     # scrape_asins(brand="hp", max_asins=3)
 
     print("=== Processing ASINs ===")
-    # process_asins(review_pages_per_asin=1)
+    scrape_reviews(review_pages_per_asin=1)
 
     print("=== Adding summaries ===")
     # add_summaries()
