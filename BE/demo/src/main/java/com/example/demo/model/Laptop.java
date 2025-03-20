@@ -52,6 +52,15 @@ public class Laptop {
     @JsonProperty("review_sentiments")
     private ReviewSentiment reviewSentiments;
 
+    private Integer audioScore;
+    private Integer batteryScore;
+    private Integer buildQualityScore;
+    private Integer designScore;
+    private Integer displayScore;
+    private Integer performanceScore;
+    private Integer portabilityScore;
+    private Integer priceScore;
+
 
     // Getters and Setters
     public String getId() {
@@ -149,6 +158,80 @@ public class Laptop {
     public void setReviewSummary(String reviewSummary) {
         this.reviewSummary = reviewSummary;
     }
+
+    public ReviewSentiment getReviewSentiments() {
+        return reviewSentiments;
+    }
+
+    public void setReviewSentiments(ReviewSentiment reviewSentiments) {
+        this.reviewSentiments = reviewSentiments;
+    }
+
+    public Integer getAudioScore() {
+        return audioScore;
+    }
+
+    public void setAudioScore(Integer audioScore) {
+        this.audioScore = audioScore;
+    }
+
+    public Integer getBatteryScore() {
+        return batteryScore;
+    }
+
+    public void setBatteryScore(Integer batteryScore) {
+        this.batteryScore = batteryScore;
+    }
+
+    public Integer getBuildQualityScore() {
+        return buildQualityScore;
+    }
+
+    public void setBuildQualityScore(Integer buildQualityScore) {
+        this.buildQualityScore = buildQualityScore;
+    }
+
+    public Integer getDesignScore() {
+        return designScore;
+    }
+
+    public void setDesignScore(Integer designScore) {
+        this.designScore = designScore;
+    }
+
+    public Integer getDisplayScore() {
+        return displayScore;
+    }
+
+    public void setDisplayScore(Integer displayScore) {
+        this.displayScore = displayScore;
+    }
+
+    public Integer getPerformanceScore() {
+        return performanceScore;
+    }
+
+    public void setPerformanceScore(Integer performanceScore) {
+        this.performanceScore = performanceScore;
+    }
+
+    public Integer getPortabilityScore() {
+        return portabilityScore;
+    }
+
+    public void setPortabilityScore(Integer portabilityScore) {
+        this.portabilityScore = portabilityScore;
+    }
+
+    public Integer getPriceScore() {
+        return priceScore;
+    }
+
+    public void setPriceScore(Integer priceScore) {
+        this.priceScore = priceScore;
+    }
+
+    
 
 
 
