@@ -31,20 +31,9 @@ pip install -r requirements.txt
 
 ### To run the scraper pipeline:
 
-- Run the following:
-  ```
-  py -m scraper.run_scrape_pipeline
-  ```
+- Just run the `run_scrape_pipeline.py` file.
 - The pipeline will run the following in order:
   - ASIN Crawler
   - Review Scraper for each ASIN ID
-
-## Running the Crawler (Deprecated)
-
-### To run the scrapy crawler to get asin IDs:
-
-- `cd` into asin_crawler
-- Run the following:
-  ```
-  scrapy crawl asin_spider -o <YOUR_FILE_NAME>.json
-  ```
+  - Review Summariser
+  - Sentiment Analysis
