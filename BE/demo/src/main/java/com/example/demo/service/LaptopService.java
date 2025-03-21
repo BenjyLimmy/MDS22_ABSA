@@ -2,6 +2,7 @@ package com.example.demo.service;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Stream;
@@ -128,14 +129,14 @@ public class LaptopService {
     private int calculateScoreForStar(List<String> posAspects, List<String> negAspects, String aspect, int starRating) {
         int score = 0;
 
-        // Check if the aspect is in the positive aspects list.
-        if (posAspects != null && posAspects.contains(aspect)) {
-            score += starRating;
+        if (posAspects != null) {
+            int positiveCount = Collections.frequency(posAspects, aspect);
+            score += positiveCount * starRating;
         }
 
-        // Check if the aspect is in the negative aspects list.
-        if (negAspects != null && negAspects.contains(aspect)) {
-            score -= (6 - starRating); // Invert the star rating for negative aspects.
+        if (negAspects != null) {
+            int negativeCount = Collections.frequency(negAspects, aspect);
+            score -= negativeCount * (6 - starRating);
         }
 
         return score;
