@@ -10,8 +10,9 @@ from dotenv import load_dotenv
 from typing import Dict
 
 class AmazonReviewProcessor:
-    def __init__(self, api_key, product_info: Dict[str, str], review_pages=5):
+    def __init__(self, api_key, brand: str, product_info: Dict[str, str], review_pages=5):
         self.api_key = api_key
+        self.brand = brand
         # product_info can be a dict with keys "asin", "price", "image_url", "product_url"
         self.product_id = product_info.get("asin")
         self.price = product_info.get("price")
@@ -215,7 +216,7 @@ class AmazonReviewProcessor:
         }
 
         # Save the product data into a JSON file (accumulating if file exists)
-        json_path = os.path.join(self.output_dir, "reviews.json")
+        json_path = os.path.join(self.output_dir, f"{self.brand}_reviews.json")
         if os.path.exists(json_path):
             with open(json_path, "r", encoding="utf-8") as infile:
                 try:

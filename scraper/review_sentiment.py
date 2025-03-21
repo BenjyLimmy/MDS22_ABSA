@@ -28,9 +28,9 @@ SENTIMENT_PROMPT = """
 """
 
 class SentimentGenerator:
-    def run(self):
-        path_to_product_json = './scraper_results/processed_reviews.json'
-        out_path = './scraper_results/sentiment_analysis.json'
+    def run(self, brand: str):
+        path_to_product_json = f'./scraper_results/{brand}_processed_reviews.json'
+        out_path = f'./scraper_results/final/{brand}_sentiment_analysis.json'
 
         if not os.path.exists(path_to_product_json):
             print("No processed reviews file found. Make sure the reviews have been processed.")
@@ -83,12 +83,17 @@ class SentimentGenerator:
                         new_aspects = response_json.get(key, [])
                         aggregated_sentiments[key].extend(new_aspects)
             
-            # Remove duplicates for each sentiment key
+            # Add set to remove duplicates for each sentiment key if needed
             for key in aggregated_sentiments:
-                aggregated_sentiments[key] = list(set(aggregated_sentiments[key]))
+                # aggregated_sentiments[key] = list(set(aggregated_sentiments[key]))
+                aggregated_sentiments[key] = list(aggregated_sentiments[key])
             
             # Append the aggregated sentiments to the current laptop dict under "review_sentiments"
             laptop["review_sentiments"] = aggregated_sentiments
+
+        # Ensure the output directory exists
+        output_dir = os.path.dirname(out_path)
+        os.makedirs(output_dir, exist_ok=True)
 
         # Save the updated laptop data back to the output file
         with open(out_path, 'w', encoding='utf-8') as f:

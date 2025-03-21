@@ -10,9 +10,9 @@ SUMMARISATION_PROMPT = """
 """
 
 class ReviewSummariser:
-    def run(self):
-        path_to_product_json = './scraper_results/reviews.json'
-        out_path = './scraper_results/processed_reviews.json'
+    def run(self, brand: str):
+        path_to_product_json = f'./scraper_results/{brand}_reviews.json'
+        out_path = f'./scraper_results/{brand}_processed_reviews.json'
 
         if not os.path.exists(path_to_product_json):
             print("No reviews file found. Make sure the reviews have been processed.")

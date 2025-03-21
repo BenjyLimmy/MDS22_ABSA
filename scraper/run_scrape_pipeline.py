@@ -26,7 +26,7 @@ def scrape_asins(brand, max_asins=None):
     handler.run()
 
 
-def scrape_reviews(review_pages_per_asin=3):
+def scrape_reviews(brand: str, review_pages_per_asin=3):
     """
     Reads the ASINs from asins.json and processes them.
     """
@@ -52,52 +52,53 @@ def scrape_reviews(review_pages_per_asin=3):
             processor = AmazonReviewProcessor(
                 api_key=SCRAPINGBEE_API_KEY, 
                 product_info=entry, 
-                review_pages=review_pages_per_asin
+                review_pages=review_pages_per_asin,
+                brand=brand
             )
             processor.process()
         else:
             print("Encountered an entry without an ASIN.")
 
 
-def add_summaries():
+def add_summaries(brand):
     """
     Adds summaries to the processed reviews and appends them to the results file.
     """
     summariser = ReviewSummariser()
-    summariser.run()
+    summariser.run(brand)
 
 
-def add_sentiments():
+def add_sentiments(brand):
     """
     Adds sentiment analysis to the processed reviews and appends them to the results file.
     """
     sentiment_generator = SentimentGenerator()
-    sentiment_generator.run()
+    sentiment_generator.run(brand)
 
 
 if __name__ == "__main__":
-    print("=== Running ASIN spider ===")
-
     # scrape ASINs, define the brand and number of ASINs to scrape 
     # refer to brand_filter_map in asin_spider.py for available brands, or below:
-    # brand_filter_map = {
-    #     "hp": ("hp", "&rh=n%3A21512780011%2Cp_123%3A308445"),
-    #     "dell": ("dell", "&rh=n%3A21512780011%2Cp_123%3A241862"),
-    #     "lenovo": ("lenovo", "&rh=n%3A21512780011%2Cp_123%3A391242"),
-    #     "apple": ("apple", "&rh=n%3A21512780011%2Cp_123%3A110955"),
-    #     "lg": ("lg", "&rh=n%3A21512780011%2Cp_123%3A46658"),
-    # }
+    brand_filter_map = {
+        "hp": ("hp", "&rh=n%3A21512780011%2Cp_123%3A308445"),
+        "dell": ("dell", "&rh=n%3A21512780011%2Cp_123%3A241862"),
+        "lenovo": ("lenovo", "&rh=n%3A21512780011%2Cp_123%3A391242"),
+        "apple": ("apple", "&rh=n%3A21512780011%2Cp_123%3A110955"),
+        # "lg": ("lg", "&rh=n%3A21512780011%2Cp_123%3A46658"),
+    }
+    # brand = "dell"
 
-    # for brand in brand_filter_map.keys():
-    # scrape_asins(brand="hp", max_asins=3)
+    for brand in brand_filter_map.keys():
+        print("=== Running ASIN spider ===")
+        scrape_asins(brand=brand, max_asins=3)
 
-    print("=== Processing ASINs ===")
-    scrape_reviews(review_pages_per_asin=1)
+        print("=== Processing ASINs ===")
+        scrape_reviews(brand=brand, review_pages_per_asin=1)
 
-    print("=== Adding summaries ===")
-    # add_summaries()
+        print("=== Adding summaries ===")
+        add_summaries(brand=brand)
 
-    print("=== Adding sentiments ===")
-    add_sentiments()
+        print("=== Adding sentiments ===")
+        add_sentiments(brand=brand)
 
-        # print("=== Workflow complete ===")
+        print("=== Workflow complete ===")
