@@ -76,9 +76,9 @@ public class LaptopService {
             laptopMaps.forEach(laptopMap -> {
                 Laptop laptop = calculateAspectScores(laptopMap);
                 laptopRepository.save(laptop);
-                logger.info("Successfully imported data from: {}", resource.getFilename());
+                
             });
-
+            logger.info("Successfully imported data from: {}", resource.getFilename());
         } catch (IOException e) {
             logger.error("Failed to import data from: {}", resource.getFilename(), e);
         } catch (Exception e) {
