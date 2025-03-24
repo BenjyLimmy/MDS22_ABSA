@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.model.Laptop;
-import com.example.demo.repository.LaptopRepository;
 import com.example.demo.service.LaptopService;
 
 import java.io.IOException;
@@ -21,8 +20,6 @@ public class LaptopController {
     @Autowired
     private LaptopService laptopService;
 
-    @Autowired
-    private LaptopRepository laptopRepository;
 
     @GetMapping("/import")
     public ResponseEntity<String> importDataAll() {
@@ -35,17 +32,14 @@ public class LaptopController {
         }
     }
 
-    @GetMapping("/laptops") 
+    @GetMapping("/laptops")
     public ResponseEntity<List<Laptop>> getLaptopsByAspects(@RequestParam(name = "aspects", required = false) String aspects) {
-
         List<String> aspectList = aspects != null  // Check if the 'aspects' parameter is provided
                 ? Arrays.asList(aspects.split(","))  // Split the comma-separated aspects string into a list
                 : Collections.emptyList();  // If 'aspects' is null, create an empty list
 
-        List<Laptop> laptops = laptopRepository.findAll(); // Get all laptops
-        List<Laptop> rankedLaptops = laptopService.rankLaptopsBySummedScores(laptops, aspectList); // Rank the laptops based on the provided aspects
-
-        return ResponseEntity.ok(rankedLaptops);
+        List<Laptop> laptops = laptopService.getLaptopsByAspects(aspectList);
+        return ResponseEntity.ok(laptops);
     }
 
 }

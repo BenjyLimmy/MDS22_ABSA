@@ -3,10 +3,8 @@ package com.example.demo.service;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import org.slf4j.Logger;
@@ -15,8 +13,11 @@ import org.slf4j.LoggerFactory;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.support.ResourcePatternResolver;
 import org.springframework.core.io.support.ResourcePatternUtils;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 
 import com.example.demo.model.Laptop;
 import com.example.demo.model.ReviewSentiment;
@@ -48,12 +49,6 @@ public class LaptopService {
     private static final int STAR_RATING_2 = 2;
     private static final int STAR_RATING_1 = 1;
 
-    /**
-     * Returns a list of all laptops in the database.
-     */
-    public List<Laptop> getAllLaptops() {
-        return laptopRepository.findAll();
-    }
 
     /**
      * Imports data from all JSON files in the specified directory.
@@ -146,53 +141,54 @@ public class LaptopService {
 
 
     /**
-     * Ranks a list of laptops based on the sum of scores for specified aspects, returning the top 5
+     * Retrieves a list of 5 laptops based on specified aspects, sorted, or all if no aspects are provided. 
      */
-    public List<Laptop> rankLaptopsBySummedScores(List<Laptop> laptops, List<String> priorities) {
-        if (laptops == null || laptops.isEmpty() || priorities == null || priorities.isEmpty()) {
-            return laptops;
+    public List<Laptop> getLaptopsByAspects(List<String> aspects) {
+        // Return all laptops if no aspects are specified
+        if (aspects.isEmpty()) {
+            return laptopRepository.findAll(Pageable.unpaged()).getContent();
         }
 
-        return laptops.stream()
-                .sorted(Comparator.comparingInt((Laptop laptop) -> calculateSummedScore(laptop, priorities)).reversed()) // Sort laptops by summed scores in descending order
-                .limit(5) // Limit to top 5
-                .collect(Collectors.toList()); // Collect the sorted and limited laptops into a list
+        // Create a Sort object based on the provided aspects
+        Sort sort = createSortObject(aspects);
+        // Limit to 5 laptops 
+        Pageable pageable = PageRequest.of(0, 5, sort);
+
+        // Retrieve the sorted laptops from the database
+        return laptopRepository.findAll(pageable).getContent();
     }
 
 
     /**
-     * Calculates the summed score for a laptop based on a list of priorities.
+     * Creates a Sort object based on a list of aspects, sorting in descending order for each
      */
-    private int calculateSummedScore(Laptop laptop, List<String> priorities) {
-        int summedScore = 0;
-        for (String priority : priorities) {
-            switch (priority.toUpperCase()) {
-                case "AUDIO":
-                    summedScore += laptop.getAudioScore();
-                    break;
-                case "BATTERY":
-                    summedScore += laptop.getBatteryScore();
-                    break;
-                case "BUILD_QUALITY":
-                    summedScore += laptop.getBuildQualityScore();
-                    break;
-                case "DESIGN":
-                    summedScore += laptop.getDesignScore();
-                    break;
-                case "DISPLAY":
-                    summedScore += laptop.getDisplayScore();
-                    break;
-                case "PERFORMANCE":
-                    summedScore += laptop.getPerformanceScore();
-                    break;
-                case "PORTABILITY":
-                    summedScore += laptop.getPortabilityScore();
-                    break;
-                case "PRICE":
-                    summedScore += laptop.getPriceScore();
-                    break;
+    private Sort createSortObject(List<String> aspects) {
+        Sort sort = Sort.unsorted();
+        // sort by first aspect (descending), then by second aspect (descending) within the results of the first sort & so on 
+        for (String aspect : aspects) {
+            String fieldName = aspectNameToFieldName(aspect);
+            if (fieldName != null) {
+                sort = sort.and(Sort.by(fieldName).descending());
             }
         }
-        return summedScore;
+        return sort;
+    }
+
+
+    /**
+     * Maps an aspect name to its corresponding field name in the Laptop entity
+     */
+    private String aspectNameToFieldName(String aspect) {
+        return switch (aspect.toUpperCase()) {
+            case "AUDIO" -> "audioScore";
+            case "BATTERY" -> "batteryScore";
+            case "BUILD_QUALITY" -> "buildQualityScore";
+            case "DESIGN" -> "designScore";
+            case "DISPLAY" -> "displayScore";
+            case "PERFORMANCE" -> "performanceScore";
+            case "PORTABILITY" -> "portabilityScore";
+            case "PRICE" -> "priceScore";
+            default -> null;
+        };
     }
 }
