@@ -3,8 +3,10 @@ package com.example.demo.service;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import org.slf4j.Logger;
@@ -140,5 +142,57 @@ public class LaptopService {
         }
 
         return score;
+    }
+
+
+    /**
+     * Ranks a list of laptops based on the sum of scores for specified aspects, returning the top 5
+     */
+    public List<Laptop> rankLaptopsBySummedScores(List<Laptop> laptops, List<String> priorities) {
+        if (laptops == null || laptops.isEmpty() || priorities == null || priorities.isEmpty()) {
+            return laptops;
+        }
+
+        return laptops.stream()
+                .sorted(Comparator.comparingInt((Laptop laptop) -> calculateSummedScore(laptop, priorities)).reversed()) // Sort laptops by summed scores in descending order
+                .limit(5) // Limit to top 5
+                .collect(Collectors.toList()); // Collect the sorted and limited laptops into a list
+    }
+
+
+    /**
+     * Calculates the summed score for a laptop based on a list of priorities.
+     */
+    private int calculateSummedScore(Laptop laptop, List<String> priorities) {
+        int summedScore = 0;
+        for (String priority : priorities) {
+            switch (priority.toUpperCase()) {
+                case "AUDIO":
+                    summedScore += laptop.getAudioScore();
+                    break;
+                case "BATTERY":
+                    summedScore += laptop.getBatteryScore();
+                    break;
+                case "BUILD_QUALITY":
+                    summedScore += laptop.getBuildQualityScore();
+                    break;
+                case "DESIGN":
+                    summedScore += laptop.getDesignScore();
+                    break;
+                case "DISPLAY":
+                    summedScore += laptop.getDisplayScore();
+                    break;
+                case "PERFORMANCE":
+                    summedScore += laptop.getPerformanceScore();
+                    break;
+                case "PORTABILITY":
+                    summedScore += laptop.getPortabilityScore();
+                    break;
+                case "PRICE":
+                    summedScore += laptop.getPriceScore();
+                    break;
+            }
+        }
+        return summedScore;
     }
 }
