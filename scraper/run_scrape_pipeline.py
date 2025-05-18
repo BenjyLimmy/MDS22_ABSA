@@ -13,6 +13,10 @@ SCRAPINGBEE_API_KEY = os.getenv("SCRAPINGBEE_API_KEY")
 if not SCRAPINGBEE_API_KEY:
     print("Error: SCRAPINGBEE_API_KEY not found in .env file")
     exit(1)
+AMAZON_COOKIES = os.getenv("AMAZON_COOKIES")
+if not AMAZON_COOKIES:
+    print("Error: AMAZON_COOKIES not found in .env file")
+    exit(1)
 
 
 def scrape_asins(brand, max_asins=None):
@@ -76,29 +80,31 @@ def add_sentiments(brand):
     sentiment_generator.run(brand)
 
 
+def run_pipeline(brand: str, max_asins: int):
+    print("=== Running ASIN spider ===")
+    scrape_asins(brand=brand, max_asins=max_asins)
+
+    print("=== Processing ASINs ===")
+    scrape_reviews(brand=brand, review_pages_per_asin=1)
+
+    print("=== Adding summaries ===")
+    add_summaries(brand=brand)
+
+    print("=== Adding sentiments ===")
+    add_sentiments(brand=brand)
+
+    print("=== Workflow complete ===")
+
+
 if __name__ == "__main__":
     # scrape ASINs, define the brand and number of ASINs to scrape 
     # refer to brand_filter_map in asin_spider.py for available brands, or below:
-    brand_filter_map = {
-        "hp": ("hp", "&rh=n%3A21512780011%2Cp_123%3A308445"),
-        "dell": ("dell", "&rh=n%3A21512780011%2Cp_123%3A241862"),
-        "lenovo": ("lenovo", "&rh=n%3A21512780011%2Cp_123%3A391242"),
-        "apple": ("apple", "&rh=n%3A21512780011%2Cp_123%3A110955"),
-        # "lg": ("lg", "&rh=n%3A21512780011%2Cp_123%3A46658"),
-    }
-    # brand = "dell"
+    # brand_filter_map = {
+    #     "hp": ("hp", "&rh=n%3A21512780011%2Cp_123%3A308445"),
+    #     "dell": ("dell", "&rh=n%3A21512780011%2Cp_123%3A241862"),
+    #     "lenovo": ("lenovo", "&rh=n%3A21512780011%2Cp_123%3A391242"),
+    #     "apple": ("apple", "&rh=n%3A21512780011%2Cp_123%3A110955"),
+    #     # "lg": ("lg", "&rh=n%3A21512780011%2Cp_123%3A46658"),
+    # }
 
-    for brand in brand_filter_map.keys():
-        print("=== Running ASIN spider ===")
-        scrape_asins(brand=brand, max_asins=3)
-
-        print("=== Processing ASINs ===")
-        scrape_reviews(brand=brand, review_pages_per_asin=1)
-
-        print("=== Adding summaries ===")
-        add_summaries(brand=brand)
-
-        print("=== Adding sentiments ===")
-        add_sentiments(brand=brand)
-
-        print("=== Workflow complete ===")
+    run_pipeline(brand="dell", max_asins=3)
