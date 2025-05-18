@@ -86,9 +86,22 @@ public class LaptopService {
     /**
      * Calculates and sets the aspect scores for a Laptop based on review sentiments.
      */
-    private Laptop calculateAspectScores(Map<String, Object> productMap) {
+    public Laptop calculateAspectScores(Map<String, Object> productMap) {
         Laptop laptop = new ObjectMapper().convertValue(productMap, Laptop.class);
         ReviewSentiment sentiments = laptop.getReviewSentiments();
+
+        if (sentiments == null) {
+            // Set default values or return early
+            laptop.setAudioScore(0);
+            laptop.setBatteryScore(0);
+            laptop.setBuildQualityScore(0);
+            laptop.setDesignScore(0);
+            laptop.setDisplayScore(0);
+            laptop.setPerformanceScore(0);
+            laptop.setPortabilityScore(0);
+            laptop.setPriceScore(0);
+            return laptop;
+        }
 
         // Calculate and set scores for each aspect
         laptop.setAudioScore(calculateEachAspectScore(sentiments, ASPECT_AUDIO));
@@ -106,7 +119,7 @@ public class LaptopService {
     /**
      * Calculates the score for a specific aspect based on review sentiments.
      */
-    private int calculateEachAspectScore(ReviewSentiment sentiments, String aspect) {
+    public int calculateEachAspectScore(ReviewSentiment sentiments, String aspect) {
         int score = 0;
 
         // Calculate score for each star rating and accumulate.
@@ -123,7 +136,7 @@ public class LaptopService {
     /**
      * Calculates the score for a specific aspect based on review sentiments for a specific star rating.
      */
-    private int calculateScoreForStar(List<String> posAspects, List<String> negAspects, String aspect, int starRating) {
+    public int calculateScoreForStar(List<String> posAspects, List<String> negAspects, String aspect, int starRating) {
         int score = 0;
 
         if (posAspects != null) {
