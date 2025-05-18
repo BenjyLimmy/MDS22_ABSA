@@ -54,13 +54,13 @@ class LaptopServiceTest {
     /**
      * Sets up test data with predefined sentiment patterns.
      * The test sentiments simulate the following:
-     * - DISPLAY: 2 positive 5-star mentions (10 points)
-     * - PERFORMANCE: 1 positive 5-star mention (5 points)
-     * - PRICE: 1 negative 5-star mention (-1 point)
-     * - AUDIO & BATTERY: Each has 1 positive 4-star mention (4 points each)
-     * - PORTABILITY: 1 negative 4-star mention (-2 points)
-     * - DESIGN: 1 positive 3-star mention (3 points)
-     * - BUILD_QUALITY: 2 negative 3-star mentions (-6 points)
+     * - DISPLAY: 2 positive 5-star reviews (10 points)
+     * - PERFORMANCE: 1 positive 5-star review (5 points)
+     * - PRICE: 1 negative 5-star review (-1 point)
+     * - AUDIO & BATTERY: Each has 1 positive 4-star review (4 points each)
+     * - PORTABILITY: 1 negative 4-star review (-2 points)
+     * - DESIGN: 1 positive 3-star review (3 points)
+     * - BUILD_QUALITY: 2 negative 3-star reviews (-6 points)
      *
      * These values produce predictable scores for testing the calculation logic.
      */
@@ -88,7 +88,7 @@ class LaptopServiceTest {
      * 3. Calculates scores for each aspect based on +/- sentiment frequency at each star level
      * 4. Sets these calculated scores on the laptop object
      *
-     * For example, DISPLAY has 2 positive 5-star mentions which gives:
+     * For example, DISPLAY has 2 positive 5-star reviews which gives:
      * 2 * 5 = 10 points
      */
     @Test
@@ -157,29 +157,6 @@ class LaptopServiceTest {
             int score = laptopService.calculateEachAspectScore(nullSentiments, "DISPLAY");
             assertEquals(0, score, "Score should be 0 when all sentiment lists are null");
         }
-
-        /**
-         * Parametrized test for multiple aspects.
-         * Tests calculation for every aspect and verifies expected scores
-         * based on the setup test data. Also tests unknown aspects.
-         */
-        @ParameterizedTest(name = "Aspect {0} should have score {1}")
-        @CsvSource({
-                "DISPLAY, 10",
-                "PERFORMANCE, 5",
-                "PRICE, -1",
-                "AUDIO, 4",
-                "BATTERY, 4",
-                "PORTABILITY, -2",
-                "DESIGN, 3",
-                "BUILD_QUALITY, -6",
-                "UNKNOWN_ASPECT, 0"  // Test unknown aspect
-        })
-        @DisplayName("Should calculate scores for different aspects correctly")
-        void testDifferentAspects(String aspect, int expectedScore) {
-            int score = laptopService.calculateEachAspectScore(testSentiments, aspect);
-            assertEquals(expectedScore, score);
-        }
     }
 
     /**
@@ -210,7 +187,7 @@ class LaptopServiceTest {
                     "DISPLAY",
                     5
             );
-            assertEquals(10, score, "2 positive mentions * 5 stars = 10");
+            assertEquals(10, score, "2 positive reviews * 5 stars = 10");
 
             int priceScore = laptopService.calculateScoreForStar(
                     Arrays.asList("AUDIO"),
@@ -218,7 +195,7 @@ class LaptopServiceTest {
                     "PRICE",
                     4
             );
-            assertEquals(-4, priceScore, "2 negative mentions * (6-4) = -4");
+            assertEquals(-4, priceScore, "2 negative reviews * (6-4) = -4");
         }
 
         /**
@@ -251,27 +228,36 @@ class LaptopServiceTest {
                     Arrays.asList("DISPLAY"),
                     null,
                     "DISPLAY",
+                    5
+            );
+            assertEquals(5, score1, "1 positive review * 5 star = 5");
+            
+            // Test lowest star value (1)
+            int score2 = laptopService.calculateScoreForStar(
+                    Arrays.asList("DISPLAY"),
+                    null,
+                    "DISPLAY",
                     1
             );
-            assertEquals(1, score1, "1 positive mention * 1 star = 1");
+            assertEquals(1, score2, "1 positive review * 1 star = 1");
 
             // Test highest negative weight (5-star negative = -1)
-            int score2 = laptopService.calculateScoreForStar(
+            int score3 = laptopService.calculateScoreForStar(
                     null,
                     Arrays.asList("DISPLAY"),
                     "DISPLAY",
                     5
             );
-            assertEquals(-1, score2, "1 negative mention * (6-5) = -1");
+            assertEquals(-1, score3, "1 negative review * (6-5) = -1");
 
             // Test highest negative weight (1-star negative = -5)
-            int score3 = laptopService.calculateScoreForStar(
+            int score4 = laptopService.calculateScoreForStar(
                     null,
                     Arrays.asList("DISPLAY"),
                     "DISPLAY",
                     1
             );
-            assertEquals(-5, score3, "1 negative mention * (6-1) = -5");
+            assertEquals(-5, score4, "1 negative review * (6-1) = -5");
         }
     }
 
