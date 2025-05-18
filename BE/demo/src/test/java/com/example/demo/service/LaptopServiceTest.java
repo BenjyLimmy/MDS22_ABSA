@@ -47,9 +47,6 @@ class LaptopServiceTest {
     @Mock
     private LaptopRepository laptopRepository;
 
-    @Mock
-    private ResourcePatternResolver resourcePatternResolver;
-
     @InjectMocks
     private LaptopService laptopService;
 
