@@ -204,4 +204,15 @@ public class LaptopService {
             default -> null;
         };
     }
+
+    /**
+     * Deletes all laptop records from the MongoDB collection.
+     * @return The number of records deleted
+     */
+    public long clearAllData() {
+        long count = laptopRepository.count();
+        laptopRepository.deleteAll();
+        logger.info("Cleared {} laptop records from the database", count);
+        return count;
+    }
 }
