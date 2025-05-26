@@ -24,6 +24,7 @@ import com.example.demo.model.ReviewSentiment;
 import com.example.demo.repository.LaptopRepository;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import java.util.Optional;
 
 @Service
 public class LaptopService {
@@ -70,12 +71,37 @@ public class LaptopService {
             List<Map<String, Object>> laptopMaps = new ObjectMapper()
                     .readValue(inputStream, new TypeReference<>() {});
 
-            laptopMaps.forEach(laptopMap -> {
-                Laptop laptop = calculateAspectScores(laptopMap);
-                laptopRepository.save(laptop);
+            int newCount = 0;
+            int updatedCount = 0;
+
+            for (Map<String, Object> laptopMap : laptopMaps) {
+                // Extract productId before conversion (assuming it exists in the map)
+                String productId = (String) laptopMap.get("product_id");
                 
-            });
-            logger.info("Successfully imported data from: {}", resource.getFilename());
+                if (productId == null) {
+                    logger.warn("Skipping laptop record without productId from {}", resource.getFilename());
+                    continue;
+                }
+
+                // Check if laptop with the same productId already exists
+                Optional<Laptop> existingLaptop = laptopRepository.findByProductId(productId);
+                
+                Laptop laptop = calculateAspectScores(laptopMap);
+                
+                if (existingLaptop.isPresent()) {
+                    // Update existing laptop with the new ID to ensure update rather than insert
+                    laptop.setId(existingLaptop.get().getId());
+                    updatedCount++;
+                } else {
+                    newCount++;
+                }
+                
+                laptopRepository.save(laptop);
+            }
+            
+            logger.info("Successfully imported data from {}: {} new laptops, {} updated laptops", 
+                    resource.getFilename(), newCount, updatedCount);
+                    
         } catch (IOException e) {
             logger.error("Failed to import data from: {}", resource.getFilename(), e);
         } catch (Exception e) {
