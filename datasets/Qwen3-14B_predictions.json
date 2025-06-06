@@ -1,0 +1,271 @@
+[
+  {
+    "text": "the unit cost $ 275 to start with , so it is not worth repairing .",
+    "labels": [
+      {
+        "aspect": "NULL",
+        "opinion": "NULL",
+        "polarity": "negative",
+        "category": "LAPTOP#B"
+      }
+    ]
+  },
+  {
+    "text": "going from acer 15 to acer 11 was difficult , 11 inches seems too small for me .",
+    "labels": [
+      {
+        "aspect": "NULL",
+        "opinion": "NULL",
+        "polarity": "negative",
+        "category": "LAPTOP#G"
+      }
+    ]
+  },
+  {
+    "text": "also it ' s not a true ssd drive in there but emmc , which makes a difference .",
+    "labels": []
+  },
+  {
+    "text": "the computer has difficulty switching between tablet and computer .",
+    "labels": []
+  },
+  {
+    "text": "2 / 28 / 18 - a couple days ago i updated the chrome os .",
+    "labels": []
+  },
+  {
+    "text": "it ' s just that chrome doesn ' t work the same with a chromebook as it does with windows .",
+    "labels": []
+  },
+  {
+    "text": "hopefully in 10 years they ' ll have this figured out and it won ' t suck so badly .",
+    "labels": []
+  },
+  {
+    "text": "bought this last year on july .",
+    "labels": []
+  },
+  {
+    "text": "i rarely use the keyboard .",
+    "labels": []
+  },
+  {
+    "text": "- great price for a touchscreen chromebook",
+    "labels": []
+  },
+  {
+    "text": "it is glitchy , and barely usable .",
+    "labels": []
+  },
+  {
+    "text": "i ordered one , the touch pad failed to work consistently .",
+    "labels": []
+  },
+  {
+    "text": "i often find i ' ve typed an entire sentence ( or more ) with my fingers on the wrong keys , which is very unproductive when trying to take real - time notes in a meeting !",
+    "labels": []
+  },
+  {
+    "text": "i know it only takes a few seconds , but a new device should not be doing this and makes me question if it ' ll get worse in the future .",
+    "labels": []
+  },
+  {
+    "text": "i also have to press the trackpad very hard for left click ( not as badly as the first unit , though ) , and i lost right click functionality on the track pad 2 days into my voyage with this thing .",
+    "labels": []
+  },
+  {
+    "text": "i tried factory resetting after i updated the os , and it still drained 9 % over 8 hours .",
+    "labels": []
+  },
+  {
+    "text": "hdmi out doesn ' t work right .",
+    "labels": []
+  },
+  {
+    "text": "they had it over a week and then shipped back .",
+    "labels": []
+  },
+  {
+    "text": "i was excited to receive this chromebook , only to watch that excitement dissipate within mere hours as i noticed the touchscreen did n ' t work at all on tablet mode .",
+    "labels": []
+  },
+  {
+    "text": "clearly there is some kind of major defect here that acer has n ' t resolved .",
+    "labels": []
+  },
+  {
+    "text": "i bought this for my daughter to use to take online classes while she ' s overseas in europe for a year .",
+    "labels": [
+      {
+        "aspect": "NULL",
+        "opinion": "NULL",
+        "polarity": "neutral",
+        "category": "LAPTOP#A"
+      }
+    ]
+  },
+  {
+    "text": "decent sound quality .",
+    "labels": []
+  },
+  {
+    "text": "flimsy power adapter .",
+    "labels": []
+  },
+  {
+    "text": "wi - fi slows down to crowl and speeds back up intermittently .",
+    "labels": [
+      {
+        "aspect": "NULL",
+        "opinion": "NULL",
+        "polarity": "negative",
+        "category": "LAPTOP#H"
+      }
+    ]
+  },
+  {
+    "text": "regret buying it at times .",
+    "labels": []
+  },
+  {
+    "text": "it just turned off and will not turn back on .",
+    "labels": []
+  },
+  {
+    "text": "the product is great , but the customer support is horrible .",
+    "labels": [
+      {
+        "aspect": "NULL",
+        "opinion": "NULL",
+        "polarity": "positive",
+        "category": "LAPTOP#A"
+      },
+      {
+        "aspect": "NULL",
+        "opinion": "NULL",
+        "polarity": "negative",
+        "category": "SUPPORT#A"
+      }
+    ]
+  },
+  {
+    "text": "called support a second time after 10 minutes of verifying some type of info they told me to call google without even trying to help .",
+    "labels": []
+  },
+  {
+    "text": "but i ' m getting into photography now , and it ' s terrible for loading , storing , and editing pictures .",
+    "labels": []
+  },
+  {
+    "text": "i have sent it in twice already and waiting for it to come back .",
+    "labels": []
+  },
+  {
+    "text": "the screen looked great .",
+    "labels": []
+  },
+  {
+    "text": "no matter how many times i reinserted the charging adapter , i kept getting this message .",
+    "labels": []
+  },
+  {
+    "text": "i had no option but to shut down the computer , unplug it , plug it back in , and then reboot .",
+    "labels": []
+  },
+  {
+    "text": "it has worked well except for an initial hiccup on turning it on .",
+    "labels": [
+      {
+        "aspect": "NULL",
+        "opinion": "NULL",
+        "polarity": "positive",
+        "category": "LAPTOP#A"
+      }
+    ]
+  },
+  {
+    "text": "the screen flashes for a second every 30 seconds or so .",
+    "labels": []
+  },
+  {
+    "text": "i noticed the battery went down to 67 % for no reason .",
+    "labels": []
+  },
+  {
+    "text": "works good but the fan kicks in pretty often , which is to keep the laptop cool but the sound is annoying .",
+    "labels": [
+      {
+        "aspect": "NULL",
+        "opinion": "NULL",
+        "polarity": "neutral",
+        "category": "7#D"
+      }
+    ]
+  },
+  {
+    "text": "nano edge display is nice .",
+    "labels": []
+  },
+  {
+    "text": "everything was fine and i went out for an hour .",
+    "labels": []
+  },
+  {
+    "text": "the audio is almost impossible to hear .",
+    "labels": []
+  },
+  {
+    "text": "it is slow to do everything .",
+    "labels": []
+  },
+  {
+    "text": "here ' s the kicker : it is doing a terrible job running dragon age .",
+    "labels": []
+  },
+  {
+    "text": "it doesn ' t has backlit keyboard : ( typing in low light is such a pain .",
+    "labels": []
+  },
+  {
+    "text": "very disappointed in how slow it seems .",
+    "labels": []
+  },
+  {
+    "text": "keyboard and mouse pad seem fine , but overall it seems strangely slow .",
+    "labels": []
+  },
+  {
+    "text": "i have been using this for just 3 months .",
+    "labels": []
+  },
+  {
+    "text": "crazy keypad : this issue is even worse .",
+    "labels": []
+  },
+  {
+    "text": "overall , the laptop has a solid feel to it .",
+    "labels": []
+  },
+  {
+    "text": "this lead me to believe that although i purchased a “ new ” product , they sent me a refurbished one instead .",
+    "labels": [
+      {
+        "aspect": "NULL",
+        "opinion": "NULL",
+        "polarity": "negative",
+        "category": "COMPANY#A"
+      }
+    ]
+  },
+  {
+    "text": "i ' m out from us , i live in colombia , and maybe i can not return these laptop .",
+    "labels": [
+      {
+        "aspect": "NULL",
+        "opinion": "NULL",
+        "polarity": "neutral",
+        "category": "22#I"
+      }
+    ]
+  }
+]
