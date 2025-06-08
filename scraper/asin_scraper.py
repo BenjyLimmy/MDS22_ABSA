@@ -8,7 +8,13 @@ from urllib.parse import urljoin
 load_dotenv()
 
 class AsinHandler:
-    # Mapping of brands to their search keyword and filter_id
+    """
+    Handles the discovery and extraction of Amazon Standard Identification Numbers (ASINs)
+    and associated product metadata for a specified laptop brand from Amazon search results.
+    Integrates with ScrapingBee for rendered HTML retrieval and BeautifulSoup for parsing.
+    """
+
+    # Mapping of supported brands to their Amazon search keyword and filter_id
     brand_filter_map = {
         "hp": ("hp", "&rh=n%3A21512780011%2Cp_123%3A308445"),
         "dell": ("dell", "&rh=n%3A21512780011%2Cp_123%3A241862"),
@@ -18,12 +24,20 @@ class AsinHandler:
     }
 
     def __init__(self, brand="hp", max_asins=None):
-        # Load your ScrapingBee API key and AMAZON cookies from environment variables
+        """
+        Initializes the handler with the specified brand and maximum number of ASINs to collect.
+        Loads ScrapingBee API key and Amazon cookies from environment variables.
+
+        Args:
+            brand (str): Brand key as defined in brand_filter_map.
+            max_asins (int, optional): Maximum number of ASINs to collect.
+        """
         self.api_key = os.getenv("SCRAPINGBEE_API_KEY")
         if not self.api_key:
             raise Exception("SCRAPINGBEE_API_KEY not set in the environment.")
         self.cookies = os.getenv("AMAZON_COOKIES", "")
 
+        # Validate brand and set default if not found
         if brand not in self.brand_filter_map:
             print(f"Brand '{brand}' not found. Defaulting to 'hp'.")
             brand = "hp"
@@ -36,7 +50,16 @@ class AsinHandler:
         self.asins = []  # List to store scraped product data
 
     def get_page(self, url):
-        """Uses the ScrapingBee API to fetch a URL."""
+        """
+        Fetches the rendered HTML content of the given URL using ScrapingBee.
+
+        Args:
+            url (str): The URL to fetch.
+
+        Returns:
+            bytes or None: HTML content if successful, else None.
+        """
+        # Prepare parameters for ScrapingBee API request
         params = {
             'api_key': self.api_key,
             'url': url,
@@ -44,6 +67,8 @@ class AsinHandler:
             'cookies': self.cookies
         }
         print(f"Fetching: {url}")
+
+        # Make the request to ScrapingBee API
         response = requests.get("https://app.scrapingbee.com/api/v1", params=params)
         if response.status_code == 200:
             print(f"Success: {url} returned HTTP {response.status_code}")
@@ -53,9 +78,16 @@ class AsinHandler:
             return None
 
     def parse_page(self, html, base_url):
-        """Parses the HTML content to extract ASIN details.
-        
-        Returns True if the maximum number of ASINs has been reached.
+        """
+        Parses the HTML content to extract ASINs and associated metadata (price, image, product URL).
+        Stops if the maximum ASIN count is reached.
+
+        Args:
+            html (bytes): HTML content of the page.
+            base_url (str): The base URL for resolving relative product links.
+
+        Returns:
+            bool: True if max_asins reached, else False.
         """
         soup = BeautifulSoup(html, 'html.parser')
         # Select product containers matching Amazon's search result structure
@@ -87,12 +119,22 @@ class AsinHandler:
                     "image_url": img_src,
                     "product_url": product_url
                 })
+                # Stop if max_asins reached
                 if self.max_asins and len(self.asins) >= self.max_asins:
-                    return True  # Signal that we've reached the maximum number of ASINs
+                    return True
         return False
 
     def get_next_page(self, html, base_url):
-        """Finds and returns the full URL of the next page, if available."""
+        """
+        Finds and returns the full URL of the next page, if available.
+
+        Args:
+            html (bytes): HTML content of the current page.
+            base_url (str): The base URL for resolving relative pagination links.
+
+        Returns:
+            str or None: Full URL of the next page if available, else None.
+        """
         soup = BeautifulSoup(html, 'html.parser')
         next_page_link = soup.select_one("li.a-last a")
         if next_page_link:
@@ -101,23 +143,38 @@ class AsinHandler:
             print(f"Following pagination link: {full_url}")
             return full_url
         return None
-    
+
     def save_asins(self):
-        """Save the scraped ASINs to a JSON file."""
-        # Ensure the scraper directory exists
+        """
+        Saves the scraped ASINs and their metadata to a JSON file in the 'scraper_results' directory.
+        """
         scraper_dir = "scraper_results"
         if not os.path.exists(scraper_dir):
             os.makedirs(scraper_dir)
             print(f"Created directory: {scraper_dir}")
-        
-        # Save the results as asins.json in the scraper directory
         output_path = os.path.join(scraper_dir, "asins.json")
         with open(output_path, "w", encoding="utf-8") as f:
             json.dump(self.asins, f, ensure_ascii=False, indent=4)
         print(f"Results saved to {output_path}")
 
     def run(self):
-        """Main method to fetch pages, parse ASINs, and handle pagination."""
+        """
+        Main method to orchestrate the ASIN scraping process:
+        - Fetches paginated search result pages,
+        - Parses ASINs and metadata,
+        - Stops when quota is met or no more pages,
+        - Saves results to JSON.
+
+        Returns:
+            list: List of ASIN and metadata dictionaries.
+        """
+        # If max_asins is zero or less, immediately write an empty JSON and return
+        if self.max_asins is not None and self.max_asins <= 0:
+            print(f"max_asins set to {self.max_asins}; skipping scrape and saving empty JSON.")
+            self.asins = []
+            self.save_asins()
+            return self.asins
+
         current_url = self.start_url
         while current_url:
             html = self.get_page(current_url)
